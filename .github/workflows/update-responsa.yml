@@ -1,0 +1,68 @@
+name: Update responsa.json
+
+on:
+  workflow_dispatch:  # Manuelles Auslösen möglich
+  push:
+    branches: [main]   # Läuft bei jedem Push auf main
+    paths:
+      - 'responsa/**'  # Nur bei Änderungen im responsa-Ordner
+      - 'update_responsa.py'
+
+# WICHTIG: Berechtigungen für automatisches Commit/Push
+permissions:
+  contents: write
+
+jobs:
+  update-responsa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Vollständige History für bessere Commits
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4 lxml
+
+      - name: Run update_responsa.py
+        run: |
+          python update_responsa.py
+          echo "Update-Script erfolgreich ausgeführt"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain responsa.json)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Änderungen in responsa.json gefunden"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "Keine Änderungen in responsa.json"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "GitHub Action Bot"
+          git config user.email "actions@github.com"
+          git add responsa.json
+          git commit -m "🤖 Automatisches Update: responsa.json aktualisiert ($(date +'%Y-%m-%d %H:%M'))"
+          git push
+          echo "Änderungen erfolgreich committed und gepusht"
+
+      - name: Summary
+        run: |
+          echo "### ✅ Workflow abgeschlossen" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
+            echo "📝 responsa.json wurde aktualisiert und committed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ Keine Änderungen gefunden" >> $GITHUB_STEP_SUMMARY
+          fi
