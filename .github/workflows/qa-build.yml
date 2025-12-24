@@ -1,0 +1,35 @@
+name: Build QA Pages
+
+on:
+  push:
+    paths:
+      - "data/qa/**/*.json"
+      - "tools/build_qa_pages.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build QA Pages + Update responsa.json
+        run: |
+          python tools/build_qa_pages.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add responsa.json qa/
+          git diff --cached --quiet || git commit -m "Auto-generate QA pages + update responsa.json"
+          git push
