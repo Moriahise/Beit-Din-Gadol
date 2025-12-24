@@ -1,69 +1,205 @@
-<script>
-  let currentLanguage = 'he';
-  function toggleLanguage(){
-    currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
-    document.documentElement.lang = currentLanguage;
-    document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
-  }
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שאלות ותשובות | Q&amp;A</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .qa-container{
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem;
+    }
+    .qa-card{
+      background: linear-gradient(135deg, rgba(26, 44, 66, 0.92), rgba(45, 74, 111, 0.92));
+      border: 2px solid var(--primary-gold);
+      border-radius: 18px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .qa-title{
+      font-size: 1.8rem;
+      color: var(--light-gold);
+      margin: 0 0 0.75rem 0;
+      line-height: 1.35;
+    }
+    .qa-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 0.75rem 1rem;
+      color: var(--text-gold);
+      margin: 0 0 1.25rem 0;
+      font-size: 0.95rem;
+    }
+    .qa-section{
+      border-top: 1px solid rgba(212, 165, 116, 0.35);
+      padding-top: 1.25rem;
+      margin-top: 1.25rem;
+    }
+    .qa-label{
+      display:inline-block;
+      background: rgba(74, 124, 140, 0.35);
+      border: 1px solid var(--accent-teal);
+      color: var(--text-light);
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .qa-text{
+      color: var(--text-light);
+      line-height: 1.9;
+      font-size: 1.05rem;
+      white-space: pre-wrap;
+    }
+    .qa-actions{
+      margin-top: 1.5rem;
+      display:flex;
+      flex-wrap:wrap;
+      gap: 0.75rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .qa-link{
+      color: var(--primary-gold);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .qa-link:hover{ color: var(--light-gold); }
+    .qa-back{
+      display:inline-block;
+      padding: 0.65rem 1rem;
+      border-radius: 12px;
+      border: 2px solid var(--primary-gold);
+      color: var(--text-light);
+      text-decoration: none;
+      background: rgba(10, 24, 40, 0.65);
+      font-weight: 700;
+    }
+    .qa-back:hover{
+      border-color: var(--light-gold);
+      box-shadow: 0 0 18px rgba(212,165,116,0.25);
+    }
+    body[dir="ltr"] .qa-container{ direction:ltr; }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="title-section">
+          <h1 class="site-title">
+            <span class="hebrew-title">בית דין גדול סנהדרין</span>
+            <span class="english-title">Beit Din Gadol Sanhedrin</span>
+          </h1>
+          <p class="subtitle">
+            <span class="hebrew-subtitle">שאלות ותשובות</span>
+            <span class="english-subtitle">Q&amp;A</span>
+          </p>
+        </div>
+      </div>
+      <div class="language-toggle">
+        <button id="langToggle" onclick="toggleLanguage()">
+          <span class="lang-he">English</span>
+          <span class="lang-en">עברית</span>
+        </button>
+      </div>
+    </div>
+  </header>
 
-  function getParam(name){
-    const url = new URL(window.location.href);
-    return url.searchParams.get(name);
-  }
+  <main class="qa-container">
+    <div class="qa-card">
+      <h2 class="qa-title" id="qaTitle">טוען…</h2>
+      <div class="qa-meta" id="qaMeta"></div>
 
-  async function loadQA(){
-    const id = getParam('id');
+      <div class="qa-section">
+        <div class="qa-label"><span class="lang-he">שאלה</span><span class="lang-en">Question</span></div>
+        <div class="qa-text" id="qaQuestion"></div>
+      </div>
 
-    const card = document.querySelector('.qa-card');
-    const empty = document.getElementById('emptyState');
+      <div class="qa-section">
+        <div class="qa-label"><span class="lang-he">תשובה</span><span class="lang-en">Answer</span></div>
+        <div class="qa-text" id="qaAnswer"></div>
+      </div>
 
-    if(!id){
-      card.style.display = 'none';
-      empty.style.display = 'block';
-      return;
+      <div class="qa-actions">
+        <a class="qa-back" href="index.html">← <span class="lang-he">חזרה לאינדקס</span><span class="lang-en">Back to index</span></a>
+        <a class="qa-link" id="qaSourceLink" href="#" target="_blank" rel="noopener">🔗 <span class="lang-he">מקור ב-yeshiva.org.il</span><span class="lang-en">Source on yeshiva.org.il</span></a>
+      </div>
+    </div>
+
+    <div id="emptyState" class="empty-state" style="display:none;">
+      <p class="lang-he">לא נמצא פריט</p>
+      <p class="lang-en">Item not found</p>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <p class="lang-he">© 2025 בית דין גדול סנהדרין | כל הזכויות שמורות</p>
+      <p class="lang-en">© 2025 Beit Din Gadol Sanhedrin | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    // Language toggle (same behavior as index)
+    let currentLanguage = 'he';
+    function toggleLanguage(){
+      currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
+      document.documentElement.lang = currentLanguage;
+      document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
     }
 
-    try{
-      // ✅ IMPORTANT: load the JSON from the real location
-      const res = await fetch('data/qa/05yeshiva-qa-database-2025-12-11.json', { cache: 'no-store' });
-      const data = await res.json();
+    function getParam(name){
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
 
-      // ✅ Support both formats: {questions:[...]} or {items:[...]}
-      const list = (data.questions || data.items || []);
-
-      // ✅ Robust ID match (string compare)
-      const item = list.find(q => String(q.id).trim() === String(id).trim());
-
-      if(!item){
-        card.style.display = 'none';
-        empty.style.display = 'block';
+    async function loadQA(){
+      const id = getParam('id');
+      if(!id){
+        document.querySelector('.qa-card').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'block';
         return;
       }
 
-      document.getElementById('qaTitle').textContent = item.title || ('שאלה #' + id);
+      try{
+        const res = await fetch('05yeshiva-qa-database-2025-12-11.json');
+        const data = await res.json();
+        const item = (data.questions || []).find(q => String(q.id) === String(id));
+        if(!item){
+          document.querySelector('.qa-card').style.display = 'none';
+          document.getElementById('emptyState').style.display = 'block';
+          return;
+        }
 
-      const meta = item.metadata || {};
-      const dt = meta.date ? new Date(meta.date) : null;
-      const dateStr = dt ? dt.toLocaleDateString('he-IL') : '';
+        // Render
+        document.getElementById('qaTitle').textContent = item.title || ('שאלה #' + id);
 
-      const parts = [];
-      if(dateStr) parts.push('📅 ' + dateStr);
-      if(meta.rabbi) parts.push('👤 ' + meta.rabbi);
-      if(typeof meta.upvotes !== 'undefined') parts.push('👍 ' + meta.upvotes);
-      document.getElementById('qaMeta').textContent = parts.join('   |   ');
+        const meta = item.metadata || {};
+        const dt = meta.date ? new Date(meta.date) : null;
+        const dateStr = dt ? dt.toLocaleDateString('he-IL') : '';
+        const parts = [];
+        if(dateStr) parts.push('📅 ' + dateStr);
+        if(meta.rabbi) parts.push('👤 ' + meta.rabbi);
+        if(typeof meta.upvotes !== 'undefined') parts.push('👍 ' + meta.upvotes);
+        document.getElementById('qaMeta').textContent = parts.join('   |   ');
 
-      document.getElementById('qaQuestion').textContent = item.question || '';
-      document.getElementById('qaAnswer').textContent = item.answer || '';
+        document.getElementById('qaQuestion').textContent = item.question || '';
+        document.getElementById('qaAnswer').textContent = item.answer || '';
 
-      const link = document.getElementById('qaSourceLink');
-      link.href = item.url || ('https://www.yeshiva.org.il/ask/' + id);
+        const link = document.getElementById('qaSourceLink');
+        link.href = item.url || ('https://www.yeshiva.org.il/ask/' + id);
 
-    } catch(e){
-      console.error(e);
-      card.style.display = 'none';
-      empty.style.display = 'block';
+      } catch(e){
+        console.error(e);
+        document.querySelector('.qa-card').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'block';
+      }
     }
-  }
 
-  document.addEventListener('DOMContentLoaded', loadQA);
-</script>
+    document.addEventListener('DOMContentLoaded', loadQA);
+  </script>
+</body>
+</html>
