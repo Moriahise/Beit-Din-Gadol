@@ -5,6 +5,7 @@ on:
     paths:
       - "data/qa/**/*.json"
       - "tools/qa_merge.py"
+      - "tools/build_qa_db.py"
       - "qa.html"
   workflow_dispatch: {}
 
@@ -12,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  merge:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,6 +24,10 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Build qa_db.json
+        run: |
+          python tools/build_qa_db.py
+
       - name: Merge QA into responsa.json
         run: |
           python tools/qa_merge.py
@@ -32,11 +37,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add responsa.json
+          git add responsa.json qa_db.json
           if git diff --cached --quiet; then
-            echo "No changes to responsa.json"
+            echo "No changes"
             exit 0
           fi
 
-          git commit -m "Auto-update responsa.json from data/qa/"
+          git commit -m "Auto-update qa_db.json + responsa.json"
           git push
