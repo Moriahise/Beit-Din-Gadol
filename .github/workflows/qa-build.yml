@@ -1,17 +1,18 @@
-name: Build QA Pages
+name: QA → responsa.json (auto)
 
 on:
   push:
     paths:
       - "data/qa/**/*.json"
-      - "tools/build_qa_pages.py"
+      - "tools/qa_merge.py"
+      - "qa.html"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  merge:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,14 +23,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Build QA Pages + Update responsa.json
+      - name: Merge QA into responsa.json
         run: |
-          python tools/build_qa_pages.py
+          python tools/qa_merge.py
 
-      - name: Commit changes
+      - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add responsa.json qa/
-          git diff --cached --quiet || git commit -m "Auto-generate QA pages + update responsa.json"
+
+          git add responsa.json
+          if git diff --cached --quiet; then
+            echo "No changes to responsa.json"
+            exit 0
+          fi
+
+          git commit -m "Auto-update responsa.json from data/qa/"
           git push
