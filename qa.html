@@ -165,7 +165,7 @@
       }
 
       try{
-        const res = await fetch('05yeshiva-qa-database-2025-12-11.json');
+        const res = await fetch('qa_db.json');
         const data = await res.json();
         const item = (data.questions || []).find(q => String(q.id) === String(id));
         if(!item){
