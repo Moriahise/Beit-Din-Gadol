@@ -2,6 +2,35 @@
 let currentLanguage = 'he';
 let allResponsa = [];
 
+// Sanitize summary text for card previews.
+// Mi Yodeya entries sometimes include markdown headings like "# Title" or "## Frage".
+// This function removes any line starting with '#' (after trimming) and
+// also removes a leading line that repeats the title text.
+function sanitizeSummary(text, titleText) {
+    if (!text) return '';
+    // Normalize to string and split lines
+    const lines = String(text).split(/\r?\n/);
+    // Remove lines that begin with a markdown heading marker (#)
+    let filtered = lines.filter(l => !/^\s*#/.test(l.trim()))
+        .map(l => l.trim());
+    // Join the remaining lines
+    let summary = filtered.join('\n').trim();
+    // Optionally remove a repeated title on the first line
+    if (titleText) {
+        const titleNorm = String(titleText).trim().toLowerCase();
+        let sLines = summary.split(/\r?\n/).map(l => l.trim());
+        if (sLines.length > 0) {
+            const firstNorm = sLines[0].toLowerCase();
+            if (firstNorm === titleNorm || firstNorm.startsWith(titleNorm)) {
+                // Drop the first line
+                sLines.shift();
+                summary = sLines.join('\n').trim();
+            }
+        }
+    }
+    return summary;
+}
+
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
     loadResponsa();
@@ -65,7 +94,9 @@ function createResponsaCard(item) {
     card.onclick = () => window.open(item.file, '_blank');
     
     const titleText = currentLanguage === 'he' ? item.title_he : item.title_en;
-    const summaryText = currentLanguage === 'he' ? item.summary_he : item.summary_en;
+    const rawSummaryText = currentLanguage === 'he' ? item.summary_he : item.summary_en;
+    // Sanitize the summary to strip markdown headings and duplicated titles
+    const summaryText = sanitizeSummary(rawSummaryText, titleText);
     const categoryText = currentLanguage === 'he' ? item.category_he : item.category_en;
     const readMoreText = currentLanguage === 'he' ? 'קרא עוד ←' : 'Read More →';
     
