@@ -5,9 +5,17 @@ on:
     paths:
       - "miyodea/qa/*.json"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: miyodea-qa-ingest
+  cancel-in-progress: true
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,7 +25,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run ingest
+      - name: Ingest MiYodea QA → responsa.json
         run: |
           python scripts/ingest_miyodea_qa.py
 
@@ -26,5 +34,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add responsa.json qa_db.json || true
-          git commit -m "Auto-ingest MiYodea QA" || exit 0
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Auto-ingest MiYodea QA"
           git push
