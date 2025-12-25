@@ -231,8 +231,23 @@
 
         // Source link
         const link = document.getElementById('qaSourceLink');
-        link.href = item.url || '#';
-        link.style.display = (item.url ? 'inline-block' : 'none');
+        // Determine the best available source URL. Prefer a top‑level `url` if present,
+        // then the URL nested under metadata (used by MiYodeya ingest), and finally
+        // fall back to the Yeshiva question page when the item comes from Yeshiva
+        // and no explicit URL is given.
+        let srcUrl = '';
+        if (item && item.url) {
+          // Some datasets (e.g. future ingests) may expose a `url` property directly
+          srcUrl = String(item.url);
+        } else if (meta && meta.url) {
+          // MiYodeya items store the original StackExchange link in metadata.url
+          srcUrl = String(meta.url);
+        } else if (!isMiYodea && id) {
+          // For Yeshiva questions without an explicit URL, link back to the original site
+          srcUrl = 'https://www.yeshiva.org.il/ask/' + id;
+        }
+        link.href = srcUrl || '#';
+        link.style.display = srcUrl ? 'inline-block' : 'none';
 
       } catch(e){
         console.error(e);
