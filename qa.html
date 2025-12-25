@@ -1,128 +1,247 @@
-#!/usr/bin/env python3
-import json
-import glob
-import os
-from datetime import datetime
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שאלות ותשובות | Q&amp;A</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .qa-container{ max-width: 1000px; margin: 0 auto; padding: 2.5rem 1rem; }
+    .qa-card{
+      background: linear-gradient(135deg, rgba(26, 44, 66, 0.92), rgba(45, 74, 111, 0.92));
+      border: 2px solid var(--primary-gold);
+      border-radius: 18px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .qa-title{ font-size: 1.8rem; color: var(--light-gold); margin: 0 0 0.75rem 0; line-height: 1.35; }
+    .qa-meta{ display:flex; flex-wrap:wrap; gap: 0.75rem 1rem; color: var(--text-gold); margin: 0 0 1.25rem 0; font-size: 0.95rem; }
+    .qa-tags{ display:flex; flex-wrap:wrap; gap: .5rem; margin: 0 0 1.25rem 0; }
+    .qa-tag{
+      display:inline-block;
+      padding: .25rem .65rem;
+      border-radius: 999px;
+      border: 1px solid rgba(212,165,116,0.5);
+      background: rgba(10, 24, 40, 0.55);
+      color: var(--text-light);
+      font-size: .85rem;
+      font-weight: 700;
+    }
+    .qa-section{ border-top: 1px solid rgba(212, 165, 116, 0.35); padding-top: 1.25rem; margin-top: 1.25rem; }
+    .qa-label{
+      display:inline-block;
+      background: rgba(74, 124, 140, 0.35);
+      border: 1px solid var(--accent-teal);
+      color: var(--text-light);
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .qa-text{ color: var(--text-light); line-height: 1.9; font-size: 1.05rem; white-space: normal; }
+    .qa-text p, .qa-text li{ margin: 0 0 .65rem 0; }
+    .qa-text ul{ margin: .5rem 0 .5rem 1.2rem; }
+    .qa-text a{ color: var(--primary-gold); }
+    .qa-actions{ margin-top: 1.5rem; display:flex; flex-wrap:wrap; gap: 0.75rem; justify-content: space-between; align-items: center; }
+    .qa-link{ color: var(--primary-gold); text-decoration: none; font-weight: 700; }
+    .qa-link:hover{ color: var(--light-gold); }
+    .qa-back{
+      display:inline-block; padding: 0.65rem 1rem; border-radius: 12px;
+      border: 2px solid var(--primary-gold); color: var(--text-light); text-decoration: none;
+      background: rgba(10, 24, 40, 0.65); font-weight: 700;
+    }
+    .qa-back:hover{ border-color: var(--light-gold); box-shadow: 0 0 18px rgba(212,165,116,0.25); }
+    body[dir="ltr"] .qa-container{ direction:ltr; }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="title-section">
+          <h1 class="site-title">
+            <span class="hebrew-title">בית דין גדול סנהדרין</span>
+            <span class="english-title">Beit Din Gadol Sanhedrin</span>
+          </h1>
+          <p class="subtitle">
+            <span class="hebrew-subtitle">שאלות ותשובות</span>
+            <span class="english-subtitle">Q&amp;A</span>
+          </p>
+        </div>
+      </div>
+      <div class="language-toggle">
+        <button id="langToggle" onclick="toggleLanguage()">
+          <span class="lang-he">English</span>
+          <span class="lang-en">עברית</span>
+        </button>
+      </div>
+    </div>
+  </header>
 
-ROOT = os.path.dirname(os.path.dirname(__file__))  # repo root
-RESPONSA_PATH = os.path.join(ROOT, "responsa.json")
-QA_DB_PATH = os.path.join(ROOT, "qa_db.json")
-MIYODEA_GLOB = os.path.join(ROOT, "miyodea", "qa", "*.json")
+  <main class="qa-container">
+    <div class="qa-card">
+      <h2 class="qa-title" id="qaTitle">טוען…</h2>
+      <div class="qa-meta" id="qaMeta"></div>
+      <div class="qa-tags" id="qaTags" style="display:none;"></div>
 
-def load_json(path, default):
-    if not os.path.exists(path):
-        return default
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+      <div class="qa-section">
+        <div class="qa-label"><span class="lang-he">שאלה</span><span class="lang-en">Question</span></div>
+        <div class="qa-text" id="qaQuestion"></div>
+      </div>
 
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+      <div class="qa-section">
+        <div class="qa-label"><span class="lang-he">תשובה</span><span class="lang-en">Answer</span></div>
+        <div class="qa-text" id="qaAnswer"></div>
+      </div>
 
-def normalize_summary_from_content(content: str) -> str:
-    # Take first ~220 chars of plain-ish text
-    s = (content or "").replace("\n", " ").strip()
-    return (s[:220] + "…") if len(s) > 220 else s
+      <div class="qa-actions">
+        <a class="qa-back" href="index.html">← <span class="lang-he">חזרה לאינדקס</span><span class="lang-en">Back to index</span></a>
+        <a class="qa-link" id="qaSourceLink" href="#" target="_blank" rel="noopener">🔗 <span class="lang-he">מקור</span><span class="lang-en">Source</span></a>
+      </div>
+    </div>
 
-def extract_year(meta_date: str) -> int:
-    # meta_date like "2010-12-21T16:53:44"
-    if not meta_date:
-        return datetime.utcnow().year
-    try:
-        return int(meta_date[:4])
-    except Exception:
-        return datetime.utcnow().year
+    <div id="emptyState" class="empty-state" style="display:none;">
+      <p class="lang-he">לא נמצא פריט</p>
+      <p class="lang-en">Item not found</p>
+    </div>
+  </main>
 
-def to_responsa_entry(item, src_relpath: str):
-    meta = item.get("metadata", {}) or {}
-    qid = str(item.get("id", "")).strip()
+  <footer class="main-footer">
+    <div class="footer-content">
+      <p class="lang-he">© 2025 בית דין גדול סנהדרין | כל הזכויות שמורות</p>
+      <p class="lang-en">© 2025 Beit Din Gadol Sanhedrin | All Rights Reserved</p>
+    </div>
+  </footer>
 
-    # number: try to use digits from id, else fallback hash-ish
-    digits = "".join(ch for ch in qid if ch.isdigit())
-    number = int(digits) if digits else 0
-
-    year = extract_year(meta.get("date"))
-    date_str = ""
-    if meta.get("date"):
-        date_str = meta["date"][:10]  # YYYY-MM-DD
-    else:
-        date_str = f"{year}-01-01"
-
-    title = item.get("title") or f"Q&A {qid}"
-    summary = normalize_summary_from_content(item.get("content", ""))
-
-    # IMPORTANT: keep existing categories untouched; use "other" so index filter doesn't break :contentReference[oaicite:9]{index=9}
-    return {
-        "number": number,
-        "title_he": title,   # MiYodea is mostly EN; keep same
-        "title_en": title,
-        "summary_he": summary,
-        "summary_en": summary,
-        "category": "other",
-        "category_he": "שאלות ותשובות",
-        "category_en": "Q&A",
-        "date": date_str,
-        "year": year,
-        "file": f"qa.html?id={qid}&src={src_relpath}",
-        "type": "html",
-        # extra fields (safe: frontend ignores them)
-        "source": meta.get("source", "Mi Yodeya"),
-        "source_url": meta.get("url"),
-        "tags": meta.get("tags", []),
-        "source_id": qid,
-        "src": src_relpath,
+  <script>
+    let currentLanguage = 'he';
+    function toggleLanguage(){
+      currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
+      document.documentElement.lang = currentLanguage;
+      document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
     }
 
-def main():
-    responsa = load_json(RESPONSA_PATH, [])
-    if not isinstance(responsa, list):
-        raise SystemExit("responsa.json must be a JSON array")
+    function getParam(name){
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
 
-    # Build set for dedupe: (src + id)
-    existing_keys = set()
-    for r in responsa:
-        k = (str(r.get("src", "")), str(r.get("source_id", "")))
-        if k != ("", ""):
-            existing_keys.add(k)
+    function safeText(s){ return (s == null) ? '' : String(s); }
 
-    merged_items = []
-    new_entries = []
+    function extractMiYodeaQA(content){
+      // content is markdown-ish with embedded html.
+      // Extract between "## Frage" and "## Antworten" (question),
+      // and pick best answer: "### ✅ Antwort" else first "### Antwort".
+      const src = safeText(content);
 
-    for path in sorted(glob.glob(MIYODEA_GLOB)):
-        rel = os.path.relpath(path, ROOT).replace("\\", "/")  # e.g. miyodea/qa/file.json
-        data = load_json(path, None)
-        if not isinstance(data, list):
-            # if someone uploads single-object json, normalize to list
-            if isinstance(data, dict):
-                data = [data]
-            else:
-                continue
+      const qMatch = src.match(/##\s*Frage([\s\S]*?)(##\s*Antworten|$)/i);
+      const questionHtml = qMatch ? qMatch[1].trim() : '';
 
-        for item in data:
-            if not isinstance(item, dict):
-                continue
-            qid = str(item.get("id", "")).strip()
-            if not qid:
-                continue
+      // Best answer (✅) preferred
+      let aMatch = src.match(/###\s*✅\s*Antwort[\s\S]*?\n([\s\S]*?)(\n###\s|$)/i);
+      if(!aMatch){
+        aMatch = src.match(/###\s*Antwort[\s\S]*?\n([\s\S]*?)(\n###\s|$)/i);
+      }
+      const answerHtml = aMatch ? aMatch[1].trim() : '';
 
-            merged_items.append(item)
+      return {
+        questionHtml: questionHtml || src,
+        answerHtml: answerHtml || ''
+      };
+    }
 
-            key = (rel, qid)
-            if key in existing_keys:
-                continue
+    function setTags(tags){
+      const box = document.getElementById('qaTags');
+      box.innerHTML = '';
+      if(!tags || !Array.isArray(tags) || tags.length === 0){
+        box.style.display = 'none';
+        return;
+      }
+      tags.slice(0, 20).forEach(t => {
+        const span = document.createElement('span');
+        span.className = 'qa-tag';
+        span.textContent = String(t);
+        box.appendChild(span);
+      });
+      box.style.display = 'flex';
+    }
 
-            entry = to_responsa_entry(item, rel)
-            new_entries.append(entry)
-            existing_keys.add(key)
+    async function loadQA(){
+      const id = getParam('id');
+      const src = getParam('src') || 'qa_db.json'; // default fallback
+      if(!id){
+        document.querySelector('.qa-card').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'block';
+        return;
+      }
 
-    if new_entries:
-        responsa.extend(new_entries)
+      try{
+        const res = await fetch(src);
+        const data = await res.json();
 
-    # Write qa_db.json as merged array (optional but handy for future)
-    save_json(QA_DB_PATH, {"questions": merged_items})
+        let item = null;
+        let isMiYodea = false;
 
-    # Save responsa.json
-    save_json(RESPONSA_PATH, responsa)
+        // MiYodea: root array of objects {id,title,content,metadata{tags,...}} :contentReference[oaicite:5]{index=5}
+        if(Array.isArray(data)){
+          isMiYodea = true;
+          item = data.find(x => String(x.id) === String(id));
+        } else {
+          // Yeshiva-style: { questions: [...] } :contentReference[oaicite:6]{index=6}
+          const list = (data && data.questions) ? data.questions : [];
+          item = list.find(x => String(x.id) === String(id));
+        }
 
-if __name__ == "__main__":
-    main()
+        if(!item){
+          document.querySelector('.qa-card').style.display = 'none';
+          document.getElementById('emptyState').style.display = 'block';
+          return;
+        }
+
+        // Title
+        document.getElementById('qaTitle').textContent = item.title || ('שאלה #' + id);
+
+        // Meta + Tags
+        const meta = item.metadata || {};
+        const parts = [];
+
+        if(meta.date){
+          const dt = new Date(meta.date);
+          if(!isNaN(dt.getTime())){
+            parts.push('📅 ' + dt.toLocaleDateString('he-IL'));
+          }
+        }
+        if(meta.rabbi) parts.push('👤 ' + meta.rabbi);
+        if(typeof meta.upvotes !== 'undefined') parts.push('👍 ' + meta.upvotes);
+        if(typeof meta.score !== 'undefined') parts.push('⭐ ' + meta.score);
+        if(typeof meta.views !== 'undefined') parts.push('👁️ ' + meta.views);
+
+        document.getElementById('qaMeta').textContent = parts.join('   |   ');
+        setTags(meta.tags || []);
+
+        // Body
+        if(isMiYodea){
+          const extracted = extractMiYodeaQA(item.content);
+          document.getElementById('qaQuestion').innerHTML = extracted.questionHtml;
+          document.getElementById('qaAnswer').innerHTML = extracted.answerHtml || '<p>(No extracted answer found)</p>';
+        } else {
+          document.getElementById('qaQuestion').textContent = item.question || '';
+          document.getElementById('qaAnswer').textContent = item.answer || '';
+        }
+
+        // Source link
+        const link = document.getElementById('qaSourceLink');
+        link.href = item.url || '#';
+        link.style.display = (item.url ? 'inline-block' : 'none');
+
+      } catch(e){
+        console.error(e);
+        document.querySelector('.qa-card').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'block';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadQA);
+  </script>
+</body>
+</html>
