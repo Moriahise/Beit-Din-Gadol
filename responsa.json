@@ -4409,5 +4409,30 @@
     ],
     "source_id": "miyodeya_4781",
     "src": "miyodea/qa/miyodea-struktur.json"
+  },
+  {
+    "number": 8232,
+    "title_he": "Did Rabbi Dovid Feinstein of Uzda wear tefilin that were Ktav Ari or Ktav Beit Yosef? What about his son?",
+    "title_en": "Did Rabbi Dovid Feinstein of Uzda wear tefilin that were Ktav Ari or Ktav Beit Yosef? What about his son?",
+    "summary_he": "<p>The biographical sketch of Rabbi Moshe Feinstein that appears in the beginning of Igrot Moshe volume 8 states that his father, Rabbi Dovid Feinstein of Uzda, was born and raised Hassidic, but took on his in-law's very…",
+    "summary_en": "<p>The biographical sketch of Rabbi Moshe Feinstein that appears in the beginning of Igrot Moshe volume 8 states that his father, Rabbi Dovid Feinstein of Uzda, was born and raised Hassidic, but took on his in-law's very…",
+    "category": "other",
+    "category_he": "שאלות ותשובות",
+    "category_en": "Q&A",
+    "date": "2011-06-13",
+    "year": 2011,
+    "file": "qa.html?id=miyodeya_8232&src=miyodea/qa/neuer-test.json",
+    "type": "html",
+    "source": "Mi Yodeya",
+    "source_url": "https://judaism.stackexchange.com/questions/8232/did-rabbi-dovid-feinstein-of-uzda-wear-tefilin-that-were-ktav-ari-or-ktav-beit-y",
+    "tags": [
+      "history",
+      "tefilin",
+      "chasidut-hasidism",
+      "moshe-feinstein",
+      "safrus"
+    ],
+    "source_id": "miyodeya_8232",
+    "src": "miyodea/qa/neuer-test.json"
   }
 ]
