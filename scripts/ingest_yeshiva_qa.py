@@ -180,6 +180,13 @@ def main():
             # ensure top-level 'url' field
             if meta.get("url") and not item.get("url"):
                 item["url"] = meta["url"]
+            # ensure a combined `content` field exists for the site to display
+            question_text = item.get("question", "")
+            answer_text = item.get("answer", "")
+            combined_content = (question_text + "\n\n" + answer_text).strip()
+            # Only set content if missing or empty
+            if not item.get("content") and combined_content:
+                item["content"] = combined_content
             existing_map[qid] = item
             key = (rel, qid)
             if key not in existing_keys:
