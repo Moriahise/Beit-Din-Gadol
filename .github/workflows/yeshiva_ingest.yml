@@ -1,0 +1,47 @@
+name: Ingest Yeshiva QA
+
+# This workflow runs whenever a JSON dump is pushed to data/qa.
+# It ingests the Yeshiva questions, updates responsa.json and writes
+# yearly JSON files into the qa_db/ directory. The commit step tracks
+# all files under qa_db/ to ensure per-year files are versioned.
+
+on:
+  push:
+    paths:
+      - "data/qa/*.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yeshiva-qa-ingest
+  cancel-in-progress: true
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ingest Yeshiva QA → responsa.json and qa_db
+        run: |
+          python scripts/ingest_yeshiva_qa.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage both responsa.json and all yearly QA DB files
+          git add responsa.json qa_db/*.json || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Auto-ingest Yeshiva QA"
+          git push
