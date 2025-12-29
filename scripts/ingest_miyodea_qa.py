@@ -1,35 +1,31 @@
 """
-Updated MiYodea Q&A ingest script with improved summary sanitization.
+Updated MiYodea Q&A ingest script with support for splitting qa_db into yearly files.
 
 This script reads MiYodea Q&A dumps from the `miyodea/qa` directory and
-merges them into the existing `qa_db.json` without overwriting Yeshiva
-entries. It surfaces each question's original URL as a top‑level `url`
-field (pulled from `metadata.url` when present) so that the front‑end can
-display a proper source link. New entries are added to `responsa.json` for
+merges them into JSON files organised by year within the `qa_db/` folder.
+Each file under `qa_db/` contains a list of questions for a specific year,
+so that no single file exceeds GitHub's 100 MB limit.  It also maintains
+`responsa.json` without overwriting existing entries from other sources.  Each
+question's original URL is surfaced as a top‑level `url` field (pulled from
+`metadata.url` when present) so that the front‑end can display a proper
+source link.  New responsa entries are appended to `responsa.json` for
 indexing.
 
-The key enhancement in this version is that the summary extraction
-sanitizes MiYodea content by removing markdown headings (lines starting
-with '#') and common section markers like "Frage" or "Antworten". This
-prevents unwanted strings such as "## Frage" or "### Answer" from
-appearing in the short teaser shown on the index page.
-
-To use this script, run it from the repository root. It will read
-existing `qa_db.json` and `responsa.json` if they exist, merge in new
-MiYodea items, and write the updated files back to disk.
+To use this script, run it from the repository root. It will read any
+existing files under `qa_db/`, merge in new MiYodea items from
+`miyodea/qa/*.json`, and write the updated files back to disk.
 """
 
 import json
 import glob
 import os
-import re
 from datetime import datetime
 
 # Paths relative to this script's directory
 ROOT = os.path.dirname(os.path.dirname(__file__))  # repository root
 RESPONSA_PATH = os.path.join(ROOT, "responsa.json")
-QA_DB_PATH = os.path.join(ROOT, "qa_db.json")
 MIYODEA_GLOB = os.path.join(ROOT, "miyodea", "qa", "*.json")
+QA_DB_DIR = os.path.join(ROOT, "qa_db")
 
 
 def load_json(path, default):
@@ -46,6 +42,7 @@ def load_json(path, default):
 
 def save_json(path, data):
     """Save a Python object as JSON with UTF‑8 encoding."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -102,10 +99,7 @@ def to_responsa_entry(item, src_relpath: str):
     digits = "".join(ch for ch in qid if ch.isdigit())
     number = int(digits) if digits else 0
     year = extract_year(meta.get("date"))
-    if meta.get("date"):
-        date_str = meta["date"][:10]
-    else:
-        date_str = f"{year}-01-01"
+    date_str = meta.get("date", f"{year}-01-01")[:10]
     title = item.get("title") or f"Q&A {qid}"
     summary = normalize_summary_from_content(item.get("content", ""))
     return {
@@ -130,6 +124,8 @@ def to_responsa_entry(item, src_relpath: str):
 
 
 def main():
+    # Ensure the QA_DB_DIR exists
+    os.makedirs(QA_DB_DIR, exist_ok=True)
     # Load existing responsa entries (list)
     responsa = load_json(RESPONSA_PATH, [])
     if not isinstance(responsa, list):
@@ -139,10 +135,18 @@ def main():
         k = (str(r.get("src", "")), str(r.get("source_id", "")))
         if k != ("", ""):
             existing_keys.add(k)
-    # Load existing QA DB for merging
-    existing_db = load_json(QA_DB_PATH, {"questions": []})
-    existing_questions = existing_db.get("questions", []) if isinstance(existing_db, dict) else []
-    existing_map = {str(q.get("id")): q for q in existing_questions if isinstance(q, dict)}
+    # Load existing QA DB entries from all yearly files
+    existing_map = {}
+    if os.path.isdir(QA_DB_DIR):
+        for fpath in glob.glob(os.path.join(QA_DB_DIR, "*.json")):
+            data = load_json(fpath, {"questions": []})
+            if isinstance(data, dict):
+                questions = data.get("questions", [])
+                for q in questions:
+                    if isinstance(q, dict):
+                        qid = str(q.get("id"))
+                        if qid:
+                            existing_map[qid] = q
     merged_items = []
     new_entries = []
     # Process each MiYodea file
@@ -161,19 +165,28 @@ def main():
             if not qid:
                 continue
             meta = item.get("metadata") or {}
+            # ensure top-level 'url' field
             if meta.get("url") and not item.get("url"):
                 item["url"] = meta["url"]
-            existing_map[str(qid)] = item
+            existing_map[qid] = item
             merged_items.append(item)
             key = (rel, qid)
             if key not in existing_keys:
                 entry = to_responsa_entry(item, rel)
                 new_entries.append(entry)
                 existing_keys.add(key)
+    # Append new responsa entries
     if new_entries:
         responsa.extend(new_entries)
-    combined_questions = list(existing_map.values())
-    save_json(QA_DB_PATH, {"questions": combined_questions})
+    # Group all questions by year and write per-year JSON files
+    groups = {}
+    for q in existing_map.values():
+        meta = q.get("metadata") or {}
+        year = extract_year(meta.get("date"))
+        groups.setdefault(year, []).append(q)
+    for year, items in groups.items():
+        save_json(os.path.join(QA_DB_DIR, f"{year}.json"), {"questions": items})
+    # Save updated responsa
     save_json(RESPONSA_PATH, responsa)
 
 
