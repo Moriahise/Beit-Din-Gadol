@@ -1,5 +1,10 @@
 name: Ingest MiYodea QA
 
+# This workflow runs whenever a JSON dump is pushed to miyodea/qa.
+# It ingests the MiYodea questions, updates responsa.json and writes
+# yearly JSON files into the qa_db/ directory. The commit step now
+# tracks all files under qa_db/ instead of a single qa_db.json.
+
 on:
   push:
     paths:
@@ -15,7 +20,6 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,7 +29,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Ingest MiYodea QA → responsa.json
+      - name: Ingest MiYodea QA → responsa.json and qa_db
         run: |
           python scripts/ingest_miyodea_qa.py
 
@@ -33,7 +37,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add responsa.json qa_db.json || true
+          # Stage both responsa.json and all yearly QA DB files
+          git add responsa.json qa_db/*.json || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
