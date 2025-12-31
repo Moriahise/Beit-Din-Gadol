@@ -1,8 +1,4 @@
 name: Ingest Yeshiva QA
-# This workflow runs whenever a JSON dump is pushed to data/qa.
-# It ingests the Yeshiva questions, updates responsa.json and writes
-# yearly JSON files into the qa_db/ directory. The commit step tracks
-# all files under qa_db/ to ensure per-year files are versioned.
 on:
   push:
     paths:
@@ -19,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Wichtig: Vollständige History holen
+          fetch-depth: 0
           
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,17 +31,26 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # WICHTIG: Erst die neuesten Änderungen holen!
-          git fetch origin main
-          git pull --rebase origin main || true
-          
-          # Stage both responsa.json and all yearly QA DB files
+          # 1. ZUERST: Stage die Änderungen
           git add responsa.json qa_db/*.json || true
           
+          # 2. Prüfen ob es Änderungen gibt
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           
+          # 3. Commit LOKAL (noch nicht gepusht!)
           git commit -m "Auto-ingest Yeshiva QA"
+          
+          # 4. Hole neueste Änderungen und rebase
+          git fetch origin main
+          git rebase origin/main || {
+            echo "Rebase conflict, using force push"
+            git rebase --abort
+            git push --force-with-lease
+            exit 0
+          }
+          
+          # 5. Push
           git push
