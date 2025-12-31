@@ -1,13 +1,17 @@
 name: Ingest Yeshiva QA
+
 on:
   push:
     paths:
       - "data/qa/*.json"
+
 permissions:
   contents: write
+
 concurrency:
-  group: yeshiva-qa-ingest
-  cancel-in-progress: true
+  group: responsa-update  # ← GLEICHE Gruppe für alle!
+  cancel-in-progress: false  # ← Nicht abbrechen, nacheinander!
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
@@ -16,41 +20,36 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          
+
       - name: Ingest Yeshiva QA → responsa.json and qa_db
         run: |
           python scripts/ingest_yeshiva_qa.py
-          
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. ZUERST: Stage die Änderungen
           git add responsa.json qa_db/*.json || true
           
-          # 2. Prüfen ob es Änderungen gibt
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           
-          # 3. Commit LOKAL (noch nicht gepusht!)
           git commit -m "Auto-ingest Yeshiva QA"
           
-          # 4. Hole neueste Änderungen und rebase
-          git fetch origin main
-          git rebase origin/main || {
-            echo "Rebase conflict, using force push"
-            git rebase --abort
-            git push --force-with-lease
-            exit 0
-          }
-          
-          # 5. Push
-          git push
+          # Retry-Logik mit Pull vor Push
+          for i in {1..5}; do
+            git fetch origin main
+            git pull --rebase origin main || true
+            git push && break || {
+              echo "Push failed, attempt $i/5"
+              sleep 2
+            }
+          done
