@@ -1,16 +1,19 @@
 name: Update responsa.json
 
 on:
-  workflow_dispatch:  # Manuelles Auslösen möglich
+  workflow_dispatch:
   push:
-    branches: [main]   # Läuft bei jedem Push auf main
+    branches: [main]
     paths:
-      - 'responsa/**'  # Nur bei Änderungen im responsa-Ordner
+      - 'responsa/**'
       - 'update_responsa.py'
 
-# WICHTIG: Berechtigungen für automatisches Commit/Push
 permissions:
   contents: write
+
+concurrency:
+  group: responsa-update  # ← GLEICHE Gruppe!
+  cancel-in-progress: false
 
 jobs:
   update-responsa:
@@ -19,10 +22,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Vollständige History für bessere Commits
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -54,8 +57,16 @@ jobs:
           git config user.email "actions@github.com"
           git add responsa.json
           git commit -m "🤖 Automatisches Update: responsa.json aktualisiert ($(date +'%Y-%m-%d %H:%M'))"
-          git push
-          echo "Änderungen erfolgreich committed und gepusht"
+          
+          # Retry-Logik mit Pull vor Push
+          for i in {1..5}; do
+            git fetch origin main
+            git pull --rebase origin main || true
+            git push && break || {
+              echo "Push failed, attempt $i/5"
+              sleep 2
+            }
+          done
 
       - name: Summary
         run: |
