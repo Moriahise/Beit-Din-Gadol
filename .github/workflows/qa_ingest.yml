@@ -1,10 +1,5 @@
 name: Ingest MiYodea QA
 
-# This workflow runs whenever a JSON dump is pushed to miyodea/qa.
-# It ingests the MiYodea questions, updates responsa.json and writes
-# yearly JSON files into the qa_db/ directory. The commit step now
-# tracks all files under qa_db/ instead of a single qa_db.json.
-
 on:
   push:
     paths:
@@ -14,8 +9,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: miyodea-qa-ingest
-  cancel-in-progress: true
+  group: responsa-update  # ← GLEICHE Gruppe!
+  cancel-in-progress: false
 
 jobs:
   ingest:
@@ -23,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -37,11 +34,22 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Stage both responsa.json and all yearly QA DB files
+          
           git add responsa.json qa_db/*.json || true
+          
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
+          
           git commit -m "Auto-ingest MiYodea QA"
-          git push
+          
+          # Retry-Logik mit Pull vor Push
+          for i in {1..5}; do
+            git fetch origin main
+            git pull --rebase origin main || true
+            git push && break || {
+              echo "Push failed, attempt $i/5"
+              sleep 2
+            }
+          done
