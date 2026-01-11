@@ -3,37 +3,106 @@ let currentLanguage = 'he';
 let allResponsa = [];
 
 // Pagination configuration
-// Number of cards to display on each page. Adjust this value to balance performance
-// and the amount of content displayed on the screen. A lower number means fewer
-// cards are rendered at once, which keeps the DOM small and the page responsive.
 const ITEMS_PER_PAGE = 60;
-// The currently active page (1-based index). When filters or searches change,
-// this resets to 1 so the user always starts at the beginning of the result set.
 let currentPage = 1;
-// Holds the current filtered list of responsa. This is updated after every search
-// or filter operation. Rendering functions operate on this list rather than
-// recomputing the filter chain each time.
 let currentResponsa = [];
 
+/**
+ * Load the main dataset (responsa.json) with a progress bar and offload parsing
+ * to a Web Worker when available. The default implementation simply calls
+ * fetch() and JSON.parse(), but here we use XMLHttpRequest to monitor
+ * download progress.
+ */
+function loadResponsaWithProgress() {
+  const progressContainer = document.getElementById('progressContainer');
+  const progressBar = document.getElementById('loadingProgress');
+  // Display progress bar
+  if (progressContainer) {
+    progressContainer.style.display = 'block';
+  }
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', 'responsa.json', true);
+  xhr.responseType = 'text';
+  xhr.onprogress = function (event) {
+    if (event.lengthComputable && progressBar) {
+      const percent = (event.loaded / event.total) * 100;
+      progressBar.value = percent;
+    }
+  };
+  xhr.onload = function () {
+    if (progressContainer) {
+      progressContainer.style.display = 'none';
+    }
+    if (xhr.status >= 200 && xhr.status < 300) {
+      const responseText = xhr.responseText;
+      // Use Web Worker to parse large JSON without blocking the main thread
+      if (typeof Worker !== 'undefined') {
+        try {
+          const worker = new Worker('worker.js');
+          worker.postMessage(responseText);
+          worker.onmessage = function (e) {
+            allResponsa = e.data;
+            currentResponsa = allResponsa;
+            populateYearFilter();
+            currentPage = 1;
+            displayResponsa(currentResponsa);
+            updateStatistics();
+            worker.terminate();
+          };
+          worker.onerror = function (err) {
+            console.error('Worker error:', err);
+            // Fallback to synchronous parse
+            parseResponsaSync(responseText);
+            worker.terminate();
+          };
+        } catch (ex) {
+          // Worker construction can fail on some browsers; fallback
+          console.warn('Web Worker failed to start, falling back to synchronous parse.');
+          parseResponsaSync(responseText);
+        }
+      } else {
+        // Workers not supported; parse synchronously
+        parseResponsaSync(responseText);
+      }
+    } else {
+      console.error('Failed to load responsa.json via XHR:', xhr.status);
+      document.getElementById('emptyState').style.display = 'block';
+    }
+  };
+  xhr.onerror = function () {
+    if (progressContainer) {
+      progressContainer.style.display = 'none';
+    }
+    console.error('Error loading responsa.json via XHR');
+    document.getElementById('emptyState').style.display = 'block';
+  };
+  xhr.send();
+}
+
+// Parse JSON synchronously and update UI. Used when Web Workers are unavailable
+function parseResponsaSync(responseText) {
+  try {
+    allResponsa = JSON.parse(responseText);
+    currentResponsa = allResponsa;
+    populateYearFilter();
+    currentPage = 1;
+    displayResponsa(currentResponsa);
+    updateStatistics();
+  } catch (e) {
+    console.error('Error parsing responsa.json:', e);
+    document.getElementById('emptyState').style.display = 'block';
+  }
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function () {
+  // Use the progress-enabled loader instead of simple fetch
+  loadResponsaWithProgress();
+  updateLanguage();
+});
+
 // Helper to sanitize summary text for Mi Yodeya entries.
-// Mi Yodeya entries sometimes include markdown headings like "# Title" or "## Frage".
-// This function removes any line starting with '#' (after trimming) and also removes
-// a leading line that repeats the title text. It returns a trimmed version of the
-// summary for display in cards. If no suitable summary remains, it returns an empty
-// string, prompting the caller to use a fallback.
 function sanitizeSummary(text, titleText) {
-    // Helper to sanitize summary text for Mi Yodeya entries.
-    // Mi Yodeya summaries often embed markdown headings such as "# Title", "## Frage" or
-    // in‑line markers like "##" or "###" within a single line. These headings add
-    // unnecessary clutter to the short snippet shown on the index page. To keep
-    // summaries concise and meaningful we:
-    //   1. Skip any lines that are empty or start with one or more '#' characters.
-    //   2. Within each remaining line, strip content after the first occurrence of '##' or '###'.
-    //   3. Use only the first processed line as the summary. This typically corresponds
-    //      to the question text itself. If this line repeats the title (case‑insensitive),
-    //      we discard it and take the next processed line if available.
-    //   4. If no suitable line is found, return an empty string and let the caller
-    //      decide how to handle the absence of a summary.
     if (!text) return '';
     const lines = String(text).split(/\r?\n/);
     const processedLines = [];
@@ -63,36 +132,15 @@ function sanitizeSummary(text, titleText) {
     return summary;
 }
 
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', function() {
-    loadResponsa();
-    updateLanguage();
-});
-
-// Load responsa data
-async function loadResponsa() {
-    try {
-        const response = await fetch('responsa.json');
-        allResponsa = await response.json();
-        // The full dataset is the initial set of responsa
-        currentResponsa = allResponsa;
-        populateYearFilter();
-        // Reset to page 1 and render the first page
-        currentPage = 1;
-        displayResponsa(currentResponsa);
-        updateStatistics();
-    } catch (error) {
-        console.error('Error loading responsa:', error);
-        // If file doesn't exist, show empty state
-        document.getElementById('emptyState').style.display = 'block';
-    }
-}
-
 // Populate year filter
 function populateYearFilter() {
     const yearFilter = document.getElementById('yearFilter');
+    // Remove any dynamically added options to avoid duplication
+    // Keep the first "all" option
+    while (yearFilter.options.length > 1) {
+      yearFilter.remove(1);
+    }
     const years = [...new Set(allResponsa.map(r => r.year))].sort((a, b) => b - a);
-    
     years.forEach(year => {
         const option = document.createElement('option');
         option.value = year;
@@ -101,15 +149,11 @@ function populateYearFilter() {
     });
 }
 
-// Display responsa cards
+// Display responsa cards (unchanged from original)
 function displayResponsa(responsa) {
     const grid = document.getElementById('responsaGrid');
     const emptyState = document.getElementById('emptyState');
-    
-    // Always clear the grid before rendering
     grid.innerHTML = '';
-    
-    // If no items match the current filter, show the empty state and hide pagination
     if (responsa.length === 0) {
         grid.style.display = 'none';
         emptyState.style.display = 'block';
@@ -119,34 +163,24 @@ function displayResponsa(responsa) {
         }
         return;
     }
-    
     grid.style.display = 'grid';
     emptyState.style.display = 'none';
-    
-    // Determine which slice of items to render for the current page
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const pageItems = responsa.slice(startIndex, endIndex);
-    
     pageItems.forEach(item => {
         const card = createResponsaCard(item);
         grid.appendChild(card);
     });
-    
-    // Render pagination controls to allow navigating between pages
     renderPaginationControls(responsa.length);
 }
 
-// Create individual responsa card
+// Create individual responsa card (unchanged)
 function createResponsaCard(item) {
     const card = document.createElement('div');
     card.className = 'responsa-card';
     card.onclick = () => window.open(item.file, '_blank');
-    
     const titleText = currentLanguage === 'he' ? item.title_he : item.title_en;
-    // Choose the appropriate summary based on language and sanitize it for display. If the sanitized
-    // summary is empty (for example, if it contained only markdown headings), fall back to the
-    // original summary text or an empty string.
     const rawSummary = currentLanguage === 'he' ? item.summary_he : item.summary_en;
     let summaryText = sanitizeSummary(rawSummary, titleText);
     if (!summaryText) {
@@ -154,11 +188,8 @@ function createResponsaCard(item) {
     }
     const categoryText = currentLanguage === 'he' ? item.category_he : item.category_en;
     const readMoreText = currentLanguage === 'he' ? 'קרא עוד ←' : 'Read More →';
-    
-    // Determine file type icon
     const fileIcon = item.type === 'pdf' ? '📄' : '📝';
     const fileTypeLabel = item.type === 'pdf' ? 'PDF' : 'HTML';
-    
     card.innerHTML = `
         <div class="card-header">
             <span class="card-number">#${item.number}</span>
@@ -177,7 +208,6 @@ function createResponsaCard(item) {
             <a href="${item.file}" class="card-link" onclick="event.stopPropagation()">${readMoreText}</a>
         </div>
     `;
-    
     return card;
 }
 
@@ -186,12 +216,9 @@ function searchResponsa() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const categoryFilter = document.getElementById('categoryFilter').value;
     const yearFilter = document.getElementById('yearFilter').value;
-    
     let filtered = allResponsa;
-    
-    // Apply search
     if (searchTerm) {
-        filtered = filtered.filter(item => 
+        filtered = filtered.filter(item =>
             item.title_he.toLowerCase().includes(searchTerm) ||
             item.title_en.toLowerCase().includes(searchTerm) ||
             item.summary_he.toLowerCase().includes(searchTerm) ||
@@ -199,86 +226,69 @@ function searchResponsa() {
             item.number.toString().includes(searchTerm)
         );
     }
-    
-    // Apply category filter
     if (categoryFilter !== 'all') {
         filtered = filtered.filter(item => item.category === categoryFilter);
     }
-    
-    // Apply year filter
     if (yearFilter !== 'all') {
         filtered = filtered.filter(item => item.year.toString() === yearFilter);
     }
-    
-    // Update the global filtered responsa and reset to the first page
     currentResponsa = filtered;
     currentPage = 1;
     displayResponsa(currentResponsa);
 }
 
-// Filter by category or year
+// Filter by category or year (delegates to search)
 function filterResponsa() {
     searchResponsa();
 }
 
-// Toggle language
+// Toggle language and update UI
 function toggleLanguage() {
     currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
     document.documentElement.lang = currentLanguage;
     document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
     updateLanguage();
-    // Recompute the filtered list to ensure language-specific fields (e.g. title) are updated
     currentResponsa = getFilteredResponsa();
-    // Maintain the current page when toggling language (do not reset to page 1)
     displayResponsa(currentResponsa);
 }
 
 // Update language-dependent elements
 function updateLanguage() {
-    // Update select options
     const selects = document.querySelectorAll('select option');
     selects.forEach(option => {
         const text = currentLanguage === 'he' ? option.dataset.he : option.dataset.en;
         if (text) option.textContent = text;
     });
-    
-    // Update placeholder
     const searchInput = document.getElementById('searchInput');
     searchInput.placeholder = currentLanguage === 'he' ? 'חיפוש...' : 'Search...';
 }
 
-// Get currently filtered responsa
+// Get currently filtered responsa; used when toggling language
 function getFilteredResponsa() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const categoryFilter = document.getElementById('categoryFilter').value;
     const yearFilter = document.getElementById('yearFilter').value;
-    
     let filtered = allResponsa;
-    
     if (searchTerm) {
-        filtered = filtered.filter(item => 
+        filtered = filtered.filter(item =>
             item.title_he.toLowerCase().includes(searchTerm) ||
             item.title_en.toLowerCase().includes(searchTerm) ||
             item.summary_he.toLowerCase().includes(searchTerm) ||
             item.summary_en.toLowerCase().includes(searchTerm)
         );
     }
-    
     if (categoryFilter !== 'all') {
         filtered = filtered.filter(item => item.category === categoryFilter);
     }
-    
     if (yearFilter !== 'all') {
         filtered = filtered.filter(item => item.year.toString() === yearFilter);
     }
-    
     return filtered;
 }
 
-// Update statistics
+// Update statistics based on the full dataset
 function updateStatistics() {
     document.getElementById('totalResponsa').textContent = allResponsa.length;
-    
     if (allResponsa.length > 0) {
         const years = allResponsa.map(r => r.year);
         const latestYear = Math.max(...years);
@@ -295,54 +305,42 @@ function updateStatistics() {
  * @param {number} totalItems - Total number of items in the current filtered list.
  */
 function renderPaginationControls(totalItems) {
-    // Locate or create the pagination container
     let paginationContainer = document.getElementById('paginationControls');
     if (!paginationContainer) {
         paginationContainer = document.createElement('div');
         paginationContainer.id = 'paginationControls';
         paginationContainer.className = 'pagination-controls';
-        // Insert after the responsa grid
         const gridParent = document.getElementById('responsaGrid').parentNode;
         gridParent.appendChild(paginationContainer);
     }
-    // Clear existing controls
     paginationContainer.innerHTML = '';
-
     const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
-    // If only one page is needed, hide controls
     if (totalPages <= 1) {
         paginationContainer.style.display = 'none';
         return;
     }
     paginationContainer.style.display = 'flex';
-
-    // Determine labels based on language
     const prevLabel = currentLanguage === 'he' ? 'הקודם' : 'Previous';
     const nextLabel = currentLanguage === 'he' ? 'הבא' : 'Next';
-    // Create Previous button
     const prevButton = document.createElement('button');
     prevButton.textContent = prevLabel;
     prevButton.disabled = currentPage === 1;
-    prevButton.onclick = function(event) {
+    prevButton.onclick = function (event) {
         event.preventDefault();
         if (currentPage > 1) {
             changePage(currentPage - 1);
         }
     };
     paginationContainer.appendChild(prevButton);
-    
-    // Page indicator
     const pageIndicator = document.createElement('span');
     pageIndicator.textContent = `${currentPage} / ${totalPages}`;
     pageIndicator.className = 'page-indicator';
     pageIndicator.style.margin = '0 1rem';
     paginationContainer.appendChild(pageIndicator);
-    
-    // Create Next button
     const nextButton = document.createElement('button');
     nextButton.textContent = nextLabel;
     nextButton.disabled = currentPage === totalPages;
-    nextButton.onclick = function(event) {
+    nextButton.onclick = function (event) {
         event.preventDefault();
         if (currentPage < totalPages) {
             changePage(currentPage + 1);
@@ -351,13 +349,7 @@ function renderPaginationControls(totalItems) {
     paginationContainer.appendChild(nextButton);
 }
 
-/**
- * Change the current page and re-render the responsa grid using the previously
- * filtered list. This function ensures that the page number remains within
- * bounds and triggers a call to displayResponsa.
- *
- * @param {number} page - The new page number to display.
- */
+// Change the current page and re-render the responsa grid
 function changePage(page) {
     const totalPages = Math.ceil(currentResponsa.length / ITEMS_PER_PAGE);
     if (page < 1 || page > totalPages) return;

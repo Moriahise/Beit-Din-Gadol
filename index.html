@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>בית דין גדול סנהדרין | Beit Din Gadol Sanhedrin</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Simple styles for the loading indicator. Feel free to adjust in your CSS -->
+    <style>
+      /* Progress bar container sticks to the top of the viewport */
+      #progressContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: none;
+      }
+      #loadingProgress {
+        width: 100%;
+        height: 4px;
+        display: block;
+      }
+    </style>
 </head>
 <body>
+    <!-- Progress indicator shown while responsa.json loads. Hidden via JS once loading completes. -->
+    <div id="progressContainer">
+      <progress id="loadingProgress" value="0" max="100"></progress>
+    </div>
     <!-- Header -->
     <header class="main-header">
         <div class="header-content">
@@ -109,6 +131,17 @@
         </div>
     </footer>
 
+    <!-- Main application logic. Use a modified script to show loading progress and offload parsing to a Web Worker. -->
     <script src="script.js"></script>
+    <script>
+      // Register the service worker if supported. This runs as soon as the page loads
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js').catch(err => {
+            console.error('Service worker registration failed:', err);
+          });
+        });
+      }
+    </script>
 </body>
 </html>
