@@ -1,0 +1,212 @@
+{
+ "schema": 2,
+ "chunk": 37,
+ "count": 5,
+ "questions": [
+  {
+   "id": "ye-34308",
+   "legacy": {
+    "source_id": "miyodeya_34308",
+    "src": "qa_db/2013.json",
+    "number": 34308,
+    "old_file": "qa.html?id=miyodeya_34308&src=miyodea/qa/2014-02-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Circumcision liability",
+   "question": "<p>A story was recently <a href=\"http://www.washingtontimes.com/news/2013/dec/30/pennsylvania-rabbi-sued-worse-case-botched-circumc/\" rel=\"nofollow\">publicized</a> about a Mohel who botched up a circumcision by cutting of more than he was supposed to, requiring six hours of surgery, numerous blood transfusions, a two month hospital stay for the unfortunate baby, and a long life of turmoil, embarassment and shame.</p>\n\n<p>What would a biblical punishment be for such action?</p>",
+   "answers": [
+    {
+     "text": "<p>Someone who damages someone else in the body <a href=\"http://www.yeshiva.org.il/wiki/index.php?title=%D7%97%D7%95%D7%91%D7%9C\" rel=\"nofollow\">has to pay</a> for 5 things:</p>\n\n<p>1) נזק - monetary loss. This is evaluated by the loss of value of the person damaged as a slave in the market due to the deformity.</p>\n\n<p>2) צער - pain. This is evaluated as what would a person pay to avoid this. So if a government decreed that this had to be done to him, and he could pay to get out of it, what amount of money would he pay to avoid this.</p>\n\n<p>3) ריפוי - medical expenses. All related medical expenses to heal the injury e.g. doctor's fees and medical costs.</p>\n\n<p>4) שבת - loss of work. This is more limited, in that it is the loss of work while he recovers for what he could do given his new injury, and never more than his current occupation. So this is not his loss of theoretical future income.</p>\n\n<p>5) בושת - embarrassment. The amount is decided by Beis Din on a case by case basis.</p>\n\n<p>All of this applies by <a href=\"http://www.yeshiva.org.il/wiki/index.php?title=%D7%90%D7%93%D7%9D_%D7%94%D7%9E%D7%96%D7%99%D7%A7#.D7.90.D7.93.D7.9D_.D7.94.D7.9E.D7.96.D7.99.D7.A7\" rel=\"nofollow\">accident or not</a> (either derived from <a href=\"http://www.chabad.org/library/bible_cdo/aid/9882#v=25\" rel=\"nofollow\">פצע תחת פצע</a> - a wound for a wound, or is a logical derivation from the fact that a person is liable for the damage caused by his property, which is always accidental).</p>\n\n<p>However, #5 does not apply to accidents.</p>\n\n<p>Applying this practically to this case has some complications, but at least at first glance it seems that #1, #2 and #3 apply. According to the story #1 is undetermined as of yet, #2 would be astronomical, and #3 is very large.</p>\n\n<p>Some open questions in this case specifically - I don't know if damage (such as #4) applies to the parents having to care for the child as well as what to do with #3 if the parent's medical insurance covered the medical costs involved.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 6
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/34308/circumcision-liability",
+   "tags": [
+    "mistakes",
+    "reward-punishment",
+    "brit-milah",
+    "current-events",
+    "torts-damages"
+   ],
+   "date": "2013-12-31T18:48:17",
+   "year": 2013,
+   "score": 1,
+   "views": 353,
+   "needs_review": true
+  },
+  {
+   "id": "ye-34311",
+   "legacy": {
+    "source_id": "miyodeya_34311",
+    "src": "qa_db/2013.json",
+    "number": 34311,
+    "old_file": "qa.html?id=miyodeya_34311&src=miyodea/qa/2014-02-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is it right to point out that the Chazzan omitted a brocho in his repetition of the amida?",
+   "question": "<p>In <a href=\"https://judaism.stackexchange.com/questions/34213/shaliach-tzibbur-missed-out-one-or-more-blessings-in-the-repetition-of-the-amida\">this question</a> we learnt that if the <a href=\"https://judaism.meta.stackexchange.com/a/1879\">Chazzan</a> left out a brocho  in his repetition of the amida he would have to repeat the repetition.</p>\n\n<p>Is it right to point out that the Chazzan omitted a brocho? </p>\n\n<p>If he is told, he is very likely to be embarrassed and <a href=\"http://www.hakirah.org/Vol%205%20Letters.pdf\" rel=\"nofollow noreferrer\">embarrassing someone is a Torah prohibition, {page 20 column 2}</a> whereas the <a href=\"http://www.chabad.org/library/article_cdo/aid/862345/jewish/What-Is-Jewish-Prayer.htm\" rel=\"nofollow noreferrer\">fixed form of our prayers is rabbinic</a> .</p>\n\n<p>So I might think that it is best not to notice the omission.</p>",
+   "answers": [
+    {
+     "text": "<p>Yes.  See Shulchan Aruch Orach Chaim 126:1 - \"mazkirim oso\" (\"we remind him\").  In fact, if the <a href=\"http://meta.judaism.stackexchange.com/a/1879\">shatz</a> skips over Birchas HaMalshinim, the <a href=\"http://meta.judaism.stackexchange.com/a/1693\">Michaber</a> goes as far to say \"misalkin oso\" (\"we remove him\") due to concerns of apikorsus.  The Mishneh Brurah expands that concern to other brochas.</p>\n\n<p>Additionally, a shatz can be replaced with another shatz if he is unable to restart from the point at which he messed up (126:2).</p>\n\n<p>It would seem that kavod hatzibbur and communal needs outweigh individual embarrassment in this case.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/34311/is-it-right-to-point-out-that-the-chazzan-omitted-a-brocho-in-his-repetition-of",
+   "tags": [
+    "tefilla",
+    "shemoneh-esrei",
+    "mistakes",
+    "chazzan-prayer-leader"
+   ],
+   "date": "2013-12-31T21:49:58",
+   "year": 2013,
+   "score": 1,
+   "views": 106,
+   "needs_review": true
+  },
+  {
+   "id": "ye-34314",
+   "legacy": {
+    "source_id": "miyodeya_34314",
+    "src": "qa_db/2013.json",
+    "number": 34314,
+    "old_file": "qa.html?id=miyodeya_34314&src=miyodea/qa/2014-02-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "How to choose 'your' rebbi?",
+   "question": "<p>When a person is choosing who they will learn from as their rebbi, are there any guidelines or rules that govern the decision making process? </p>\n\n<p>First a definition of what a rebbi is (for the purposes of this question). I am talking about someone who will teach you how to access what the Torah is saying and what value judgments are to be made where. In addition, there is an assumption that although you might end up disagreeing on certain specific points you will adhere to the general hashkaffah and values that the rebbi holds.</p>\n\n<p>According to this understanding my question really is: how can you decide what values and general outlook you should subscribe to (which rabbi should be your rebbi) when the tools necessary for that decision will (seemingly) only be attained after learning Torah, which is greatly influenced by the person who taught you how to learn? Is there some pre-Torah mind value that is to be used?</p>",
+   "answers": [
+    {
+     "text": "<p>The <a href=\"http://www.sichosinenglish.org/books/sichos-in-english/35/01.htm\" rel=\"noreferrer\">Lubavitcher Rebbe</a> said:</p>\n<blockquote>\n<p>This is one of the reasons for the recent stress on the Mishnah's statement, \"Make for yourself a Rav.\" Since the Rav is neutral and uninvolved, he will certainly be able to give sound advice.</p>\n<p>Even with this advice, however, a person might complain that he's unsure whether or not he chose a proper Rav. Here again, the Torah provides guidance, in a verse which also speaks of the pre-Messianic era (Malachi, 2:7), \"...seek Torah from his mouth, because he is an angel of G-d.\" The Talmud explains, \"If he resembles an angel of G-d, then `seek Torah from his mouth,' and if he does not, then don't.\"</p>\n<p>But how can one tell if the Rav resembles an angel of G-d; one never even saw an angel of G-d! Here again, the Torah provides guidance, in the works of the Rambam, where he describes the lives of angels: \"there is no eating or drinking...no jealousy, hatred or enmity.\"</p>\n<p>Therefore, in order to tell whether or not someone is fit to be a Rav, one must see if he fits this description. Is his spiritual life governed without influence of physical factors (corresponding to \"no eating or drinking\")? Is he free of jealousy, hatred, etc.?</p>\n<p>Of course, as always the Evil Inclination comes along with another objection – and one \"according to the Torah\" (since it likes to conceal its true motives in the holy garb of a \"silk kapote\"). \"Isn't one of the signs of a true talmid chacham,\" claims the Evil Inclination, \"that he is `vengeful like a serpent'?\" According to this reasoning, peaceful behavior would not be a correct way of identifying a qualified \"Rav\"!</p>\n<p>Fortunately, the Torah also answers this clearly. When is it proper for a talmid chacham to behave in this way? Only when someone has shamed him publicly, and a general insult to the Torah is involved. However, should he be insulted in private, the Torah requires the exact opposite response. In the words of the Rambam, the way of talmidei chachamim is to \"listen to insult without answering back; and furthermore to forgive the person who uttered the insult.\"</p>\n<p>Aside from these signs of a Rav, there is an obvious prerequisite: that the person has the signs indicative of a Jew in general. As the Talmud says, \"This nation has three signs: they are merciful, bashful, and kind.\" Since these are called \"signs,\" it is impossible that a person practice them only in private. To be considered a sign, the person must actually behave in these ways.</p>\n</blockquote>\n<p>Also on <a href=\"http://www.chabad.org/therebbe/livingtorah/player_cdo/aid/522096/jewish/Who-Can-Be-My-Mentor.htm\" rel=\"noreferrer\">video</a>.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    },
+    {
+     "text": "<p>I have picked and unpicked Rabbis based on the following criteria.</p>\n\n<ol>\n<li>Is he nice to other people and strangers? </li>\n<li>Is he willing to teach without demanding payment?</li>\n<li>Does he, or is he willing to know you as the individual that you are?</li>\n<li>Is he able to explain things to you so that they make sense the first time? Or do you have to keep asking for clarifications?</li>\n<li>Does he refrain from speaking lashon harah in front of you while teaching?</li>\n<li>Does he seem to know what he is talking about?</li>\n<li>Does he delay or do research before answering a question?</li>\n</ol>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    },
+    {
+     "text": "<p>A chaver (friend) of mine once said, when confronted with a question as to what do: \"Ask yourself if this is going to make you a better Eved HaShem or not?\"  Acquiring a rebbi could be a similar question: \"Ask yourself if cleaving to this person will make you a better Eved HaShem or not?\"  Honesty and frankness are key here.</p>\n\n<p>A rebbi should be a teacher, a moreh derech, and an inspiration to you to grow.  Not knowing a lot of Torah doesn't mean that a person can't find a rebbi - it just means that the search might take more time, and might take more twists and turns than a kid growing up in a yeshiva system.  If the seeker of a rebbi keeps the above question in mind, finding a rebbi, while not easy, is an attainable goal.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/34314/how-to-choose-your-rebbi",
+   "tags": [
+    "hashkafah-philosophy",
+    "rabbis"
+   ],
+   "date": "2013-12-31T22:21:29",
+   "year": 2013,
+   "score": 8,
+   "views": 355,
+   "needs_review": true
+  },
+  {
+   "id": "ye-34315",
+   "legacy": {
+    "source_id": "miyodeya_34315",
+    "src": "qa_db/2013.json",
+    "number": 34315,
+    "old_file": "qa.html?id=miyodeya_34315&src=miyodea/qa/2014-02-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "What are all the different koshers for/about?",
+   "question": "<p>I found out recently that what I had been thinking of as a \"food copyright symbol\", (U), is actually a statement of kosherness. Now that I know what this is, I'm starting to see different symbols like (K) and K inside a star, that I'm assuming are also kosherness marks.</p>\n\n<p>Why are there different koshers (if that's what these are)?</p>",
+   "answers": [
+    {
+     "text": "<p>These different symbols belong to different certification agencies. Some are regional agencies for example, the Chicago Rabbinical Council.  The CRC will certify food produced in or distributed through the Chicago area.</p>\n\n<p><a href=\"http://vaadinfo.qwestoffice.net/cRc.jpg\" rel=\"nofollow\">http://vaadinfo.qwestoffice.net/cRc.jpg</a></p>\n\n<p>In the very abstruse laws of kosher, there are permitted leniencies for industrial scale food production. Some of these agencies may have slightly different sets of rules and some people (who think they know what they are doing) do not accept certification from every agency. In Israel is is not uncommon to find food certified by several agencies.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    },
+    {
+     "text": "<p>\"Kosher\" is a series of laws. But how do we know that a food product complies with these laws? So there are many companies that will go in and certify a food product as complying with the kosher laws. (They'll inspect the factory and ingredients, for example.) <a href=\"http://www.kashrut.com/agencies/\" rel=\"nofollow\">Here is a list of some of them</a>.</p>\n\n<p>So a circle-U means that the Union of Orthodox Jewish Congregations of America certified this product as kosher. The Star-K means it was certified by a group of rabbis headquartered in Baltimore.  Each certifying organization (or individual) has its own symbol.</p>\n\n<p>Some of these certifiers have different standards (often based on different rabbis' interpretations of the kosher laws), and thus some people prefer products with certain certifications. For example, just about any plain-old cow's milk in America could be certified by the OU or cRc, but the Star-K will only certify it if a Jew is regularly observing the milking. </p>\n\n<p>In America there are the \"big five\" organizations: Star-K, OU, cRc, OK, Kof-K -- who account for a great deal of the kosher market. As one food ingredient goes into another food, they work together and compare standards.</p>\n\n<p>A plain \"K\" on a product simply means \"manufacturer says it's kosher.\" It could be \"we have a reputable certifier checking this but we're not putting their symbol on it\"; it could be \"this is something so obviously kosher (e.g. plain water) that we don't feel like getting external certification\"; or it could be they're using a more-controversial definition of the kosher laws.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    },
+    {
+     "text": "<p>1)  Different cities or areas historically set up Kashrus organisations for their areas. </p>\n\n<p>2)  In the same area, a different (typically a stricter) standard was required and a second Kashrus organisation was set up to provide this. </p>\n\n<p>3)  I believe there have been less elevated reasons for setting up other Kashrus organisations.</p>\n\n<p>For a list of agencies see <a href=\"http://www.kashrut.com/agencies/\" rel=\"nofollow\">kashrut.com</a>.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/34315/what-are-all-the-different-koshers-for-about",
+   "tags": [
+    "kashrut-kosher",
+    "hechsher-certification"
+   ],
+   "date": "2013-12-31T22:30:24",
+   "year": 2013,
+   "score": 6,
+   "views": 619,
+   "needs_review": true
+  },
+  {
+   "id": "ye-34320",
+   "legacy": {
+    "source_id": "miyodeya_34320",
+    "src": "qa_db/2013.json",
+    "number": 34320,
+    "old_file": "qa.html?id=miyodeya_34320&src=miyodea/qa/2014-02-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is there a Malach for Am Yisrael?",
+   "question": "<p>I had a very bizarre dream where at the end I was in a room singing then having a heated discussion with someone who claimed to be the malach of 'Am Yisrael'. Is there such a thing as a Malach for Am Yisrael?</p>",
+   "answers": [
+    {
+     "text": "<p>Pirkei DeRabbi Eliezer, <a href=\"http://he.wikisource.org/wiki/%D7%A4%D7%A8%D7%A7%D7%99_%D7%93%D7%A8%D7%91%D7%99_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8_%D7%A4%D7%A8%D7%A7_%D7%9B%D7%93\" rel=\"nofollow\">perek 24</a>, makes it clear that while other nations get their own angel, Israel gets Hashem himself.</p>\n\n<blockquote>\n  <p>ר' שמעון אומר קרא הקב\"ה לשבעים מלאכים המסובבים כסא כבודו ואמ' להם באו ונבלבל את לשונם ומנין שהקב\"ה ירד אליהם שנאמר הבה נרדה ארדה אין כתיב אלא נרדה ומנין מהפיל גורלות בניהם שנאמר בהנחל עליון גוים ונפל גורלו של הקב\"ה על אברהם ועל זרעו שנאמר כי חלק יי עמו אמר הקב\"ה חבל וגורל זה שנפל עלי רצת נפשי שנאמר חבלי' נפלו לי בנעימי'. וירד הקדוש ברוך הוא ושבעים המלאכים הסובבים כסא כבודו ובלבל את לשונם לשבעים גוים ולשבעים לשון כל אחד ואחד גוי וכתבו ולשונו ומנה מלאך על כל אומה ואומה וישראל נפל בחלקו וחבלו ועל זה נאמ' כי חלק יי' עמו. ומנין שירד הקדוש ברוך הוא שנאמר וירד יי' לראות את העיר ואת המגדל וזו ירידה שנייה והיו רוצין לדבר איש אל רעהו בלשון הקדש ולא מכירין איש לשון רעהו מה עשו לקח איש חרבו ונלחמו אלו עם אלו להשחית וחצי העולם שם נפלו בחרב ומשם הפיצם יי' על פני כל הארץ שנאמר וייפץ יי' אותם משם על פני כל הארץ. </p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 10
+    },
+    {
+     "text": "<p><a href=\"http://www.mechon-mamre.org/p/pt/pt3412.htm\" rel=\"nofollow\">Daniel 12:1</a> identifies מיכאל‏, Michael:</p>\n\n<blockquote>\n  <p>...‏בעת ההיא יעמוד מיכאל שר הגדול העומד על עמך</p>\n  \n  <p><em>And at that time shall Michael stand up, the great prince who standeth for the children of thy people...</em></p>\n</blockquote>\n\n<p><strong>This is reconciled</strong> with josh waxman's excellent answer by <a href=\"http://www.tsel.org/torah/midrashraba/bo.html\" rel=\"nofollow\">Exodus Raba Bo 5</a>, that identifies him as the angel that defends us against accusations, rather than an officer appointed over us: </p>\n\n<blockquote>\n  <p>אמר רבי יוסי למה מיכאל וסמאל<sup>1</sup> דומין לסניגור וקטיגור... \n   כך מיכאל וסמאל עומדים לפני השכינה והשטן מקטרג ומיכאל\n  מלמד זכותן של ישראל והשטן בא לדבר ומיכאל משתקו‏</p>\n  \n  <p><em>Rabbi Jose said: to what are Michael and Samael<sup>1</sup> compared? To a defender and accuser... So Michael and Samael stand before the Shechina and the Accuser accuses and Michael relates the merits of Israel and the Accuser attempts to speak and Michael silences him.</em></p>\n</blockquote>\n\n<p><a href=\"http://www.jewishvirtuallibrary.org/jsource/biography/Nachmanides.html\" rel=\"nofollow\">Nachmanides</a> explains further in his commentary on Lev 18:25 along the same lines, that Michael is an officer that seeks out mercy for Israel, not an officer in a sense of overlordship or rule, as is the case with other angels.</p>\n\n<hr>\n\n<p><sup>1. One should not annunciate this name out loud, nor other names, such as diablo and the like used by other languages, as this is like mentioning the name of a foreign god, (Ex <a href=\"http://www.mechon-mamre.org/p/pt/pt0223.htm\" rel=\"nofollow\">23:13</a>). Especially at night, (See the book מלאכי עליון‏ by Reuben Margoleous, page רמח‏, footnote עז:א‏)</sup></p>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/34320/is-there-a-malach-for-am-yisrael",
+   "tags": [
+    "am-yisrael-jewish-nation",
+    "malach-angel"
+   ],
+   "date": "2013-12-31T23:39:56",
+   "year": 2013,
+   "score": 2,
+   "views": 168,
+   "needs_review": true
+  }
+ ]
+}

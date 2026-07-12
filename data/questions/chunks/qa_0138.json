@@ -1,0 +1,591 @@
+{
+ "schema": 2,
+ "chunk": 138,
+ "count": 17,
+ "questions": [
+  {
+   "id": "ye-99965",
+   "legacy": {
+    "source_id": "miyodeya_99965",
+    "src": "qa_db/2019.json",
+    "number": 99965,
+    "old_file": "qa.html?id=miyodeya_99965&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Moshe's missing years",
+   "question": "<p>During the years Moshe was missing from Egypt, was he travelling abroad, to Saudi Arabia perhaps or Paran? Are these missing years documented somewhere?</p>",
+   "answers": [
+    {
+     "text": "<p>See the Midrash <a href=\"https://ohr.edu/7253\" rel=\"nofollow noreferrer\">Quoted here</a>. (Yalkut Shimoni, 1:168; Sefer HaYashar, Parshat Shemot). Moshe became the king of Kush for many years after running away from Egypt, and before he went to Midyan. </p>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    },
+    {
+     "text": "<p>Moshe was in <a href=\"https://en.wikipedia.org/wiki/Midian\" rel=\"nofollow noreferrer\">Midian</a> (an area east of present-day Israel, see <a href=\"http://www.newworldencyclopedia.org/entry/Midianite\" rel=\"nofollow noreferrer\">here</a> and <a href=\"http://www.jewishencyclopedia.com/articles/10804-midian-and-midianites\" rel=\"nofollow noreferrer\">there</a>) before returning to Egypt, see Shemot chapters 2-4</p>\n\n<p><a href=\"https://www.sefaria.org/Exodus.2.15?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Shemot 2:15</a></p>\n\n<blockquote>\n  <p>When Pharaoh learned of the matter, he sought to kill Moses; but Moses\n  fled from Pharaoh. <strong>He arrived in the land of Midian</strong>, and sat down\n  beside a well.</p>\n</blockquote>\n\n<p><a href=\"https://www.sefaria.org/Exodus.4.19?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Shemot 4:19</a></p>\n\n<blockquote>\n  <p>The LORD said to Moses in Midian, “<strong>Go back to Egypt</strong>, for all the men\n  who sought to kill you are dead.” So Moses took his wife and sons, mounted them on an ass, and <strong>went back to the land of Egypt</strong>; and Moses took the rod of God with him.</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99965/moshes-missing-years",
+   "tags": [
+    "moshe-rabbeinu",
+    "egypt"
+   ],
+   "date": "2019-02-28T05:32:37",
+   "year": 2019,
+   "score": 4,
+   "views": 210,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99967",
+   "legacy": {
+    "source_id": "miyodeya_99967",
+    "src": "qa_db/2019.json",
+    "number": 99967,
+    "old_file": "qa.html?id=miyodeya_99967&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Elopement in Judaism",
+   "question": "<p>Some people used to elope (run away with their loved ones to marriage).</p>\n\n<blockquote>\n  <p>More colloquially, elopement is often used to refer to a marriage conducted in sudden and secretive fashion, usually involving a hurried flight away from one's place of residence together with one's beloved with the intention of getting married. From wiki.</p>\n</blockquote>\n\n<p>Is elopement considered as marriage halachically?</p>",
+   "answers": [
+    {
+     "text": "<p>The following question was asked at <a href=\"https://www.yeshiva.org.il/ask/14421\" rel=\"nofollow noreferrer\">yeshiva.org.il</a> of\n הרב ש. יוסף וייצן</p>\n\n<blockquote>\n  <p>אני ובן זוגים מאורסים, אנו כעת בני 17 ובעוד פחות משנה כשימלאו לנו 18\n  אנו מתכננים להתחתן. ייתכן וזה יגרום להתנגדות מצד ההורים, לכן היינו\n  רוצים לדעת ביתר פרטיות על נישואים בסתר, לאן לגשת? מהו התהליך? מה נדרש\n  לשם כך? כמה זה יעלה וכו’... </p>\n  \n  <p>My partner and I are engaged. I am 17 years old and when I am 18, we\n  plan to marry. This will likely cause pain to the parents. Therefore\n  we want to know what is involved in getting married secretly.</p>\n</blockquote>\n\n<p>The full text of the reply is </p>\n\n<blockquote>\n  <p>הרבנות הראשית אוסרת נישואין בסתר. בכל נישואין צריך שיהיו עשרה מישראל.\n  אולם ניתן להסתיר זאת מההורים. אולם אני ממליץ לכם שאם לא מדובר במקרה\n  חריג [כגון סכנת נפשות וכד'] שלא תסתירו זאת מההורים. הרי בסופו של דבר\n  ההורים ידעו מכך. עשיית הנישאין בהסתר תגרום להם להגדיל את ההתנגדות שלהם\n  לקשר בינכם. הרי ניתן לעשות בעיות לזוג גם אחרי נישואין. אני ממליץ לכם\n  שקודם כל תהיו בטוחים מאה אחוז שאתם רוצים אחד את השני. לאחר מכן תספרו\n  זאת לאדם מבוגר שישמע אותכם ויחזקו את הקשר בינכם. לאחר מכן תעזרו באדם\n  המבוגר שסיפרתם לו בכדי להודיע להורים</p>\n</blockquote>\n\n<p>The essential answer is:</p>\n\n<blockquote>\n  <p>The Chief Rabbinate do not allow secret marriages. There must be 10\n  Jewish people present at every marriage. But one can hide it from the\n  parents. </p>\n</blockquote>\n\n<p>The Rav goes on: (my rough translation)</p>\n\n<blockquote>\n  <p>However, unless we are talking about an exceptional case (like danger\n  to life etc.),  I would advise you not to hide your marriage from your\n  parents. They are in the end going to know about it. Making a secret\n  wedding will likely cause their opposition to your union to grow. This\n  could cause problems to your marriage after the wedding. I advise that\n  before you do anything, you should be 100% sure that each of you wants\n  to marry the other.  Then tell this to an older person who will hear\n  you and strengthen the connection between you. After that, you should\n  ask the  older person to help you inform your parents.</p>\n</blockquote>\n\n<p>The critical requirement of the Rav is that the wedding should take place in the presence of a minyan. </p>\n\n<p>For interest: </p>\n\n<p>Bill Williams in his <a href=\"https://www.amazon.co.uk/Making-Manchester-Jewry-1740-1875/dp/0719018242\" rel=\"nofollow noreferrer\">“The making of Manchester Jewry”</a> Chapter 11 describes the “chevrot” that served the religious needs of the poor immigrants after 1860. They were independent of the “Old (established) Congregation” while taking advantage of its facilities, shechita for example. Occasionally writes Williams, “they provided cheap illicit services such as the <em>Shtille Choopah</em> or secret marriage correctly performed according to Jewish rites but not registered by the State.”  Footnote 38 states that the wedding was well known within the chevra communities. </p>",
+     "accepted": false,
+     "author": null,
+     "score": 6
+    },
+    {
+     "text": "<p>It is completely allowed. <img src=\"https://i.sstatic.net/NCVvO.jpg\" alt=\"enter image description here\" /></p>\n<p>It happened and the marriage was considered halachically right. Rabbi Akiva and Rachel were secretly betrothed and then ran away to get married and the rest of the story is written in the Talmud.\nIf done halachically correct, an elopement is consider as marriage in its full terms.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p>Judaism does not care about the circumstances or the reasons or the environment of a marriage ceremony.</p>\n\n<p>As long as the couple are allowed to marry and the marriage procedure (Kiddushin) is Kosher, a couple is free to choose the scenery.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99967/elopement-in-judaism",
+   "tags": [
+    "halacha",
+    "marriage"
+   ],
+   "date": "2019-02-28T06:13:53",
+   "year": 2019,
+   "score": 1,
+   "views": 1397
+  },
+  {
+   "id": "ye-99969",
+   "legacy": {
+    "source_id": "miyodeya_99969",
+    "src": "qa_db/2019.json",
+    "number": 99969,
+    "old_file": "qa.html?id=miyodeya_99969&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Would Emoji halachically be considered a language?",
+   "question": "<p><strong>While admittedly close to Purim, this is NOT a Purim Torah. 😂</strong></p>\n\n<p>Pretty much all of us know about <a href=\"https://en.wikipedia.org/wiki/Emoji\" rel=\"nofollow noreferrer\">emojis</a>, as they're virtually everywhere nowadays. Emojis are increasingly being used as <a href=\"https://www.wsj.com/articles/lawyers-faced-with-emojis-and-emoticons-are-all-1517243950?mod=rss_Technology\" rel=\"nofollow noreferrer\">proof in court</a>- an Israeli couple was recently found liable for backing out of an apartment lease based off <a href=\"http://room404.net/eng/%F0%9F%92%83%F0%9F%8F%BB%F0%9F%91%AF%E2%80%8D%E2%9C%8C%EF%B8%8F%E2%98%84%EF%B8%8F%F0%9F%90%BF%EF%B8%8F%F0%9F%8D%BE-show-intention-to-rent-apartment-says-judge/\" rel=\"nofollow noreferrer\">their emoji usage</a> 😳.</p>\n\n<p>In light of this, was wondering how emoji would be viewed through the eyes of Halacha. For example: </p>\n\n<ul>\n<li><p><strong>Writing on Shabbos</strong> - Writing 2 letters is against the Torah (<a href=\"https://www.sefaria.org/Mishneh_Torah%2C_Sabbath.11.9?lang=bi&with=all&lang2=bi\" rel=\"nofollow noreferrer\">Mishneh Torah, Hilchos Shabbos 11:9</a> ), if someone wrote 2 emojis would it be considered violating the <em>melachah</em> of writing? ✍️🙅‍♂️</p></li>\n<li><p><strong>Cursing one's parents</strong> - this is explicitly prohibited (<a href=\"https://www.sefaria.org/Leviticus.20.9?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Leviticus 20:9</a>) if someone were to <em>chalilah v'chas</em> send their parent a middle finger emoji would they be in violation of this commandment? 👴👵</p></li>\n<li><p><strong>Pledging to give Tzedakah</strong>- The Shulchan Aruch (<a href=\"https://www.sefaria.org/Shulchan_Arukh%2C_Yoreh_De'ah.258.13?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">YD 258:13</a>) states that if one pledges to give Tzedakah they cannot retract it. Ex: Reuven texts me \"Hey can you pledge $18 for me to run the half-marathon?\" and I reply with \"👍\" ... would that be considered Halachically binding?</p></li>\n<li><p>(I'm sure there are more examples, please share if you think of any!) </p></li>\n</ul>\n\n<p>Thoughts? 🤔</p>\n\n<p><strong>Edit:</strong> Saw <a href=\"https://www.collive.com/show_news.rtx?id=47082\" rel=\"nofollow noreferrer\">this article</a> that quotes Rabbi Shlomo Aviner who says that the \"praying hands\" emoji is \"<em>avak avoda zara</em>\" (ie the 'whiff' of idol worship) and that G-d fearing Jews not use it. R' Aviner believes the \"source [of said emoji] is the ancient idols of the Far East and of Christianity\" </p>",
+   "answers": [
+    {
+     "text": "<p>As people are too shy to post an answer, I'd dare to.</p>\n<p>Linguistically, it appears that all languages stemmed from sign-based languages , such as <a href=\"https://en.wikipedia.org/wiki/Egyptian_hieroglyphs\" rel=\"nofollow noreferrer\">\"Egyptian_hieroglyphs\"</a> and developed into \"grapheme\" based (letters) (see <a href=\"https://en.wikipedia.org/wiki/Writing_system\" rel=\"nofollow noreferrer\">\"Writing_system\" WIKI</a>). This is clearly pronounced in Hebrew with some words referring (and graphically resembling) to symbols, such as ב for a house, or ע for an eye, ו for a hook etc:</p>\n<p><a href=\"https://i.sstatic.net/R9JDr.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/R9JDr.png\" alt=\"enter image description here\" /></a></p>\n<p>As a consistent communication system, <strong>any system of signs is accepted as a language as long as it is practiced and trusted/relied on by some group of people.</strong> THe best Gemmorah I know to source this is in Nedorim 10a:</p>\n<blockquote>\n<p>מתני׳ האומר (לחבירו) קונם קונח קונס הרי אלו כינויין  וכו'</p>\n<p>MISHNA: In the case of one who says to another that a certain object is konam, konaḥ, or konas, these expressions are substitutes for the term offering [korban], and the vow takes effect. etc.</p>\n<p>גמ׳ איתמר כינויין רבי יוחנן אמר לשון אומות הן רבי שמעון בן לקיש אמר לשון שבדו להם חכמים להיות נודר בו וכן הוא אומר בחדש אשר בדא מלבו</p>\n<p>GEMARA: It was stated that amora’im disagreed about substitutes for the language of vows. Rabbi Yoḥanan said: <strong>They are terms from a language of other nations that mean offering</strong>, dedication, naziriteship, or oath. Rabbi Shimon ben Lakish said: These terms employ language that the Sages devised [badu] with which one can take a vow. etc.</p>\n</blockquote>\n<p>Another example is brought by the Gemorrah is signing contracts with pictures, which was very popular and everybody wore a ring with his stamp qualifying as one's signature, for example Rabbi X drew a picture of a ship to signify his signature (<sup>source needed</sup>)</p>\n<p>Therefore, as long as a certain community uses this system and relies on it in their intercommunications, it can be considered a language. And if a person \"speaks that language\", i.g. belongs to that community and uses that language, it is legally (Halachicly) obligating, even if others don't (just like two Jews talking Chinese in Israel).</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99969/would-emoji-halachically-be-considered-a-language",
+   "tags": [
+    "halacha",
+    "technology",
+    "language",
+    "speech-talking"
+   ],
+   "date": "2019-02-28T07:11:33",
+   "year": 2019,
+   "score": 7,
+   "views": 220
+  },
+  {
+   "id": "ye-99971",
+   "legacy": {
+    "source_id": "miyodeya_99971",
+    "src": "qa_db/2019.json",
+    "number": 99971,
+    "old_file": "qa.html?id=miyodeya_99971&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "what's the geder of PaRDeS?",
+   "question": "<p>It's known (as explained and sourced in <a href=\"https://the-eye.eu/public/Books/Occult_Library/Qabalah/Rabbi%20Menachem%20M.%20Schneerson%20-%20On%20the%20Essence%20of%20Chassidus.pdf\" rel=\"nofollow noreferrer\">Kuntres Inyana Chassidus 5726</a>) that there are 4 levels of Torah Interpretation, regarding any idea of it -- Pshat (simple meaning), Remez (how it hints or alludes to something else), Derush (how it teaches us something else that's not part of the simple meaning), and Sod (how the Torah idea is manifested in the spiritual worlds), [and Chassidus is the 5th level which encompasses all of them etc. see there)</p>\n\n<p>It says in <a href=\"https://www.chabad.org/library/article_cdo/aid/904960/jewish/Yesodei-haTorah-Chapter-One.htm\" rel=\"nofollow noreferrer\">Hilchos Yesodei haTorah halacha 9 and 12</a>:</p>\n\n<blockquote>\n  <p>9</p>\n  \n  <p>If so, what is the meaning of the expressions employed by the Torah:\n  \"Below His feet\" [Exodus 24:10], \"Written by the finger of God\" [ibid.\n  31:18], \"God's hand\" [ibid. 9:3], \"God's eyes\" [Genesis 38:7], \"God's\n  ears\" [Numbers 11:1], and the like?</p>\n  \n  <p>All these [expressions were used] to relate to human thought processes\n  which know only corporeal imagery, for the Torah speaks in the\n  language of man. They are only descriptive terms, as [apparent from\n  Deuteronomy 32:41]: \"I will whet My lightning sword.\" Does He have a\n  sword? Does He need a sword to kill? Rather, this is metaphoric\n  imagery. [Similarly,] all [such expressions] are metaphoric imagery.</p>\n  \n  <p>A proof of this concept: One prophet says that he saw the Holy One,\n  blessed be He, \"clothed in snow white\" [Daniel 7:9], and another\n  envisioned Him [coming] \"with crimson garments from Batzra\" [Isaiah\n  63:1]. Moses, our teacher, himself envisioned Him at the [Red] Sea as\n  a mighty man, waging war, and, at Mount Sinai, [saw Him] as the leader\n  of a congregation, wrapped [in a tallit].</p>\n  \n  <p>This shows that He has no image or form. All these are merely\n  expressions of prophetic vision and imagery and the truth of this\n  concept cannot be grasped or comprehended by human thought. This is\n  what the verse [Job 11:7] states: \"Can you find the comprehension of\n  God? Can you find the ultimate bounds of the Almighty?\" ט</p>\n  \n  <p>אם כן מהו זה שכתוב בתורה ותחת רגליו כתובים באצבע אלהים יד ה' עיני ה'\n  אזני ה' וכיוצא בדברים האלו הכל לפי דעתן של בני אדם הוא שאינן מכירין\n  אלא הגופות ודברה תורה כלשון בני אדם והכל כנויים הן שנאמר אם שנותי ברק\n  חרבי וכי חרב יש לו ובחרב הוא הורג אלא משל והכל משל ראיה לדבר שנביא אחד\n  אומר שראה הקדוש ברוך הוא לבושיה כתלג חיור ואחד ראהו חמוץ בגדים מבצרה\n  משה רבינו עצמו ראהו על הים כגבור עושה מלחמה ובסיני כשליח צבור עטוף\n  לומר שאין לו דמות וצורה אלא הכל במראה הנבואה ובמחזה ואמתת הדבר אין\n  דעתו של אדם מבין ולא יכולה להשיגו ולחקרו וזה שאמר הכתוב החקר אלוה תמצא\n  אם עד תכלית שדי תמצא:</p>\n  \n  <p>12</p>\n  \n  <p>Since this is so, all such [descriptions] and the like which are\n  related in the Torah and the words of the Prophets - all these are\n  metaphors and imagery. [For example,] \"He who sits in the heavens\n  shall laugh\" [Psalms 2:4], \"They angered Me with their emptiness\"\n  [Deuteronomy 32:21], and \"As God rejoiced\" [ibid. 28:63]. With regard\n  to all such statements, our Sages said: \"The Torah speaks in the\n  language of man.\"</p>\n  \n  <p>This is [borne out by the rhetorical question (Jeremiah 7:19):] \"Are\n  they enraging Me?\" Behold, [Malachi 3:6] states: \"I, God, have not\n  changed.\" Now were He to at times be enraged and at times be happy, He\n  would change. Rather, all these matters are found only with regard to\n  the dark and low bodies, those who dwell in houses of clay, whose\n  foundation is dust. In contrast, He, blessed be He, is elevated and\n  exalted above all this. יב</p>\n  \n  <p>והואיל והדבר כן הוא כל הדברים הללו וכיוצא בהן שנאמרו בתורה ובדברי\n  נביאים הכל משל ומליצה הן כמו שנאמר יושב בשמים ישחק כעסוני בהבליהם כאשר\n  שש ה' וכיוצא בהן על הכל אמרו חכמים דברה תורה כלשון בני אדם וכן הוא\n  אומר האותי הם מכעיסים הרי הוא אומר אני ה' לא שניתי ואילו היה פעמים\n  כועס ופעמים שמח היה משתנה וכל הדברים האלו אינן מצויין אלא לגופים\n  האפלים השפלים שוכני בתי חומר אשר בעפר יסודם אבל הוא ברוך הוא יתברך\n  ויתרומם על כל זה:\n  that \"the Torah speaks in the language of man\", in a way of metaphors, when describing the nature of G-d, so if so: what category does that fall under in ParDas? Is that the plain simple meaning (that its only an allegory) or is the simple meaning actually that Hashem has a body (chas veshalom)? </p>\n</blockquote>\n\n<p><strong>In other words, in what category of PaRDeS do the metaphors describing G-d, fall under?</strong></p>",
+   "answers": [
+    {
+     "text": "<p>The general rule I learned from R' Shlezinger is:<br>\nIf it does not include reasoning, e.g. if one understands it \"as is\" it's Peshat. </p>\n\n<p>If the text says \"God's hands\" and you understand it as God's hands, it is Peshat. The further clarifications like G-d does not have hands etc have nothing to do with understanding the verse. But if the verse says \"ושננתם לבניך\" and you conclude that because the students are treated like sons this verse speaks about students, it's not Peshat.</p>",
+     "accepted": false,
+     "author": null,
+     "score": -1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99971/whats-the-geder-of-pardes",
+   "tags": [
+    "pardes"
+   ],
+   "date": "2019-02-28T08:08:21",
+   "year": 2019,
+   "score": 0,
+   "views": 221,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99973",
+   "legacy": {
+    "source_id": "miyodeya_99973",
+    "src": "qa_db/2019.json",
+    "number": 99973,
+    "old_file": "qa.html?id=miyodeya_99973&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "What was special about Atzei Shittim to build the Mishkan with?",
+   "question": "<p>I understand why the Mishkan was built with copper, silver and gold, because they are the most prestigious metals. And I understand why wood would be used for building materials.</p>\n\n<p>But why specifically Atzei Shittim? It seems to me that a type of wood that can be used for the Aron Haedut must be very special, but why specifically this kind of wood?</p>",
+   "answers": [
+    {
+     "text": "<p>It says in the Maamer Basi Legani 5711 and all of the other Basi Legani Maamarim of the last Lubavitcher Rebbe, which were said (at least) one per year for a course of about 40 years, that the special point of the \"Shittim\" wood that was used to make the Mishkan, is because the word \"Shittim\" is related to the Hebrew word for \"Shtus\" -- simply translated as \"folly\", but it really means to turn, like leaning to one side or the other, like sitra achara -- the other \"side\", it literally means \"side\" or \nturning to one side or the other; this could be expressed into evil, like turning to the side of evil \"below reason\", which is why its called \"folly\"; but the same word \"Shtus\" -- turning to a particular side, could also have meaning regarding \"turning\" to the holy side, turning to the side which is \"beyond reason\" -- holiness beyond simple understanding (as opposed to \"folly\" which is just below understanding), and the \"Shittim\" wood was used for the essential components of the Mishkan (as opposed to just the covering), because the entire point of the Mishkan -- the dwelling place for Hashem in this universe, is to transform the \"Shtus\" -- \"turning\" of the \"evil side\" (referred to as \"folly\") into the \"Shtus\" -- turning to the side of, holiness, and that is the entire purpose of the Mishkan, to transform darkness to light and evil into holiness, through the Avodah of \"Hiskafia (subduing the evil inclination in one's day-to-day life) and Hishafcha (not only subduing the evil, but transforming it into holiness), and through doing that in our own divine service, that causes Hashem to dwell in the lower worlds, in you yourself, just like He is in the Mishkan.</p>\n\n<p>So basically, the reason why \"Shittim\" wood was used for the Mishkan:</p>\n\n<p>because the actual, physical Mishkan's entire idea was to be a dwelling for Hashem in this world, and the same is true for each of us to make a dwelling for Hashem, so it was made with Shittim wood in order to teach us a lesson of how to transform our own darkness into light, and also because that was the whole idea of what the actual Mishkan was based of, turning the \"Shtus\" of evil to the \"Shtus\" of holiness, see the above Maamarim at length...</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99973/what-was-special-about-atzei-shittim-to-build-the-mishkan-with",
+   "tags": [
+    "mishkan-tabernacle"
+   ],
+   "date": "2019-02-28T08:37:12",
+   "year": 2019,
+   "score": 1,
+   "views": 322,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99974",
+   "legacy": {
+    "source_id": "miyodeya_99974",
+    "src": "qa_db/2019.json",
+    "number": 99974,
+    "old_file": "qa.html?id=miyodeya_99974&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "history",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "How did Shlomo Hamelech figure out which way to build the Beit Hamikdash?",
+   "question": "<p>The Torah tells us how to build the Mishkan, but not the Temple. And the dimensions of many of the objects in the Temple were not the same as in the Mishkan (the Copper Altar was bigger, for instance) as well as having many duplicates (10 Menorahs, for instance). </p>\n\n<p>How did Solomon have permission to make these changes? Was it in the Oral Torah? Even though he was a Navi, surely he couldn't use that to change the instructions in the Torah itself.</p>\n\n<p>Edit: It doesn't help to transfer the instructions from David. He, too, could not go against the Torah.</p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://www.sefaria.org/Yalkut_Shimoni_on_Nach.1081?lang=he\" rel=\"noreferrer\">Yalkut Shimoni, Nach 1081</a>, says: </p>\n\n<blockquote>\n  <p>מגלת בית המקדש מסרה הקב\"ה בעמידה.... משה מסרה ליהושע בעמידה... עמד יהושע ומסרה לזקנים בעמידה... עמדו זקנים ומסרוה לנביאים בעמידה, עמדו נביאים ומסרוה לדוד בעמידה... עמד דוד ומסרה לשלמה בנו בעמידה</p>\n</blockquote>\n\n<p>In short, the \"Scroll of the Beis Hamikdash,\" containing all of the details mentioned in the verses in Chronicles mentioned in Josh's answer, was given by Hashem to Moshe, and passed down from generation to generation until Shlomo.</p>\n\n<p>See also <a href=\"https://www.sefaria.org/Or_HaChaim_on_Exodus.25.9.9?lang=he\" rel=\"noreferrer\">Ohr Hachayim, Shemos 25:9</a>, for an exhaustive discussion of the topic, including (a) that the measurements of the altar given to Moshe weren't necessarily binding even then (i.e., Moshe could have made it a different size if he had wanted, just provided it was square and had certain other features required by halachah), and (b) that many of the details of the Temple structure and furnishings are actually hinted at in the verses in Shemos there.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 5
+    },
+    {
+     "text": "<p><a href=\"https://www.sefaria.org/I_Chronicles.28.11?lang=bi\" rel=\"nofollow noreferrer\">Divrei HaYamim I 28:11-19</a>:</p>\n\n<blockquote>\n  <p>וַיִּתֵּן דָּוִיד לִשְׁלֹמֹה בְנוֹ אֶת־תַּבְנִית הָאוּלָם וְאֶת־בָּתָּיו וְגַנְזַכָּיו וַעֲלִיֹּתָיו וַחֲדָרָיו הַפְּנִימִים וּבֵית הַכַּפֹּרֶת׃ וְתַבְנִית כֹּל אֲשֶׁר הָיָה בָרוּחַ עִמּוֹ לְחַצְרוֹת בֵּית־ה' וּלְכָל־הַלְּשָׁכוֹת סָבִיב לְאֹצְרוֹת בֵּית הָאֱלֹהִים וּלְאֹצְרוֹת הַקֳּדָשִׁים ... <strong>הַכֹּל בִּכְתָב מִיַּד יְהוָה עָלַי הִשְׂכִּיל כֹּל מַלְאֲכוֹת הַתַּבְנִית׃</strong>‏</p>\n  \n  <p>David gave his son Solomon the plan of the porch and its houses, its storerooms and its upper chambers and inner chambers; and of the place of the Ark-cover;\n  and the plan of all that he had by the spirit: of the courts of the House of the LORD and all its surrounding chambers, and of the treasuries of the House of God and of the treasuries of the holy things ... <strong>“All this that the LORD made me understand by His hand on me, I give you in writing—the plan of all the works.”</strong></p>\n</blockquote>\n\n<p>So it seems that King Solomon built the temple according to the plan which he received from his father King David, <strong>which had been communicated to him by G-d</strong>.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99974/how-did-shlomo-hamelech-figure-out-which-way-to-build-the-beit-hamikdash",
+   "tags": [
+    "beis-hamikdash",
+    "mishkan-tabernacle",
+    "king-solomon"
+   ],
+   "date": "2019-02-28T08:51:15",
+   "year": 2019,
+   "score": 5,
+   "views": 317,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99979",
+   "legacy": {
+    "source_id": "miyodeya_99979",
+    "src": "qa_db/2019.json",
+    "number": 99979,
+    "old_file": "qa.html?id=miyodeya_99979&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Why did they need such an elaborate plan after Pilegesh Begiv'ah?",
+   "question": "<p>I've been thinking about this for a while, but <a href=\"https://judaism.stackexchange.com/questions/99967/elopement-in-judaism\">this question</a> reminded me.</p>\n\n<p>After the incident of Pilegesh Begiv'ah, the tribe of Binyamin had been almost wiped out and was down to 600 men.  Everyone had sworn not to marry off their daughters to them, but now they regretted their oath because they didn't want the tribe to be permanently destroyed.  They came up with a way to get wives for them without violating the oath - first they destroyed Yaveish Gil'ad, who had disobeyed the community, and left 400 girls alive.  Then they asked the other 200 men to kidnap their wives from Shilo.</p>\n\n<p>From the Shilo story, it appears that the oath only applied to the parents, not the girls.  So instead of the complicated plan, why didn't they just let their daughters marry whomever they wanted, without their parents' involvement?</p>",
+   "answers": [
+    {
+     "text": "<p>The theme of the Book of Judges is that from time to time the Jews would worship idols and do stupid things until God would send a judge to get them on the right track. Eventually the judge would die and the Jews would backslide and God would have one of the nation's subjugate them a bit until he sent a new judge.</p>\n\n<p>The logical flaw of the Jews' behavior was caused by them being stupid in the absence of a competent leader.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99979/why-did-they-need-such-an-elaborate-plan-after-pilegesh-begivah",
+   "tags": [
+    "marriage",
+    "nedarim-shevuot",
+    "shoftim--book-of"
+   ],
+   "date": "2019-02-28T14:03:56",
+   "year": 2019,
+   "score": 2,
+   "views": 98,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99984",
+   "legacy": {
+    "source_id": "miyodeya_99984",
+    "src": "qa_db/2019.json",
+    "number": 99984,
+    "old_file": "qa.html?id=miyodeya_99984&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "kabbalah",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Rashbi and Talking in Shul",
+   "question": "<p>In this <a href=\"https://youtu.be/Uz6tb_8ARF0?t=132\" rel=\"nofollow noreferrer\">video</a>, Rav Gamliel Rabinovitch <em>shlita</em> says that Rasbhi writes that one who speaks during <em>davening</em> is a <em>kofer b'elokei yisrael</em>. On this, I have two questions. </p>\n\n<p>1) Where is this source from Rashbi? (Gemarah, Zohar?)</p>\n\n<p>2) There is a mesorah from the Vilna Gaon that there is never any conflict between <em>nigleh</em> and <em>nistar</em>. If this statement is indeed from the Zohar, and is one of <em>nistar</em>, how does this fit into, say, the Rambam's definition of who a <em>kofer</em> is. </p>",
+   "answers": [
+    {
+     "text": "<p>The source you are looking for is in the Zohar, parashat Teruma, 131b, traditionally attributed to Rashbi:</p>\n\n<blockquote>\n  <p>ומאן דמשתעי בבי כנישתא במילין דחול, ווי ליה דאחזי פרודא, ווי ליה דגרע מהימנותא, ווי ליה דלית ליה חולקא באלהא דישראל, דאחזי דהא לית אלהא ולא אשתכח תמן ולא דחיל מניה ואנהיג קלנא בתיקונא עלאה דלעילא</p>\n  \n  <p>And one who speaks about mundane matters in the synagogue: Woe to him for he shows dissension [in the supernal worlds], woe to him for he lessens the faith [in the Divine Unity] and woe to him for he has no part in the G‑d of Israel [for he isn't ashamed to interrupt His praises], because he shows that [<strong>he considers in his mind that</strong>] <strong>G‑d is not present there</strong> [in the synagogue]. And he does not fear Him and he disgraced the supernal perfection of Above [through interruption of prayer with worthless speech]. (Translation by Rahmiel-Hayyim Drizin)</p>\n</blockquote>\n\n<p>This Zohar does not specifically call the talker a <em>kofer</em>, and this and other terms for people labeled as not having a share in the world to come (e.g., <em>apikores</em>) are often conflated in colloquial speech. If you're looking for a link with Rambam's thought, the sin as described by the Zohar sounds more approximate to a definition of the <em>apikores</em>, specifically:</p>\n\n<blockquote>\n  <p>...שלשה הן הנקראים אפיקורסין</p>\n  \n  <p>והאומר שאין הבורא יודע מעשה בני האדם</p>\n  \n  <p>Three individuals are described as Epicursim...one who maintains that the Creator is not aware of the deeds of men. (Mishneh Torah, Hilkhot Teshuva, 3:8).</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 7
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99984/rashbi-and-talking-in-shul",
+   "tags": [
+    "synagogue",
+    "mysticism-kabbalah",
+    "rabbi-shimon-bar-yochai"
+   ],
+   "date": "2019-02-28T19:03:42",
+   "year": 2019,
+   "score": 3,
+   "views": 190,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99985",
+   "legacy": {
+    "source_id": "miyodeya_99985",
+    "src": "qa_db/2019.json",
+    "number": 99985,
+    "old_file": "qa.html?id=miyodeya_99985&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Why Prushim were the ones who \"separated\"?",
+   "question": "<p>As I understand the tradition of the <a href=\"https://en.wikipedia.org/wiki/Pharisees\" rel=\"nofollow noreferrer\">Prushim</a> - Pharisees (basically us all), our lineage held steady since Moses to the Tannayim and further and all the prominent figures in Judaism were of our sect (Moses, Jehoshuah, King David, the Maccabim etc.)</p>\n\n<p>The name, however, clearly suggests that Prushim, the minority, had separated from the mainstream, the majority. The WIKI doesn't explain why this name was chosen, by whom and who were the majority.</p>\n\n<p>I would like to consolidate our approach to the tradition with the name Prushim. </p>",
+   "answers": [
+    {
+     "text": "<p>Bartenura to Mishnah Yadayim 4:6 explains the name as follows:</p>\n\n<blockquote>\n  <p>פרושים. לחכמי ישראל היו קורין פרושים, לפי שאוכלין חוליהן בטהרה ופרושים ממגע עם הארץ, דתנן בגדי עם הארץ מדרס לפרושים:</p>\n  \n  <p>To the Sages of Israel [the Tzedukim] would call Perushim [lit. “those who separate”], for they would eat their non-sacred food in purity and <em>separate</em> from touching Amei Ha’aretz. As we taught in the Mishnah (Chagigah 2:7): “The clothing of Amei Ha’aretz [contaminates by] treading for Perushim.”</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 9
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99985/why-prushim-were-the-ones-who-separated",
+   "tags": [
+    "history",
+    "names"
+   ],
+   "date": "2019-02-28T19:45:51",
+   "year": 2019,
+   "score": 1,
+   "views": 525,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99987",
+   "legacy": {
+    "source_id": "miyodeya_99987",
+    "src": "qa_db/2019.json",
+    "number": 99987,
+    "old_file": "qa.html?id=miyodeya_99987&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "How do Chazal know that the descendants of a Mamzer may never marry into the general populace?",
+   "question": "<p>The passuk says (Devarim 23:3-4):</p>\n\n<blockquote>\n  <p>לֹא־יָבֹ֥א מַמְזֵ֖ר בִּקְהַ֣ל יְהוָ֑ה גַּ֚ם דּ֣וֹר עֲשִׂירִ֔י לֹא־יָ֥בֹא ל֖וֹ בִּקְהַ֥ל יְהוָֽה׃</p>\n  \n  <p>A Mamzer may not come into the congregation of Hashem; even the tenth generation shall not come for him into the congregation of Hashem. </p>\n</blockquote>\n\n<p>The Mishnah (Yevamos 78b) takes for granted that a Mamzer’s descendants may <em>never</em> enter into the Congregation:</p>\n\n<blockquote>\n  <p>מתני׳ ממזרין ונתינין אסורין ואיסורן איסור עולם אחד זכרים ואחד נקבות:</p>\n  \n  <p>Mamzeirim and Nesinim are forbidden, and their prohibition is a prohibition for eternity, whether males or females. </p>\n</blockquote>\n\n<p>The Gemara, as far as I can tell, does not justify this assertion. </p>\n\n<p>What is the source for this? Perhaps the passuk means that even the tenth generation may not enter, but beyond the tenth generation is permitted? This might be justified by contrasting it to v. 4 regarding Moavites and Amonites:</p>\n\n<blockquote>\n  <p>לֹֽא־יָבֹ֧א עַמּוֹנִ֛י וּמוֹאָבִ֖י בִּקְהַ֣ל יְהוָ֑ה גַּ֚ם דּ֣וֹר עֲשִׂירִ֔י לֹא־יָבֹ֥א לָהֶ֛ם בִּקְהַ֥ל יְהוָ֖ה עַד־עוֹלָֽם׃</p>\n  \n  <p>An Amonite and Moavite may not come into the congregation of Hashem; even the tenth generation may not come for them into the congregation of Hashem forever. </p>\n</blockquote>\n\n<p>Unlike the passuk by Mamzeirim, the passuk by Moav and Amon clarifies that it’s <em>forever</em>. Perhaps this indicates by Mamzeirim that it’s only until the tenth generation, but beyond that would be permissible?</p>\n\n<p>What is the Mishnah’s source for asserting that a Mamzer is forbidden even beyond the tenth generation?</p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://en.wikipedia.org/wiki/Baruch_Epstein\" rel=\"noreferrer\">Torah Temimah</a> (text <a href=\"http://mg.alhatorah.org/Full/Devarim/23.3#e1n6\" rel=\"noreferrer\">here</a>) cites the Sifri here (my loose translation):</p>\n\n<blockquote>\n  <p>גם דור עשירי – נאמר כאן דור עשירי ונאמר להלן בעמוני ומואבי דור עשירי (פ׳ ד׳) מה דור עשירי דלהלן עד עולם אף דור עשירי שבכאן עד עולם</p>\n</blockquote>\n\n<p>It says here \"the tenth generation\" and it says later \"the tenth generation\" (verse 4), just as \"the tenth generation\" later [may not marry in] forever, so too \"the tenth generation\" here [may not marry in] forever.</p>\n\n<p>(Note that the following passage in Sifri understands this to be through the mechanism of Gezeirah Shavah.)</p>\n\n<p>If so, asks the Torah Temimah, why doesn't it simply say \"Ad Olam\", \"forever\", here as well? </p>\n\n<ol>\n<li><p>He answers that this is to hint that there will be a time when Mamzerim will be \"purified\", as per <a href=\"https://www.sefaria.org/Kiddushin.72b.12?lang=bi&with=all&lang2=en\" rel=\"noreferrer\">Kiddushin 72b</a> (Davidson Edition translation):</p>\n\n<blockquote>\n  <p>ת\"ר ממזירי ונתיני טהורים לעתיד לבא דברי ר' יוסי ר' מאיר אומר אין טהורים אמר לו ר' יוסי והלא כבר נאמר (יחזקאל לו, כה) וזרקתי עליכם מים טהורים וטהרתם אמר לו ר' מאיר כשהוא אומר מכל טומאותיכם ומכל גלוליכם ולא מן הממזרות אמר לו ר' יוסי כשהוא אומר אטהר אתכם הוי אומר אף מן הממזרות</p>\n  \n  <p>The Sages taught (Tosefta 5:5): Mamzerim and Gibeonites will be pure in the future; this is the statement of Rabbi Yosei. Rabbi Meir says: They will not be pure. Rabbi Yosei said to him: But hasn’t it already been stated: “And I will sprinkle clean water upon you, and you shall be clean from all your uncleanness, and from all your idols, will I cleanse you” (Ezekiel 36:25)? Rabbi Meir said to him: When it says: “From all your uncleanness, and from all your idols,” this emphasizes that God will purify people from these types of impurity, but not from mamzer status. Rabbi Yosei said to him: When it says: “Will I cleanse you,” at the end of the verse, you must say this means even from mamzer status.</p>\n</blockquote></li>\n</ol>\n\n<p>Edit: </p>\n\n<ol start=\"2\">\n<li><p>I later saw that Hakesav Vehakabbalah here answers similarly, but also notes that according to some, Mamzerim can become \"purified in other ways\", see <a href=\"https://www.sefaria.org/Kiddushin.69a.3?lang=bi&with=all&lang2=en\" rel=\"noreferrer\">Kiddushin 69a</a>.</p></li>\n<li><p>I saw that Rav Dovid Zvi Hoffman answers that it is harder for a mamzer to reproduce for 10 generations, since few people want to marry him.  Therefore, since it is a less common case, the Torah doesn't mention it.</p></li>\n</ol>\n\n<hr>\n\n<p>Also, note that Ralbag makes the comment here that from the fact that the Torah uses \"Ad Olam\" in the same context later, it is obvious that it applies here as well - we can learn one case from the other on logical grounds:</p>\n\n<blockquote>\n  <p>כבר נתבאר אחר זה שאין הרצון בזה הלשון שמהדור העשירי ואילך יהיה מותר לבא בקהל שהרי אמר כן בעמוני ומואבי וזכר שם שהוא אסור לבא בקהל עד עולם ולזה תהיה הכונה בזה המקום שעד עולם לא יבא ממזר בקהל י״י ואם אמר אומר כי מזה המקום יתבאר שאינו אסור מעשירי ואילך כיון שלא אמר עד עולם אמרנו כי התורה לא תאמר דברים סותרים זה את זה כל שכן שתאמר אותם עם זה ללא ענין ולזה הוא מבואר שאם היתה הכונה באמרה גם דור העשירי שמדור עשירי ואילך יבא בקהל הנה זה יהיה סותר מה שאמר אחריו עד עולם ועוד שלא היה צריך לזכור זה הסותר אבל יספיק כשיאמר לא יבוא עמוני ומואבי בקהל השם עד עולם.</p>\n</blockquote>",
+     "accepted": true,
+     "author": null,
+     "score": 9
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99987/how-do-chazal-know-that-the-descendants-of-a-mamzer-may-never-marry-into-the-gen",
+   "tags": [
+    "sources-mekorot",
+    "marriage",
+    "ki-teitzei",
+    "masechet-yevamot",
+    "mamzer"
+   ],
+   "date": "2019-02-28T20:45:45",
+   "year": 2019,
+   "score": 11,
+   "views": 629,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99990",
+   "legacy": {
+    "source_id": "miyodeya_99990",
+    "src": "qa_db/2019.json",
+    "number": 99990,
+    "old_file": "qa.html?id=miyodeya_99990&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Why Sho'atah and not She'atah",
+   "question": "<p>A number of times in davening, we find the word שאתה, which I would assume would be vowelized as שֶׁאַתׇּה, \"she'atah\", that you.  Instead, we find it vowelized as שָׁאַתָּה, \"sha'atah\".  </p>\n\n<p>For example, in Modim (<a href=\"https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Amidah%2C_Thanksgiving.1?lang=bi&with=all&lang2=en\" rel=\"noreferrer\">siddur link</a>):</p>\n\n<blockquote>\n  <p>מודִים אֲנַחְנוּ לָךְ. שָׁאַתָּה הוּא ה' אֱלהֵינוּ וֵאלהֵי אֲבותֵינוּ לְעולָם וָעֶד</p>\n</blockquote>\n\n<p>I realize that the source for this must be <a href=\"http://mg.alhatorah.org/Full/Shofetim/6.17#e1n6\" rel=\"noreferrer\">Shoftim 6:17</a>, which vowelizes it this way:</p>\n\n<blockquote>\n  <p>וַיֹּ֣אמֶר אֵלָ֔יו אִם־נָ֛א מָצָ֥אתִי חֵ֖ן בְּעֵינֶ֑יךָ וְעָשִׂ֤יתָ לִּי֙ א֔וֹת <strong>שָׁאַתָּ֖ה</strong> מְדַבֵּ֥ר עִמִּֽי׃  </p>\n</blockquote>\n\n<p>And Rashi there comments (Alhatorah translation):</p>\n\n<blockquote>\n  <p>שאתה – כמו שאתה.<br>\n  \"That you.\" The same as שֶׁאַתׇּה, with the segol vocalization.</p>\n</blockquote>\n\n<p>Why would the siddur follow what is a strange spelling which needs to be explained in Tanach (sha'atah), as opposed to what would be expected (she'atah)?</p>\n\n<p>Bonus: which is correct for davening?</p>",
+   "answers": [
+    {
+     "text": "<p>Sephradim say \"she'Atah\". And there are other cases of \"sha'Atah\", eg in Emes veYatziv.</p>\n\n<p>In the Torah, you will not find a \"she-\" prefix. HQBH uses \"asher\". (Nor the \"kishe-\" for when / whenever.)</p>\n\n<p>In early Navi, you'll find \"sha-\". Not too often, but one case is in Shofetim 6:17, when Gid'on refers to Hashem as \"sha'Atah\". (Another is the two occurrences of \"shaqqamti\" in Shiras Devorah, 4:7.)</p>\n\n<p>Joshu Blau of the Academy of the Hebrew Language says that this was the Northern contraction of \"asher\", but the Southerner's \"she-\" eventually wins out. (Phonology and Morphology of Biblical Hebrew, pg. 183) Except that Devorah was in Bet-El, so unless she borrowed northern coinage to make the poem work...</p>\n\n<p>Tefillah used to tend toward Mishnaic Hebrew in both Ashk and Seph. With exceptions like the masculine \"lakh\" in \"Modim anachnu Lakh\". But when the printing press made publishing a siddur with nequdos possible, some hypercorrections went into Nusach Ashkenaz by experts convinced we're all saying it wrong.</p>\n\n<p>These tended to be maskilim, as few else in Ashkenaz were studying diqduq. One prominent name is R' Shelomo-Zalman Hanau (Razah). Research seems to indicate his diqduq rules were employed by Lubavitch's Alter Rebbe in making Nusach Ari. But that has been debated here in the past. In any case, somehow, people managed to buy into the idea of changing large chunks of the vowelization of their davening in a comparatively short time.</p>\n\n<p>Although, the medieval manuscripts indicate that we were using Mishnaic Hebrew all along.</p>\n\n<p>These corrections made the Ashk siddur a lot more biblical. It began the debates between \"morid hagasham\" vs \"morid hageshem\", since in Mishnaic Hebrew there is no \"hagashem\", even if it's the last word of the sentence. And in earlier Ashkenaz, they said \"vesein chelqeinu besorasakh, sab'einu mituvakh\" -- just as Seph still say.</p>\n\n<p>The presence of \"sha'Atah\" in Shoferim meant that that became the form in Ashkenazi in the past 2-3 centuries. And indeed, in earlier manuscripts, the word is \"she'Atah\".</p>\n\n<p>In addition, it is possible that the \"sha-\" is the usual contraction for when one word is taking both the \"she-\" and \"ha-\" prefixes. That Gid'on was calling G-d \"The You\", and this is what we're imitating in davening.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99990/why-shoatah-and-not-sheatah",
+   "tags": [
+    "tefilla",
+    "grammar-dikduk"
+   ],
+   "date": "2019-02-28T21:58:38",
+   "year": 2019,
+   "score": 5,
+   "views": 275,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99992",
+   "legacy": {
+    "source_id": "miyodeya_99992",
+    "src": "qa_db/2019.json",
+    "number": 99992,
+    "old_file": "qa.html?id=miyodeya_99992&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Is a berit milah performed by a female jewish mohel halachically valid?",
+   "question": "<p>Is a jewish female pediatrician permitted to perform\nThe mitzvah of berit milah on a jewish infant?\nIf such a berit milah is performed by the female\nMohel. When the infant grows to maturity\nIs he required to get himself circumcised again\nBy a jewish male mohel??\nThank you.</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/99992/is-a-berit-milah-performed-by-a-female-jewish-mohel-halachically-valid",
+   "tags": [
+    "halacha"
+   ],
+   "date": "2019-02-28T22:23:40",
+   "year": 2019,
+   "score": 0,
+   "views": 39
+  },
+  {
+   "id": "ye-99994",
+   "legacy": {
+    "source_id": "miyodeya_99994",
+    "src": "qa_db/2019.json",
+    "number": 99994,
+    "old_file": "qa.html?id=miyodeya_99994&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Who came up with the name \"Perushim\"?",
+   "question": "<p><a href=\"https://judaism.stackexchange.com/questions/99985/why-prushim-were-the-ones-who-separated\">It's been previously asked</a> why the Chachamim were called the \"Perushim,\" those who are separate. As I <a href=\"https://judaism.stackexchange.com/a/99986/9682\">answered there</a>, </p>\n\n<blockquote>\n  <p>Bartenura to Mishnah Yadayim 4:6 explains the name as follows:</p>\n  \n  <blockquote>\n    <p>פרושים. לחכמי ישראל היו קורין פרושים, לפי שאוכלין חוליהן בטהרה ופרושים ממגע עם הארץ, דתנן בגדי עם הארץ מדרס לפרושים:</p>\n    \n    <p>To the Sages of Israel [the Tzedukim] would call Perushim [lit. “those who separate”], for they would eat their non-sacred food in\n    purity and <em>separate</em> from touching Amei Ha’aretz. As we taught in the\n    Mishnah (Chagigah 2:7): “The clothing of Amei Ha’aretz [contaminates\n    by] treading for Perushim.”</p>\n  </blockquote>\n</blockquote>\n\n<p>Originally, when I read this Bartenura, I interpreted it to mean that the Tzedukim came up with the name; perhaps they meant it disparagingly, that the Chachamim think they're so great, they don't have to mingle with the common people. The Chachamim, on the other hand, took the term as a symbol of pride.</p>\n\n<p>That's what I thought, until I was reminded of Kiddushin 66a, recalling an incident involving several Chachamim who were killed at a banquet held by King Yannai, which began with this comment:</p>\n\n<blockquote>\n  <p>ויאמר אלעזר בן פועירה לינאי המלך ינאי המלך לבם של פרושים עליך</p>\n  \n  <p>And Elazar ben Po'irah said to King Yannai, \"The hearts of the Perushim are against you.\" </p>\n</blockquote>\n\n<p><a href=\"https://www.sefaria.org/Berakhot.48a.5?lang=bi\" rel=\"nofollow noreferrer\">King Yannai was Shimon ben Shetach's brother-in-law</a>, <a href=\"https://www.sefaria.org/Pirkei_Avot.1.2?lang=bi\" rel=\"nofollow noreferrer\">Shimon ben Shetach was Antigonos Ish Socho's teacher</a>, and <a href=\"https://www.sefaria.org/Avot_D'Rabbi_Natan.5.2\" rel=\"nofollow noreferrer\">Antigonos was Tzadok's and Baisos's teacher</a>. Thus, the term \"Perushim\" was in use <em>two generations before Tzedukim even existed!</em></p>\n\n<p>My question, therefore, is twofold:</p>\n\n<ol>\n<li>Who first used the term Perushim to refer to the Chachamim?</li>\n<li>What was their motivation in doing so? That is, very nice that the term refers to that they separated themselves from Amei HaAretz, but why did this person feel the need to come up with this name? Did they mean it disparagingly, or complimentary?</li>\n</ol>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/99994/who-came-up-with-the-name-perushim",
+   "tags": [
+    "history",
+    "names"
+   ],
+   "date": "2019-02-28T23:08:32",
+   "year": 2019,
+   "score": 2,
+   "views": 152,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99996",
+   "legacy": {
+    "source_id": "miyodeya_99996",
+    "src": "qa_db/2019.json",
+    "number": 99996,
+    "old_file": "qa.html?id=miyodeya_99996&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "The ordination of the five students of Rebbi Yehuda Ben Bava",
+   "question": "<p>In <a href=\"https://www.sefaria.org/Sanhedrin.14a\" rel=\"noreferrer\">Sanhedrin 14a</a>, the Gemara is explaining how semicha is given. It gives the story of how Rebbi Yehuda Ben Bava gave semicha to his five talmidim. The Gemara asks: how can Rebbi Yehuda Ben Bava give semicha alone? Don't you need at least 3 judges? The Gemara answers that there were two other people there as well, but they weren't mentioned because of the honor of Rebbi Yehuda Ben Bava.  </p>\n\n<p>There is a discussion whether all three judges need to have semicha to confer semicha or if only one needs to have semicha. The Ran wants to prove from here that only one needs to have semicha, since if the other two had semicha, they would be mentioned. </p>\n\n<p>My question is: why does Rebbi Yehuda Ben Bava need two extra people according to the Ran? Let him take two out of the five talmidim and give semicha to the other three, then take two and confer semicha to the last two. It seems the fact that Rebbi Yehuda Ben Bava brought two others seems to imply that they all need semicha.</p>",
+   "answers": [
+    {
+     "text": "<p>The Ran actually writes explicitly that he used two of his students to give smicha to the other.</p>\n\n<p><a href=\"https://i.sstatic.net/DR5Cx.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/DR5Cx.jpg\" alt=\"enter image description here\"></a></p>",
+     "accepted": true,
+     "author": null,
+     "score": 4
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99996/the-ordination-of-the-five-students-of-rebbi-yehuda-ben-bava",
+   "tags": [
+    "maseches-sanhedrin",
+    "semicha"
+   ],
+   "date": "2019-03-01T03:40:19",
+   "year": 2019,
+   "score": 5,
+   "views": 139,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99997",
+   "legacy": {
+    "source_id": "miyodeya_99997",
+    "src": "qa_db/2019.json",
+    "number": 99997,
+    "old_file": "qa.html?id=miyodeya_99997&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "How many Parshios are in each Sefer of Tanach?",
+   "question": "<p><a href=\"https://judaism.stackexchange.com/q/44230/\">How many words are there in Tanach?</a> already asks about several statistics about Sifrei Tanach, but there's one that was left out:</p>\n\n<p>How many Parshios are in each Sefer of Tanach?</p>\n\n<p>A Parsha is defined as all the text between one gap in a Sefer Torah and the next, whether that gap is a 9-letter space (\"setumah\"), continues until the end of the line (\"pesuchah\"), or is the end of the Sefer.</p>\n\n<p>I'm aware that there are different Minhagim on the matter; I'd be curious to see all of the major ones.</p>",
+   "answers": [
+    {
+     "text": "<p>According to the Aleppo Codex the number of breaks are:</p>\n\n<ul>\n<li>Genesis - 92</li>\n<li>Exodus - 165</li>\n<li>Leviticus - 99</li>\n<li>Numbers - 159</li>\n<li>Deuteronomy - 159</li>\n</ul>\n\n<p>(based on Rambam's testimony in Hilkhot Sefer Torah chapter 8)</p>\n\n<ul>\n<li>Joshua - 106</li>\n<li>Judges - 88</li>\n<li>Samuel - 369</li>\n<li>Kings - 205</li>\n<li>Isaiah - 242</li>\n<li>Jeremiah - 281</li>\n<li>Ezekiel - 185</li>\n<li>Hosea - 18</li>\n<li>Joel - 7</li>\n<li>Amos - 28</li>\n<li>Obadiah - 1 </li>\n<li>Jonah - 4</li>\n<li>Micah - 17</li>\n<li>Nahum - 4</li>\n<li>Habakkuk - 9</li>\n<li>Zephania - 7</li>\n<li>Haggai - 8</li>\n<li>Zachariah - 36</li>\n<li>Malakhi - 8</li>\n<li>Chronicles - 519</li>\n<li>Ruth - 2</li>\n<li>Canticles - 20</li>\n<li>Ecclesiastes - 2</li>\n<li>Lamentations - 134</li>\n<li>Esther - 23</li>\n<li>Daniel - 28</li>\n<li>Ezra - 319</li>\n</ul>\n\n<p>(based on Mechon Mamre's text with variations, based on testimony of the Codex's contents, in places where the Codex is currently missing and MM used another source)</p>",
+     "accepted": true,
+     "author": null,
+     "score": 4
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99997/how-many-parshios-are-in-each-sefer-of-tanach",
+   "tags": [
+    "tanach",
+    "statistics"
+   ],
+   "date": "2019-03-01T04:05:15",
+   "year": 2019,
+   "score": 3,
+   "views": 204
+  },
+  {
+   "id": "ye-99998",
+   "legacy": {
+    "source_id": "miyodeya_99998",
+    "src": "qa_db/2019.json",
+    "number": 99998,
+    "old_file": "qa.html?id=miyodeya_99998&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "According to the opinions that Iyov did not live in the days of Moshe, who wrote his Sefer?",
+   "question": "<p><a href=\"https://www.sefaria.org.il/Bava_Batra.15a.11-15b.11?vhe=William_Davidson_Edition_-_Vocalized_Aramaic&lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Bava Basra 15a-b</a> lists a number of opinions as to when Iyov lived:</p>\n<ul>\n<li><strong>R' Levi bar Chama:</strong> In the days of Moshe</li>\n<li><strong>Rava:</strong> In the days of the Meraglim</li>\n<li><strong>Unnamed student of R' Shmuel bar Nachmani:</strong> Iyov never lived; it's entirely a mashal</li>\n<li><strong>R' Yochanan and Rav Elazar:</strong> Beginning of Bayis Sheini</li>\n<li><strong>Simple understanding of an unattributed Braisa:</strong> During Galus Mitzraim</li>\n<li><strong>R' Eliezer:</strong> In the days of Sefer Rus</li>\n<li><strong>R' Yehoshua ben Karchah:</strong> In the days of Achashveirosh</li>\n<li><strong>R' Nassan:</strong> In the days of the kingdom of Sheva</li>\n<li><strong>Chachamim:</strong> In the days of the Kasdim (i.e. Nevuchadnetzar - Rashi)</li>\n<li><strong>Yeish Omrim:</strong> In the days of Yaakov</li>\n</ul>\n<p>The Gemara ibid. quotes a Braisa that Sefer Iyov was written by Moshe Rabbeinu; this opinion can only hold according to R' Levi bar Chama, Rava, the student of R' Shmuel bar Nachmani, the unattributed Braisa, and Yeish Omrim. According to the remaining six opinions, Iyov lived <em>after</em> Moshe.</p>\n<p>According to these opinions, who wrote Sefer Iyov?</p>",
+   "answers": [
+    {
+     "text": "<p>To clarify a little, Rabbi Eliezer thinks it was in the time of the Judges, not necessarily in the time of Ruth. It's true that he uses a phrase from Ruth (\"בימי שפוט השופטים\"), but he doesn't state that it was necessarily in her time.<sup>1</sup></p>\n<p><a href=\"https://he.wikipedia.org/wiki/%D7%90%D7%94%D7%A8%D7%9F_%D7%9E%D7%A8%D7%A7%D7%95%D7%A1\" rel=\"nofollow noreferrer\">Rabbi Ahron Marcus</a> in Barzilai, pg. 252, brings the view of <a href=\"https://en.wikipedia.org/wiki/Dovid_Biderman\" rel=\"nofollow noreferrer\">Rabbi David of Lelov</a> that it was written by Yehonatan ben Gershom ben Moshe (Menashe in the ketiv, with a hanging Nun), after he did teshuvah for becoming Dan's priest in the story of the idol of Micha (<a href=\"https://www.sefaria.org.il/Judges.18?vhe=Tanach_with_Ta%27amei_Hamikra&lang=bi\" rel=\"nofollow noreferrer\">Shoftim 18</a>). This view was based on a tradition that the rabbi had. Rabbi Marcus then sets out to prove this view.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Ze%27ev_Yavetz\" rel=\"nofollow noreferrer\">Rabbi Ze'ev Yaavetz</a> in <a href=\"https://www.hebrewbooks.org/pdfpager.aspx?req=36983&st=&pgnum=89&hilite=\" rel=\"nofollow noreferrer\">Toldot Yisrael, vol. 3, pg. 90</a>, agreed with the view that he lived in the time of Galut Bavel and thought that he himself was the person who authored the book. According to Rabbi Yaavetz, he was a wise and famous man in the time of the Galut.</p>\n<p>Da'at Mikra in their introduction to the book, pg. 18-19, suggest that Iyov himself was probably a man who lived in ancient times, perhaps even around the time of Noach, but the author of the book was likely someone from Yechezkel's generation.</p>\n<p>In <a href=\"http://forum.otzar.org/viewtopic.php?f=46&t=29047#p302437\" rel=\"nofollow noreferrer\">this post</a> on the Otzar Hachomah forum, the commenter brings a view that though written in an archaic style, seems to be his own, and suggests that if the story took place in the time of the judges or the time of Sheva, then it most likely became known to Am Yisrael only after the time of Daniel, therefore, it is most likely that Anshei Knesset Hegedolah wrote it (being that <a href=\"https://www.sefaria.org.il/Bava_Batra.15a.2?vhe=William_Davidson_Edition_-_Vocalized_Aramaic&lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">they also authored Daniel</a>).</p>\n<hr />\n<p><sup>1</sup> In fact, even the phrase from Ruth is ambiguous.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/99998/according-to-the-opinions-that-iyov-did-not-live-in-the-days-of-moshe-who-wrote",
+   "tags": [
+    "authorship",
+    "job-iyov-book-of",
+    "bava-batra"
+   ],
+   "date": "2019-03-01T05:27:48",
+   "year": 2019,
+   "score": 7,
+   "views": 495,
+   "needs_review": true
+  },
+  {
+   "id": "ye-99999",
+   "legacy": {
+    "source_id": "miyodeya_99999",
+    "src": "qa_db/2019.json",
+    "number": 99999,
+    "old_file": "qa.html?id=miyodeya_99999&src=miyodea/qa/2019-03-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Did God give Moses on Mount Sinai all future rabbinical decisions?",
+   "question": "<p>Which of these two is the correct Jewish teaching:</p>\n\n<p>(1) God gave the Written and Oral Law to Moses on Mount Sinai.  On this basis, rabbis past, present and future derive what Jews must do.  These halachot do not exist until the rabbis make them.</p>\n\n<p>(2) God gave the Written and Oral Law to Moses on Mount Sinai.  It included all the decisions of rabbis past, present and future on what Jews must do.  These halachot were all given to Moses but forgotten, and the rabbis merely rediscovered them.</p>\n\n<p>(How could the rabbis say \"Ellu v'ellu divrei Elokim hayyim\" when only one set is?)</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/99999/did-god-give-moses-on-mount-sinai-all-future-rabbinical-decisions",
+   "tags": [
+    "oral-torah",
+    "har-sinai",
+    "written-torah"
+   ],
+   "date": "2019-03-01T06:34:10",
+   "year": 2019,
+   "score": 1,
+   "views": 162,
+   "needs_review": true
+  }
+ ]
+}

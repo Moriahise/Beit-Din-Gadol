@@ -1,0 +1,13 @@
+{
+ "schema": 2,
+ "generated": "2026-07-12T17:56:15+00:00",
+ "total": 51436,
+ "chunks": 215,
+ "open_chunk": 215,
+ "max_per_chunk": 500,
+ "max_chunk_bytes": 1500000,
+ "index_files": [
+  "index.json"
+ ],
+ "upload_counter": 0
+}

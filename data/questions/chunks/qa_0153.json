@@ -1,0 +1,1165 @@
+{
+ "schema": 2,
+ "chunk": 153,
+ "count": 33,
+ "questions": [
+  {
+   "id": "ye-119303",
+   "legacy": {
+    "source_id": "miyodeya_119303",
+    "src": "qa_db/2021.json",
+    "number": 119303,
+    "old_file": "qa.html?id=miyodeya_119303&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Was Abraham given a scripture?",
+   "question": "<p>According to the Quran, Abraham was given a scripture just like Moses.</p>\n<blockquote>\n<p>This is certainly ˹mentioned˺ in the earlier Scriptures—   the\nScriptures of Abraham and Moses. <a href=\"https://quran.com/87/18-19\" rel=\"nofollow noreferrer\">[Quran 87/18-19]</a></p>\n</blockquote>\n<p>The scripture of Moses, I believe is the Torah. However, what could be the scripture of Abraham? Was Abraham given a scripture according to the Jewish tradition? If so, do we still have access to it?</p>",
+   "answers": [
+    {
+     "text": "<p>Abraham was not given any scripture. According to our tradition, he did write books, so maybe that is what it's referring to. To quote <a href=\"https://www.sefaria.org/Mishneh_Torah%2C_Foreign_Worship_and_Customs_of_the_Nations.1.3?lang=en&with=all&lang2=en\" rel=\"noreferrer\">Maimonides</a>:</p>\n<blockquote>\n<p>And, on this path the world continued its course of circuity until the birth of the firmest pillar of the world, Abraham our father.\nAs soon as this giant was weaned he commenced to busy his mind, in his infancy he commenced to think by day and by night, and would encounter this enigma: How is it possible that this planet should continuously be in motion and have no leader—and who, indeed, causes it to revolve, it being impossible that it should revolve itself? Moreover, he neither had a teacher nor one to impart aught to him, for he was sunk in Ur of the Chaldeans among the foolish worshipers of stars, and his father, and his mother, like all the people, worshiped stars, and he, although following them in their worship, busies his heart and reflects until he attains the path of truth, and, by his correct thinking, he understood when he finally saw the line of righteousness. He knew that there is One God; He leads the planet; He created everything; and in all that is there is no god save He. He knew that the whole world was in error, and that the thing which caused them to err was, that their worshiping the stars and the images brought about the loss of the truth from their consciousness. And, when Abraham was forty years old he recognized his Creator. After he came to this comprehension and knowledge he started to confute the sons of Ur of the Chaldeans, and to organize disputations with them, cautioning them, saying: \"This is not the true path that you are following\", and he destroyed the images, and commenced preaching to the people warning them that it is not right to worship any save the God of the universe, and unto Him alone it is right to bow down, to offer sacrifices, and compound offerings, so that the creatures of the future shall recognize Him. Moreover, it is right to destroy and break in pieces all of the images, so that the whole population of the future be not led to an error like unto these who imagine that there is no God save these images. When he had them subdued by his well supported contentions, the king tried to put him to death, but he was saved by a miracle, and went hence to Haran. There he stood up anew and called out in a great voice to the whole world, to let them know that there is One God for the whole universe, and unto Him it is proper to render service. And thus he went onward with his proclamations from city to city, and from government to government, until he attained the land of Canaan amidst his outcry, even as it is said: \"And called there on the name of the Lord, the Everlasting God\" (Gen. 21.33). When the people who congregated about him asked him concerning his preachments, he replied by imparting knowledge to each and every one according to his mentality, to the end that he was able to turn him to the path of truth, until there congregated about him thousands, even tens of thousands, and they became the people of Abraham's household, in whose heart he implanted this great cause, <strong>concerning which he compiled books</strong>, and which he imparted to his son Isaac.</p>\n</blockquote>\n<p>As far as I know none of those books are extant.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 6
+    },
+    {
+     "text": "<p>It could be that the book of Genesis would be referred to as the Book of Abraham. We find that this book is referred to as a book separate from the rest of the Torah according to Rashi in two places:</p>\n<blockquote>\n<p>וַיִּקַּח֙ סֵ֣פֶר הַבְּרִ֔ית וַיִּקְרָ֖א בְּאָזְנֵ֣י הָעָ֑ם וַיֹּ֣אמְר֔וּ כֹּ֛ל אֲשֶׁר־דִּבֶּ֥ר יְהוָ֖ה נַעֲשֶׂ֥ה וְנִשְׁמָֽע׃</p>\n<p>Then he took the record of the covenant and read it aloud to the people. And they said, “All that the LORD has spoken we will faithfully do!”</p>\n<p>ספר הברית. מִבְּרֵאשִׁית וְעַד מַתַּן תּוֹרָה וּמִצְווֹת שֶׁנִּצְטַוּוּ בְמָרָה:</p>\n<p><a href=\"https://www.sefaria.org.il/Exodus.24.7?lang=bi&with=Rashi&lang2=en\" rel=\"nofollow noreferrer\">Exodos 24:7</a></p>\n</blockquote>\n<blockquote>\n<p>וַיֹּ֕אמֶר לְלַמֵּ֥ד בְּנֵֽי־יְהוּדָ֖ה קָ֑שֶׁת הִנֵּ֥ה כְתוּבָ֖ה עַל־סֵ֥פֶר הַיָּשָֽׁר׃</p>\n<p>He ordered the Judites to be taught [The Song of the] Bow. It is recorded in the Book of Jashar.</p>\n<p>הנה כתובה על ספר הישר. הלא היא כתובה על ספר בראשית שהיא ספר ישרים אברהם יצחק ויעקב.</p>\n<p><a href=\"https://www.sefaria.org.il/II_Samuel.1.18?lang=bi\" rel=\"nofollow noreferrer\">Samuel II 1:18</a></p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119303/was-abraham-given-a-scripture",
+   "tags": [
+    "tanach",
+    "abraham"
+   ],
+   "date": "2021-01-01T01:02:27",
+   "year": 2021,
+   "score": 3,
+   "views": 336,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119304",
+   "legacy": {
+    "source_id": "miyodeya_119304",
+    "src": "qa_db/2021.json",
+    "number": 119304,
+    "old_file": "qa.html?id=miyodeya_119304&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is it halachically permissible for Jews to celebrate Kwanzaa?",
+   "question": "<p>Unlike Christmas, Kwanzaa does not seem to be associated with any particular non-Jewish religion.</p>\n<p>As such, I am curious: is it still considered an idolatrous holiday? Does it fall under the category of copying heathen customs? Is it completely forbidden? Partially forbidden? Partially permitted? Completely permitted?</p>\n<p>What would the Jewish approach to Kwanzaa be?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119304/is-it-halachically-permissible-for-jews-to-celebrate-kwanzaa",
+   "tags": [
+    "non-jewish-holidays",
+    "contemporary-halacha"
+   ],
+   "date": "2021-01-01T02:02:23",
+   "year": 2021,
+   "score": 3,
+   "views": 159,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119305",
+   "legacy": {
+    "source_id": "miyodeya_119305",
+    "src": "qa_db/2021.json",
+    "number": 119305,
+    "old_file": "qa.html?id=miyodeya_119305&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is there any particular halachic reason why the Maccabean Martyrs would insist on speaking Hebrew?",
+   "question": "<p>I was reading 2 Maccabees chapter 7,</p>\n<blockquote>\n<p>7 After the first brother died in this manner, they led forward the\nsecond one with mockery. They ripped off the skin of his head along\nwith the hair and demanded, “Will you eat before every part of your\nbody is punished limb by limb?”</p>\n<p>8 <strong>But he answered in his native language,</strong> “Not at all.” Therefore,\nthis brother also received in turn the same punishment as the first.</p>\n<p>9 With his last breath he said, “You, who are marked out for\nvengeance, may take our present life, but the king of the universe for\nwhose laws we die will resurrect us again to eternal life.”</p>\n</blockquote>\n<p><a href=\"https://www.biblegateway.com/passage/?search=2+maccabees+7&version=CEB\" rel=\"nofollow noreferrer\">https://www.biblegateway.com/passage/?search=2+maccabees+7&version=CEB</a></p>\n<p>I am wondering if the refusal to speak Greek in this case was simply a way of rejecting every form of Hellenization (even linguistic) or if there is/was any halachic requirement that only Hebrew be spoken, at least in religious matters.</p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://en.wikipedia.org/wiki/Abraham_Kahana\" rel=\"nofollow noreferrer\">Avraham Kahanah</a> in his Hebrew translation of the Apocrypha (<a href=\"https://upload.wikimedia.org/wikisource/he/2/25/Apocrypha_Kahana_B.pdf\" rel=\"nofollow noreferrer\">source</a>, bottom of pg. 201-202), wrote on this verse in Maccabees:</p>\n<blockquote>\n<p>\"בלשון אבות. אפשר לפרשו גם בלשון-האם, והוא בניגוד ללשונו של העריץ, שיוונית הייתה.\"</p>\n</blockquote>\n<p>Translation: \"In [his] fathers' tongue. It's possible to understand it also as in the mother's tongue, and it is in contrast to the tongue of the tyrant, which was Greek.\"</p>\n<p>Therefore, it seems that the reason was out of want to reject Hellenism.</p>\n<p>Similarly, later in the story it says:</p>\n<blockquote>\n<p>\"After a great deal of urging, she agreed to try to persuade her son. By leaning toward her son and mocking the savage tyrant, <strong>she spoke in their native language</strong>: “Son, pity me who carried you in the womb nine months, nursed you for three years, nurtured you, and brought you into this stage of life with care...\" (ibid. 26-27)</p>\n</blockquote>\n<p>Here the mother uses speaking in Hebrew to mock the king and tell her son to continue to stand in defiance. Presumably, her other son was echoing what he was taught by his mother prior to his tragic death, that preserving Hebrew is important and defies the whole of Hellenism.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119305/is-there-any-particular-halachic-reason-why-the-maccabean-martyrs-would-insist-o",
+   "tags": [
+    "language",
+    "apocrypha",
+    "halachic-development",
+    "book-of-maccabees"
+   ],
+   "date": "2021-01-01T02:04:03",
+   "year": 2021,
+   "score": 2,
+   "views": 158,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119306",
+   "legacy": {
+    "source_id": "miyodeya_119306",
+    "src": "qa_db/2021.json",
+    "number": 119306,
+    "old_file": "qa.html?id=miyodeya_119306&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Why are the words for \"heavens\" and \"waters\" so similar?",
+   "question": "<p>Genesis 1:9 mentions waters and heavens: \"הַמַּ֜יִם מִתַּ֤חַת הַשָּׁמַ֨יִם֙\".</p>\n<p>The words \"mayim\" (waters) and \"shamayim\" (heavens) are very similar.</p>\n<p>Is this a coincidence, or is there some underlying connection between these two words (and concepts)?</p>",
+   "answers": [
+    {
+     "text": "<p>The Talmud gives an answer:</p>\n<blockquote>\n<p>It was taught in a baraita: Shamayim means esh umayim, [fire and water], which teaches that the Holy One, Blessed be He, brought them and combined them together, and made the heavens from them. [Chagigah 12a]</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119306/why-are-the-words-for-heavens-and-waters-so-similar",
+   "tags": [
+    "words",
+    "hebrew",
+    "genesis-bereishith"
+   ],
+   "date": "2021-01-01T03:33:34",
+   "year": 2021,
+   "score": 1,
+   "views": 336,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119312",
+   "legacy": {
+    "source_id": "miyodeya_119312",
+    "src": "qa_db/2021.json",
+    "number": 119312,
+    "old_file": "qa.html?id=miyodeya_119312&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "How has our attitude changed toward the relationship of morality to Torah observance?",
+   "question": "<p>I have often noticed, in my interactions with other Orthodox Jews, that they seem to feel that the correct resolution of every moral question is to ask a prominent rabbi. For example, when I point out to the people at certain schools or synagogues that their lax policies with respect to the Coronavirus have led others to avoid participation, they respond by telling me what some prominent rabbi has recommend with respect to Coronavirus. This is always a strange moment in the conversation, because it seems to convert a fairly simple problem of moral reasoning into a different problem of deference to rabbis and the seeming arrogance of continuing to argue the original substantive point.</p>\n<p>Right now, I’m not asking anything about the Coronavirus. That’s example is just intended as an illustration of a more general question.</p>\n<p>When I consider what my children learn in school, when they tell me about <em>kashas</em> in <em>gemara</em> and how the <em>rishonim</em> address these <em>kashas</em>, it’s pretty plain to me that this sort of education will do very little to resolve moral questions. That expectation seems simply misplaced, like expecting their other courses in algebra or chemistry to resolve moral questions. And I have not personally observed that <em>mussar</em> courses have made participants kinder or more virtuous in any way, or wiser or more sophisticated when discussing morality.</p>\n<p>And this leads me to wonder. Is there a growing expectation, in Jewish thought over the centuries, that moral problems are really just misunderstandings of <em>halachic</em> problems, and that there’s little point in discussing moral problems? Can we discern somehow that in earlier times Orthodox Jews thought that all people have moral duties that cannot be reduced to <em>tefillin</em> and <em>mezuzah</em>, but that this view has somehow been eclipsed by a sort of halachic maximalism, a view that it is more proper for a Jew to see <em>halachic</em> duties as his only duties, or that moral thinking is somehow not our department?</p>\n<p>As the \"votes to close\" come in, clarification has been advised. This seems likely to make the question fuzzier but may, I hope, save it from closure.</p>\n<p>It is not my point that <em>halachic</em> questions are the only questions properly directed to rabbis. I'm not taking any sort of position at all about what should be directed to rabbis. I'm just reflecting on a feeling, a feeling that each of us may or may not recognize, that this way of responding to a moral question has a chilling effect on the discussion. Maybe a chilling effect is desirable. But I'm wondering if this possibility, that a chilling effect is desirable, is gaining traction in our world. Did we formerly suppose that for Orthodox Jews, as for everyone else in the world, moral questions were very important, and that we should be capable of serious discussion and moral passion, while today it is supposed that we should be more passive? Did it formerly seem more admissible than now, that we might have a moral duty to accept personal costs and difficult burdens, even where this moral duty is not <em>halachic</em>?</p>",
+   "answers": [
+    {
+     "text": "<p>In order to address your question, an underlying question must be addressed. Who or what defines what is and isn't moral? I believe that G-d, as the Creator of all existence, ultimately defines that. I also believe that He revealed his will in the Torah. So if I have a question as to morality, I will consult an expert in the Torah.</p>\n<p>Some parts of the Torah may seem to bear on morality more than others, but they are all part of G-d's moral system. For example, it is immoral to steal, but the definition of stealing depends on the rules of ownership, which are subjects of discussion. For example, children generally start learning Talmud with the second chapter of Bava Metzia, which discusses which lost objects must be returned. While the technical aspects of it might not seem to affect morality, ultimately they determine when it is moral to keep a lost object and when not.</p>\n<p>Now, not all questions are about morality. Questions about how to deal with coronavirus also have a practical aspect. But to answer the moral aspects of the question, we must consult the Torah and those who know it best.</p>\n<p>As for claiming that mussar courses don't seem to work, it really depends on whether the participants are receptive to the message. Children in school often are not, but the adults I see taking classes usually are. Different people respond better to different books and teaching styles, and as adults they can find the ones that inspire them. The book that inspires me may not be the one for you, and vica versa. But people who want to improve will find the guidance in the Torah.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119312/how-has-our-attitude-changed-toward-the-relationship-of-morality-to-torah-observ",
+   "tags": [
+    "history",
+    "hashkafah-philosophy",
+    "mussar-ethics",
+    "morality"
+   ],
+   "date": "2021-01-01T16:02:02",
+   "year": 2021,
+   "score": 1,
+   "views": 116
+  },
+  {
+   "id": "ye-119313",
+   "legacy": {
+    "source_id": "miyodeya_119313",
+    "src": "qa_db/2021.json",
+    "number": 119313,
+    "old_file": "qa.html?id=miyodeya_119313&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Who is \"righteous\"?",
+   "question": "<p>Who is \"righteous\"?  The Rambam adopts a very simple definition: <strong>A righteous person is one who is more good than bad</strong>:</p>\n<blockquote>\n<p>כָּל אֶחָד וְאֶחָד מִבְּנֵי הָאָדָם יֵשׁ לוֹ זְכֻיּוֹת וַעֲוֹנוֹת. מִי שֶׁזְּכֻיּוֹתָיו יְתֵרוֹת עַל? עֲוֹנוֹתָיו צַדִּיק. וּמִי שֶׁעֲוֹנוֹתָיו יְתֵרוֹת עַל זְכֻיּוֹתָיו רָשָׁע -- Each and every one of the sons of man has virtues and vices. He whose virtues exceed his vices is a righteous man (צַדִּיק) and he whose vices exceed his virtues is an evildoer (רָשָׁע). [Mishneh Torah, Sefer Madda, Laws of Repentance 3:1]</p>\n</blockquote>\n<p>But what practical value does this definition have for determining whether a person is righteous or not?  It conjures up images of a point system, in which every action is assigned a positive or negative value, and if the sum is positive you are righteous.  Such a system does not exist in Judaism.</p>\n<p>So is the Rambam just trying to tell us, \"Don't be too hard on yourself.  The bar is not as high as you think.\" ?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119313/who-is-righteous",
+   "tags": [
+    "tzaddikim"
+   ],
+   "date": "2021-01-01T16:11:38",
+   "year": 2021,
+   "score": 0,
+   "views": 121,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119314",
+   "legacy": {
+    "source_id": "miyodeya_119314",
+    "src": "qa_db/2021.json",
+    "number": 119314,
+    "old_file": "qa.html?id=miyodeya_119314&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Does the shemita year cancel a loan of a sefer?",
+   "question": "<p>Every seventh year, in the shemita year, all loans are cancelled.\nIf I lent my friend a Sefer, does that get cancelled by the shemitta year?</p>",
+   "answers": [
+    {
+     "text": "<p>As DoubleAA commented, when you lend someone an object, the object remains yours, they are expected to treat it with care, and return it intact. This is 'she'eila', borrowing. It is also not subject to the laws of usury; as you'll see elsewhere on this site, if you borrow a friend's car, you may return it with a full tank of gas. The main item is the car, which is not a consumable. You could, in fact, charge a movie studio if they want to borrow a wad of $100 bills to use as a prop -- they are expected to gently use that exact wad and return them intact. That's not a \"loan\", but rather a \"rental\", just like if you had a business renting cars or power tools.</p>\n<p>A \"loan\" described in the Torah is understood that the other party will consume what you provided them, then obtain more of it. E.g. they will spend the money on opening a business, then give you back money they make. Or they will eat the pound of flour, buy a new pound of flour, and give you that.</p>\n<p>Shemitah, like the prohibition of <em>ribbis</em>, is about loans of items intended for consumption. A book you borrowed, assuming the agreement was to return the original book, remains the original owner's irrespective of Shemitah.</p>\n<p>(This distinction, by the way, is preserved in Modern Hebrew. <em>Hasifriyah hish'ila oti et hasefer</em>; <em>hashachen hilvah oti me'ah dollarim.</em> [The library loaned me a book; the neighbor loaned me a hundred dollars.])</p>",
+     "accepted": true,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119314/does-the-shemita-year-cancel-a-loan-of-a-sefer",
+   "tags": [
+    "jewish-books",
+    "shmita"
+   ],
+   "date": "2021-01-01T17:17:08",
+   "year": 2021,
+   "score": 1,
+   "views": 87,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119315",
+   "legacy": {
+    "source_id": "miyodeya_119315",
+    "src": "qa_db/2021.json",
+    "number": 119315,
+    "old_file": "qa.html?id=miyodeya_119315&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Can we wish a non jew, \"Happy Holidays\"",
+   "question": "<p>According to the Jewish law are we allowed to wish a non-Jewish neighbor Happy Holidays?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119315/can-we-wish-a-non-jew-happy-holidays",
+   "tags": [
+    "halacha",
+    "gentiles"
+   ],
+   "date": "2021-01-01T19:04:35",
+   "year": 2021,
+   "score": 2,
+   "views": 253
+  },
+  {
+   "id": "ye-119318",
+   "legacy": {
+    "source_id": "miyodeya_119318",
+    "src": "qa_db/2021.json",
+    "number": 119318,
+    "old_file": "qa.html?id=miyodeya_119318&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "What is the relation between the month Nisan and the spring equinox?",
+   "question": "<p>I'm searching for the relation between Nisan and the spring equinox according to Scripture.</p>\n<p>I know of the texts Genesis 1:14, Exodus 12:2-3, Leviticus 23:15 and Deuteronomy 16:1.</p>\n<p>I find multiple definitions, I quote:</p>\n<ol>\n<li>First lunar crescent after the spring equinox (= 1 Nisan)</li>\n<li>New moon nearest to the spring equinox is the start of the year (= 1 Nisan)</li>\n<li>Pesach (15 Nisan) must occur in the spring (i.e, after the equinox), in most cases 1 Nisan occure before the equinox</li>\n<li>The Rabbis give the rule that the 16th of Nisan (at sunset beginning it) should occur after the beginning of the year.</li>\n</ol>\n<p>I think 4) is the right one but can someone give me the rigth interpretation with texts in Scripture why a definition is right or wrong?</p>",
+   "answers": [
+    {
+     "text": "<p>In the Babylonian calendar, which Jews used in the late pre exilic, exilic, and early post exilic periods, the 1st of Nisannu always fell after what we would consider to be the equinox (though not necessarily after the equinox as the Babylonians counted it.)  By the Herodian period, it is not certain that Judea is following Babylon any more.  Josephus says that 14 Nisan occurs \"when the sun is in Aries\" (<em>Antiquities</em> 3.10.5), that is, on or after the equinox.  In the Talmud, the equinox is given as one of three conditions, two of which must obtain for an intercalation.</p>\n<blockquote>\n<p>Our Rabbis taught: A year may be intercalated on three grounds:  on account of the premature state of the corn-crops; or that of the fruit trees; or on account of the lateness of the equinox.  Any two of these reasons can justify intercalation, but not one alone. (Tractate <em>Sanhedrin</em>)</p>\n</blockquote>\n<p>The Tosefta gives a rule for intercalating on account of the equinox:</p>\n<blockquote>\n<p>The year is not to be intercalated unless the spring equinox is still distant the greater part of a month.  How much is the greater part of a month?  Sixteen days.  R. Jehuda says:  Two thirds of a month, twenty days. T. <em>Sanhedrin</em> 2.7.</p>\n</blockquote>\n<p>The Rabbinic calendar, which dates from the period C.E. 700-950, though a late Jewish tradition gives it a date in the 4th century C.E.,  seems to have been designed always to put the 15th or 16th of Nisan after the equinox.  And due to a slight solar drift in the Rabbinic calendar, the 16th of Nisan is now always after the equinox.  The 15th of Nisan can not now fall before March 26th in the Gregorian calendar, and in the 8th, 11th, and 19th years of the 19 year cycle, the 16th of Nisan can be a month after the equinox. as it was in 2016.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    },
+    {
+     "text": "<p>If nobody in this famous community answers I give the answer from scripture as good as I can. The calendar is defined through Moses by watching the sun and the moon.</p>\n<ol>\n<li>The first day of every month is the day you watch with a naked eye the first visable crescent of the moon. This is one or two days after the New Moon (0% visability).</li>\n<li>The first month is found by watching the sun. The spring festival must be in the first month. This means that the 15th of the first month must be on or after the first day of the spring. The first day of the spring is when you see sunset exactly in the west.</li>\n</ol>\n<p>God says that we have to guard the first month to have 3 festivals in a year (Deuteronomy 16:1,16). To guard this an extra month is inserted if necessary in the old year to prevent the spring festival starts in winter and we have 2 or 4 festivals in a year in stead of the required 3.\nIn the end this seems to me clear and not complicated what I first thought. I think it is strange that there are so many different voices.</p>\n<p>You can see the moon and the sun in the past with the open source program Stellarium. You have to set the atmosphere on to take into account atmospheric correction for the human eye.</p>\n<p>I'd appreciate it if someone respond.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    },
+    {
+     "text": "<p>Your entry 'What is the relation between the month Nisan and the spring equinox according to scripture?' is rather old but I wish to respond. You stated that 'The first day of every month is the day you watch with a naked eye the first visable crescent of the moon'. However, since you are referring to scripture it needs to be said that there is no edict from G<em>d to use the crescent as a marker. G</em>d said 'THE NEW' ie the NEW MOON, which is when it is NOT visible (it is DARK). Such an observation requires faith and trust. The crescent as a mechanism was only used since Babylon: it was learned from the Babylonians since Babel did not use faith but sight. We picked up a bad habit. You gave a reference to Exodus 12:2: 'This month shall be unto you the beginning of months: it shall be the first month of the year to you.'  We <em>KNOW</em> the month was ABIB [Ex 13:4] or AVIV (later called Nisan or Nissan or Nisanu since that is what the Babylonians called it). We <em>know</em> the month started with the NEW phase. But G<em>d did not say how to gauge the first month - he did <em>not</em> say 'Use the NORTHERN HEMISPHERE SUMMER EQUINOX TO DETERMINE THE START OF THE YEAR'. But nearly everybody agrees that is what was intended. I agree. (Some people think it is the month when the Barley (abib) flowers - but that is not so.) So - there is no overt, explicit scriptural reference to using the  Equinox but it makes the most sense. Most of the other mechanisms are man-made: eg the 16th of Nisan/Abib must be after the equinox etc. is invented by wise mathematicians with their bibles open. But there is no command from G</em>d for such. - Z</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119318/what-is-the-relation-between-the-month-nisan-and-the-spring-equinox",
+   "tags": [
+    "passover",
+    "calendar",
+    "astronomy",
+    "nissan"
+   ],
+   "date": "2021-01-02T10:11:35",
+   "year": 2021,
+   "score": 0,
+   "views": 2145,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119319",
+   "legacy": {
+    "source_id": "miyodeya_119319",
+    "src": "qa_db/2021.json",
+    "number": 119319,
+    "old_file": "qa.html?id=miyodeya_119319&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Did Yakov ever find out the truth about the sale of Yosef?",
+   "question": "<p>Curious why the Torah never mentions anything about Yaakov inquiring as to what actually happened to Joseph and how he got to Egypt. Is there any scriptural basis to suggest he became aware of the sale of Joseph?</p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://www.sefaria.org/Genesis.45.27?lang=bi&aliyot=0&p2=Ramban_on_Genesis.45.27.1&lang2=bi\" rel=\"noreferrer\">Ramban</a> on the verse in Bereishis 45:27 seems to suggest that Yaakov never found out:</p>\n<blockquote>\n<p>And they told him all the words of Joseph: <strong>It appears to me according to the simple meaning that throughout all the days of his life, Jacob was never told that the brothers sold Joseph</strong>. Rather he thought that he got lost in the field and that the ones that found him took him and sold him to Egypt. For the brothers did not want to tell him their sin, especially since they feared for their lives, lest he get enraged and curse them.... And Joseph did not want to tell him because of his good ethics. And it therefore states (Genesis 50:16-17), \"Your father commanded before his death, saying... 'Please now forego the sin of your brothers.'\" And if Jacob had known about this matter, it would have been fitting for them to beseech the face of their father at his death to command Joseph from his [own] mouth - as he would not raise [himself against his father] and violate his words. And [then] they would not have been in danger, and they would not have needed to make up words from their hearts (that he had not said).</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 6
+    },
+    {
+     "text": "<p>Both the Teferes Zion & The Medrish  Lekach Tov, on ב\"ר צז:ו   say   Yackov told Yosef \"I know that you were sold\"</p>\n<p>By the Blessing of Yosef's sons, when he saw Yackov Avinu   placing his Right hand on Efrayim the younger son. And he said \"Not so my father, this one is the First born\".\nYackov said \"I know who the Bechor is.  I'm doing this by Ruach Hakodesh\" ....  Both the \"Teferes Zion\" & \"Medrish  Lekach Tov\" Add.... \"I Also know by Ruach Hakodesh things that you never told me.   I know that you were sold. (I know why Reuvin moved my bed, I know why Yehuda approached Tamar. And you thought I don't know who the Bechor is!?)</p>\n<p>( Also it's only Logical that Yackov knew Yosef was sold, because (acc. to Rashi) The entire reason that Yackov lost his Ruach Hakodesh when Yosef was sold was becouse the 9 Brothers who sold Yosef, made a Nidui against  anyone who'd tell Yackov about it and Hashem joined to make #10..so Hashem (as if)  didn't tell Yackov either...so when Yackov saw Yosef was alive (Many say even before when Serech Bas Asher played \"Od Yosef Chai\") his Ruach Hakodesh returned...And Hashem (as if) could now tell Yackov what really happened to Yosef)</p>\n<p>To Answer the Ramban's question that @Dov brought down to prove that Yackov did not know that the Brothers sold Yosef. I found a Sechia from the  Chabad Rebbe that Answers this question (While holding that Yackov Did know about the Brothers selling Yosef) :  Out of concern for his children’s welfare, Yaakov said to Yosef, please put “yadecha” — “your hand” (your generous support) — “tachat yereichi” — “under my thigh — my family who will survive me and live together with you in Egypt.” [When the Torah enumerates the family of Yaakov that descended to Egypt, they are referred to as “yotzei yereicho” — “the people who emanated from his thigh” (46:26)].   In other words \"Not only Don't harm them, and forgive them, but Support and love them\".\nP.S. This also answer's the Question asked on Rashi \"Why did the Brothers lie\". They did Not lie.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p>I was wondering about this for years, and this year I noticed that it seems to be pretty explicit that he was told.\nWhen the brothers come back to Yaakov after Yosef reveals himself we are told (<a href=\"https://www.sefaria.org/Genesis.45.27?lang=bi&with=all&lang2=he\" rel=\"nofollow noreferrer\">45:27</a>)</p>\n<blockquote>\n<p>וַיְדַבְּר֣וּ אֵלָ֗יו אֵ֣ת <strong>כָּל־דִּבְרֵ֤י יוֹסֵף֙ אֲשֶׁ֣ר דִּבֶּ֣ר אֲלֵהֶ֔ם</strong> וַיַּרְא֙ אֶת־הָ֣עֲגָל֔וֹת אֲשֶׁר־שָׁלַ֥ח יוֹסֵ֖ף לָשֵׂ֣את אֹת֑וֹ וַתְּחִ֕י ר֖וּחַ יַעֲקֹ֥ב אֲבִיהֶֽם׃</p>\n</blockquote>\n<p>But when <strong>they recounted all that Joseph had said to them</strong>, and when he saw the wagons that Joseph had sent to transport him, the spirit of their father Jacob revived.</p>\n<p>If they recounted everything they would also be repeating what Yosef said about them selling him, so it seems that Yaakov did know.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119319/did-yakov-ever-find-out-the-truth-about-the-sale-of-yosef",
+   "tags": [
+    "midrash",
+    "pentateuch-chumash",
+    "yosef"
+   ],
+   "date": "2021-01-02T12:35:53",
+   "year": 2021,
+   "score": 6,
+   "views": 765,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119324",
+   "legacy": {
+    "source_id": "miyodeya_119324",
+    "src": "qa_db/2021.json",
+    "number": 119324,
+    "old_file": "qa.html?id=miyodeya_119324&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "history",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Prophecies refering or relating to one occassion or more?",
+   "question": "<p>Do prophecies only find their fulfillment once, or is it possible for them to be fulfilled more than once?\nDo they only relate to one moment or one situation or is it also possible that they relate to several things?\nSome things take place repeatedly in history or, in addition to the historical context, sometimes also seem to relate to later times.</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119324/prophecies-refering-or-relating-to-one-occassion-or-more",
+   "tags": [
+    "commentaries",
+    "prophecies"
+   ],
+   "date": "2021-01-02T20:43:59",
+   "year": 2021,
+   "score": 1,
+   "views": 23,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119325",
+   "legacy": {
+    "source_id": "miyodeya_119325",
+    "src": "qa_db/2021.json",
+    "number": 119325,
+    "old_file": "qa.html?id=miyodeya_119325&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Did the Jews know that Moshe was the future redeemer and being raised in the palace?",
+   "question": "<p>It's quite plausible to suggest that Moshe's birth which lit up the room was known to more than just the family. Also, the fact that Yocheved weaned him for 2 years then sent him to the palace could have been quite exciting for the Jewish People hoping that he would rise to greatness. Obviously when Moshe returned from Midian he had to provide signs to prove that he was the redeemer, but was there ever any excitement or expectation at any time that Moshe as he was growing up or beyond that he was going to be the redeemer?\nWhat I meant to ask is, when Moshe came back on the scene did the people of Goshen say \"I always knew it!\"</p>",
+   "answers": [
+    {
+     "text": "<p>The <a href=\"https://www.sefaria.org/Megillah.14a.14?lang=bi&with=all&lang2=he\" rel=\"noreferrer\">Gemara</a> says that Miriam prophesied to her father Amram that Moshe would save the Jews, but when he was put in the river Amram gave up hope.</p>\n<blockquote>\n<p>מרים דכתיב (שמות טו, כ) ותקח מרים הנביאה אחות אהרן ולא אחות משה אמר ר\"נ אמר רב שהיתה מתנבאה כשהיא אחות אהרן ואומרת עתידה אמי שתלד בן שיושיע את ישראל ובשעה שנולד נתמלא כל הבית כולו אורה עמד אביה ונשקה על ראשה אמר לה בתי נתקיימה נבואתיך<br />\nMiriam was a prophetess, as it is written explicitly: “And Miriam the prophetess, the sister of Aaron, took a timbrel in her hand” (Exodus 15:20). The Gemara asks: Was she the sister only of Aaron, and not the sister of Moses? Why does the verse mention only one of her brothers? Rav Naḥman said that Rav said: For she prophesied when she was the sister of Aaron, i.e., she prophesied since her youth, even before Moses was born, and she would say: My mother is destined to bear a son who will deliver the Jewish people to salvation. And at the time when Moses was born the entire house was filled with light, and her father stood and kissed her on the head, and said to her: My daughter, your prophecy has been fulfilled.<br />\nוכיון שהשליכוהו ליאור עמד אביה וטפחה על ראשה ואמר לה בתי היכן נבואתיך היינו דכתיב (שמות ב, ד) ותתצב אחותו מרחוק לדעה לדעת מה יהא בסוף נבואתה<br />\nBut once Moses was cast into the river, her father arose and rapped her on the head, saying to her: My daughter, where is your prophecy now, as it looked as though the young Moses would soon meet his end. This is the meaning of that which is written with regard to Miriam’s watching Moses in the river: “And his sister stood at a distance to know what would be done to him” (Exodus 2:4), i.e., to know what would be with the end of her prophecy, as she had prophesied that her brother was destined to be the savior of the Jewish people.</p>\n</blockquote>\n<p>However according to the fuller account of the story in <a href=\"https://www.sefaria.org/Mekhilta_d%27Rabbi_Yishmael.15.20?lang=bi\" rel=\"noreferrer\">the Mekhilta</a> Miriam did not give up hope.</p>\n<blockquote>\n<p>תקח מרים הנביאה, וכי היכן מצינו שנביאה היתה מרים אלא שאמרה לאביה סופך אתה מוליד בן שמושיע את ישראל מיד מצרים מיד וילך איש מבית לוי ויקח וגו' (שמות ב) ותהר ותלד בן וגו' ולא יכלה עוד הצפינו. נזף בה אביה אמ' לה בתי היכן נבואותיך ועודה מחזקת בנבואתה שנ' ותתצב אחותו מרחוק לדעה מה יעשה לו ואין יציבה אלא נבואה שנ' ראיתי את ה' נצב על המזבח (עמוס ט) ואומר ויבא ה' ויתיצב (שמ\"א ג) ואומר קרא את יהושע והתיצבו וגו' וילך משה ויהושע ויתיצבו באהל מועד (דברים לא): מרחוק אין מרחוק בכל מקום אלא רוח הקדש שנאמר מרחוק ה' נראה לי (ירמיה לא): לדעה אין דעה אלא רוח הקדש שנ' כי מלאה הארץ דעה את ה' וגו' (ישעיה יא) [ואומר כי תמלא הארץ לדעת את כבוד ה' כמים יכסו על ים (חבקוק ב)]: מה יעשה לו אין עשייה אלא רוח הקדש שנ' כי לא יעשה ה' אלהים דבר וגו' (עמוס ג):<br />\n(Ibid. 20) \"Then Miriam the prophetess took\": Where do we find that Miriam was a prophetess? She said to her father (Amram): In the end, you will beget a son who will be the savior of Israel from Egypt — (Ibid. 2:1) \"And there went a man (Amram) from the house of Levi and took the daughter of Levi, (Yocheved — after he had separated from her because of Pharaoh's decree to drown the males) (2) \"And she conceived and bore a son … (3) and could conceal him no longer…\" — whereupon her father rebuked her, saying: My daughter, where is your prophecy? But she stood fast to her prophecy, viz. (4) \"And his sister stood from afar to know what would be done with him,\" \"standing\" (\"yetzivah\") signifying prophecy, viz. (Amos 9:1) \"I saw the L rd standing on the altar\", and (I Samuel 3:10) \"And the L rd came and He stood, etc.\", and (Devarim 31:19) \"Call Joshua and stand, etc.\" (Exodus, Ibid.) \"from afar\": \"from afar\" everywhere signifies the Holy Spirit, viz. (Jeremiah 31:2) \"From afar the L rd appeared to me.\" (Exodus, Ibid.) \"to know\": \"Knowing\" signifies the Holy Spirit, viz. (Isaiah 11:9) \"for the earth will be filled with knowing of the L rd, etc.\" (Exodus, Ibid.) \"what would be done with him\": \"Doing signifies the Holy Spirit, viz. (Amos 3:7) \"For the L rd G d will not do a thing unless He has revealed His secret to His servants the prophets.\" (Exodus 15:20)</p>\n</blockquote>\n<p>And since Miriam reunited Moshe with his mother (<a href=\"https://www.sefaria.org/Exodus.2.4-10?ven=The_Rashi_chumash_by_Rabbi_Shraga_Silverstein&lang=en&aliyot=0\" rel=\"noreferrer\">here</a>), perhaps they still knew he would be the savior of her prophecy.</p>\n<p>However, Moses himself seemed to be unaware of this prophecy:</p>\n<blockquote>\n<p>And Moses said to G-d: Who am I that I should go to Pharaoh [i.e., How am I worthy that I should speak with kings], and [how have the Jews merited it] that I should take the children of Israel out of Egypt? Exodus 3:11</p>\n</blockquote>\n<p>And I would argue that the necessity of Moses providing signs implies that the prophecy of Miriam was not widely known at all.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    },
+    {
+     "text": "<p>Surely not. The Torah tells clearly that Moses knew this fact himself:</p>\n<blockquote>\n<p>וַיַּ֤עַן מֹשֶׁה֙ וַיֹּ֔אמֶר וְהֵן֙ לֹֽא־יַאֲמִ֣ינוּ לִ֔י וְלֹ֥א יִשְׁמְע֖וּ בְּקֹלִ֑י כִּ֣י יֹֽאמְר֔וּ לֹֽא־נִרְאָ֥ה אֵלֶ֖יךָ ה׃</p>\n</blockquote>\n<blockquote>\n<p>But Moses spoke up and said, “What <strong>if they do not believe me and do not listen to me, but say: The LORD did not appear to you?</strong>” <a href=\"https://www.sefaria.org.il/Exodus.4.1-2?vhe=Tanach_with_Ta%27amei_Hamikra&lang=bi&aliyot=0\" rel=\"nofollow noreferrer\">Exodus.4.1-2</a></p>\n</blockquote>\n<p>Moreover, when he came to the people, it was Aharon who told the story and whom the people believed:</p>\n<blockquote>\n<p>וַיְדַבֵּר אַהֲרֹן אֵת כָּל־הַדְּבָרִים אֲשֶׁר־דִּבֶּר יְהוָה אֶל־מֹשֶׁה וַיַּעַשׂ הָאֹתֹת לְעֵינֵי הָעָם׃ וַיַּאֲמֵן הָעָם וַיִּשְׁמְעוּ כִּי־פָקַד יְהוָה אֶת־בְּנֵי יִשְׂרָאֵל וְכִי רָאָה אֶת־עָנְיָם וַיִּקְּדוּ וַיִּשְׁתַּחֲוּוּ׃</p>\n</blockquote>\n<blockquote>\n<p>Aaron repeated all the words that the LORD had spoken to Moses, and he performed the signs in the sight of the people, and the people were convinced. <a href=\"https://www.sefaria.org.il/Exodus.4.30?vhe=Tanach_with_Ta%27amei_Hamikra&lang=bi&aliyot=0\" rel=\"nofollow noreferrer\">Exodus.4.30</a></p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119325/did-the-jews-know-that-moshe-was-the-future-redeemer-and-being-raised-in-the-pal",
+   "tags": [
+    "moshe-rabbeinu",
+    "exodus-from-egypt"
+   ],
+   "date": "2021-01-03T02:28:26",
+   "year": 2021,
+   "score": 3,
+   "views": 158,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119330",
+   "legacy": {
+    "source_id": "miyodeya_119330",
+    "src": "qa_db/2021.json",
+    "number": 119330,
+    "old_file": "qa.html?id=miyodeya_119330&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is there a Karaite answer to the Kuzari?",
+   "question": "<p>According to <a href=\"https://en.wikipedia.org/wiki/Kuzari\" rel=\"nofollow noreferrer\">Wikipedia</a>, the Kuzari was originally written as a reply by Rabbi Yehudah Halevi to a heretic, likely a Spanish Karaite.</p>\n<p>Indeed, sections of the book are dedicated to refuting the Karaite views.</p>\n<p>I was curious to know whether the Karaites wrote any text that directly refers to the Kuzari and offers up a defense of Karaism in light of the Kuzari's criticism?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119330/is-there-a-karaite-answer-to-the-kuzari",
+   "tags": [
+    "sources-mekorot",
+    "heterodox",
+    "non-rabbinic-judaism"
+   ],
+   "date": "2021-01-03T10:57:28",
+   "year": 2021,
+   "score": 0,
+   "views": 146,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119331",
+   "legacy": {
+    "source_id": "miyodeya_119331",
+    "src": "qa_db/2021.json",
+    "number": 119331,
+    "old_file": "qa.html?id=miyodeya_119331&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Charity begins at home",
+   "question": "<p>In his introduction to Parshat Vayechi, <a href=\"https://www.sefaria.org/Rabbeinu_Bahya%2C_Bereshit.47.28.2?ven=Torah_Commentary_by_Rabbi_Bachya_ben_Asher,_trans._Eliyahu_Munk,_1998.&lang=bi\" rel=\"nofollow noreferrer\">Rabbeinu Bachya</a> says the following regarding charity (Munk translation):</p>\n<blockquote>\n<p>“The subject matter of charity, how to practice it, and in what amount to practice it is quite complicated; the fundamental ingredient of doing charity is that one gives to someone else something which belongs to one. There are many ways of doing this. ... based on Exodus 22,24 “the poor person who lives amongst you.” A poor person residing in your house takes precedence in his claim on your charity over someone who lives out of town. A poor person who is also a next of kin takes precedence over another poor person of your hometown. The relevant verse in Isaiah 58,7 states: “do not ignore your own kin.” A still higher level of charity is to provide one’s children with a livelihood.”</p>\n</blockquote>\n<p>I remember being taught something to this effect in cheider too.</p>\n<p>Is there a classical source from the Talmud or Midrash for this idea?</p>",
+   "answers": [
+    {
+     "text": "<p>Talmud: <a href=\"https://www.sefaria.org.il/Bava_Metzia.71a.3?lang=bi&with=all&lang2=he\" rel=\"nofollow noreferrer\">Bava Metzia 71a</a></p>\n<blockquote>\n<p>איכא דמתני לה להא דרב הונא אהא דתני רב יוסף (שמות כב, כד) אם כסף תלוה את עמי את העני עמך עמי ונכרי עמי קודם עני ועשיר עני קודם ענייך ועניי עירך ענייך קודמין עניי עירך ועניי עיר אחרת עניי עירך קודמין</p>\n</blockquote>\n<blockquote>\n<p>There are those who teach that which Rav Huna said in connection with that which Rav Yosef taught: The verse states: “If you lend money to any of My people, even to the poor person who is with you” (Exodus 22:24). The term “My people” teaches that if one of My people, i.e., a Jew, and a gentile both come to borrow money from you, My people take precedence. The term “the poor person” teaches that if a poor person and a rich person come to borrow money, the poor person takes precedence. And from the term: “Who is with you,” it is derived: If your poor person, meaning one of your relatives, and one of the poor of your city come to borrow money, your poor person takes precedence. If it is between one of the poor of your city and one of the poor of another city, the one of the poor of your city takes precedence.</p>\n</blockquote>\n<p>Midrash: <a href=\"https://www.sefaria.org.il/Midrash_Tanchuma%2C_Mishpatim.15.5?lang=he&with=all&lang2=he\" rel=\"nofollow noreferrer\">Tanchuma Mishpatim 15:5</a></p>\n<blockquote>\n<p>אֶת הֶעָנִי עִמָּךְ, מִכָּאן אָמְרוּ רַבּוֹתֵינוּ זִכְרוֹנָם לִבְרָכָה: עֲנִיֶּיךָ וַעֲנִיֵּי עִירְךָ, עֲנִיֶּיךָ קוֹדְמִין. עֲנִיֵּי עִירְךָ וַעֲנִיֵּי עִיר אַחֶרֶת, עֲנִיֵּי עִירְךָ קוֹדְמִין לַעֲנִיֵּי עִיר אַחֶרֶת.‏</p>\n</blockquote>",
+     "accepted": true,
+     "author": null,
+     "score": 2
+    },
+    {
+     "text": "<p>The biblical source of the saying \"charity begins at home\" is probably the following <em>passuk</em>:</p>\n<p><a href=\"https://www.sefaria.org/Isaiah.58?lang=bi\" rel=\"nofollow noreferrer\">https://www.sefaria.org/Isaiah.58?lang=bi</a></p>\n<blockquote>\n<p>הֲלוֹא פָרֹס לָרָעֵב לַחְמֶךָ וַעֲנִיִּים מְרוּדִים תָּבִיא בָיִת כִּי\nתִרְאֶה עָרֹם וְכִסִּיתוֹ וּמִבְּשָׂרְךָ לֹא תִתְעַלָּם.</p>\n<p>It is to share your bread with the hungry, And to take the wretched\npoor into your home; When you see the naked, to clothe him, And not to\nignore your own kin.</p>\n</blockquote>\n<p>Please refer to the following hebrew Wikipedia article which explains the various <em>halachot</em> that are derived from this principle - <a href=\"https://he.wikipedia.org/wiki/%D7%9E%D7%91%D7%A9%D7%A8%D7%9A_%D7%9C%D7%90_%D7%AA%D7%AA%D7%A2%D7%9C%D7%9D\" rel=\"nofollow noreferrer\">https://he.wikipedia.org/wiki/%D7%9E%D7%91%D7%A9%D7%A8%D7%9A_%D7%9C%D7%90_%D7%AA%D7%AA%D7%A2%D7%9C%D7%9D</a>.</p>\n<p>Probably the most relevant of the article, vis-a-vis the current question, is:</p>\n<blockquote>\n<p>צדקה רבי יצחק בן משה מווינה פסק בספרו אור זרוע (הלכות צדקה), לתת קודם\nכול לקרובי משפחתו, עד מחצית מכספי הצדקה. דין זה נסמך על הפסוק \"ומבשרך\nאל תתעלם\".</p>\n<p>The Ohr Zarua says that one is obliged to give at least 50% of one's\n<em>tzedaka</em> funds first to their own relatives.</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119331/charity-begins-at-home",
+   "tags": [
+    "tzedakah-charity",
+    "charity"
+   ],
+   "date": "2021-01-03T11:17:44",
+   "year": 2021,
+   "score": 0,
+   "views": 127,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119336",
+   "legacy": {
+    "source_id": "miyodeya_119336",
+    "src": "qa_db/2021.json",
+    "number": 119336,
+    "old_file": "qa.html?id=miyodeya_119336&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Why is one asked to join the Jewish community if this practice is not mentioned in the Halacha? Or maybe it is but I am not aware of?",
+   "question": "<p>It is written in the Rambam (<a href=\"https://www.sefaria.org.il/Mishneh_Torah%2C_Forbidden_Intercourse.14.2?lang=bi\" rel=\"nofollow noreferrer\">Laws of Forbidden Relations chap. 14, 2</a>) that when the potential convert comes to convert \"we notify him regarding a small number of weighty mitzvot and a small number of light mitzvot and we may not prolong this matter\". So we see that we should merely notify them regarding a small number of mitzvot and not to teach them the intricacies and finite details. And this is partly because we find written in the talmud (Sanhedrin 59) and codified in the Rambam (Laws of Kings 10, 9) that a non-Jew is forbidden to learn Torah and if he does so he is liable to death. This is also borne out from the gemara (Shabbat 31a) that we find that the great sage Hillel the elder taught the converts Torah only after he converted them and not before. Thus it is forbidden to teach them the intricacies of Jewish law until they have converted since prior to conversion they are considered completely as non-Jews. Thus, one who teaches them in such a manner is certainly causing them to sin. Also we find that it is forbidden to prolong this process since we do not wish to overly discourage and frighten them.</p>\n<p>Moreover, teaches the Rambam there (<a href=\"https://www.sefaria.org.il/Mishneh_Torah%2C_Forbidden_Intercourse.14.5?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">ibid. 5</a>) that if he accepts this we must convert him immediately and it is forbidden to delay this. Explains the Bet Yosef (268, 2) the reason for this that we are forbidden to delay a mitzva and must do it promptly. And writes the Rambam there that we should not be exacting on the convert and this clearly signifies that we should not give him a test to see how much he has memorized about Jewish law etc. And off course all the above mentioned is learned from the words of the Talmud (Yevamot 47a) and is brought in the Tur and the Jewish code of law the Shulchan Aruch (268, 2) as the undisputed halacha.</p>\n<p>Additionally, we do not find anywhere in the Torah or talmud or the Rambam or the Shulchan Aruch that a convert must move to a Jewish community prior to conversion and on the contrary the Rambam himself writes (Laws of Kings 5, 7) that a Jew is allowed to live anywhere in the world that he wishes except for Egypt and off course this includes the converts as well since we must treat them as full fledged Jews in every way like it is written many times in the Torah (Lev. 16, 29, ibid. 18, 26, Numbers 15, 14, ibid, 15, 29). It follows that if one rejects a potential convert due to this he is acting contrary to halacha since we may not be overly exacting on them and overly discourage them or delay them as mentioned above since we are thereby delaying a mitzva without any halachic justification. Also we are thereby preventing the potential convert from studying Torah and doing mitzvot and thereby robbing from him his portion in the world to come.</p>\n<p>Thus, in conclusion we find that according to Jewish law it is forbidden to teach potential converts the intricacies of Jewish law and likewise it is forbidden to draw out their conversion process for years. Also, one may not require them to be tested regarding this. And one may not obligate them to move to a Jewish community prior to conversion as a prerequisite. And all this stands in stark contrast to the tradition passed down to us from Mount Sinai as taught in the Talmud and the Rambam and the Shulchan Aruch.</p>\n<p>I could think of few things as to why, but I was wondering, is there any Halachic mention of this practice?</p>",
+   "answers": [
+    {
+     "text": "<p>The question boils down to, why does a convert today have to go through a lengthy education process and be required to move into a physical jewish community when the classic halacha clearly does not require this.</p>\n<p>I don't have a source, but I would say that in today's society a greater level of background is needed for one to honestly say that they can accept the rigors of Judaism. In classical times Judaism was much more community supported. One joined the Jewish community and that was his whole life. Jews just didn't live amongst the goyim. So there was no need to make sure that the convert could keep to the many intricacies of halacha; that would come naturally as he lives as part of the community. There was no need to require him to live in the community; if he became a Jew he would have no choice. There was less worry about backing out; this was a terribly unliked move in the eyes of the non-Jews, and the convert must be committed to come and convert in the first place. Today none of that is true, and a Jew might not live so exclusively amongst other Jews, and a convert is not a social outcast for deciding to become a Jew. There is every reason to think that a convert might never learn most parts of practical halacha, and that he might decide afterwards that this is not what he had in mind. And there is no motivation to accept a convert who will later leave Judaism.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119336/why-is-one-asked-to-join-the-jewish-community-if-this-practice-is-not-mentioned",
+   "tags": [
+    "halacha",
+    "talmud-gemara",
+    "shulchan-aruch"
+   ],
+   "date": "2021-01-03T18:04:38",
+   "year": 2021,
+   "score": 1,
+   "views": 265
+  },
+  {
+   "id": "ye-119338",
+   "legacy": {
+    "source_id": "miyodeya_119338",
+    "src": "qa_db/2021.json",
+    "number": 119338,
+    "old_file": "qa.html?id=miyodeya_119338&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Aruch Hashulchan on municipality water for a mikvah",
+   "question": "<p>According to <a href=\"https://www.jewishideas.org/article/use-municipal-city-water-mikveh-and-case-study-seattle-rabbinate-1950s\" rel=\"nofollow noreferrer\">this</a> article, Aruch Hashulchan allowed municipality water to be used for a mikvah. Below is the direct quote from the article. Where can this Aruch Hashulchan be found?</p>\n<blockquote>\n<p>In the late 19th century, Rabbi Yehiel Michel Epstein (1829-1908), author of Arukh Hashulhan, declared unequivocally that water supplied from a system of pipes that channel water from a river to houses throughout a city can be used for a mikveh, provided that either the tube that feeds into the mikveh is affixed to the ground, or that the final three handbredths of that tube where it pours into the cistern is made out of a material that is not succeptible to tumah, such as wood.</p>\n</blockquote>",
+   "answers": [
+    {
+     "text": "<p>Aruch Hashulchan YD 201:169</p>\n<p>ויש מקוות בערים הגדולות שבשם הולכים המים מהנהרות לכל בתי העיר דרך צנורות וסלונות תחת הקרקע בעומק ונקרא בלשון המדינה וואד\"א פראוואדי\"ן וממשיכין גם למקואות המים האלו צריכים ליזהר או שיפלו למקוה מהצנורות והסילונות של ברזל המחוברים לקרקע או שקודם המקוה יעשו קצת סילון של עץ במשך ג' טפחים כמ\"ש בסעי' קס\"ד ובמים האלו מוכרחים לסגור המים אחרי הכנסם למקוה ולכן אין עליהם דין מעיין רק דין מקוה לטהר באשבורן ולא בזוחלים וצריכים ליזהר בכל זה שבארנו:</p>",
+     "accepted": true,
+     "author": null,
+     "score": 8
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119338/aruch-hashulchan-on-municipality-water-for-a-mikvah",
+   "tags": [
+    "halacha",
+    "sources-mekorot",
+    "mikvah-ritual-bath",
+    "aruch-hashulchan"
+   ],
+   "date": "2021-01-03T18:17:03",
+   "year": 2021,
+   "score": 1,
+   "views": 252
+  },
+  {
+   "id": "ye-119340",
+   "legacy": {
+    "source_id": "miyodeya_119340",
+    "src": "qa_db/2021.json",
+    "number": 119340,
+    "old_file": "qa.html?id=miyodeya_119340&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Roman gods in the talmud",
+   "question": "<p>I'm currently writing an essay on Roman gods which are mentioned in the Talmud but I'm having a tricky time finding them, does anyone know any sources?</p>\n<ul>\n<li><strong>EDIT</strong></li>\n</ul>\n<p><a href=\"https://www.sefaria.org.il/Avodah_Zarah.44b.1?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Avoda Zora 44b</a></p>\n<p><strong>Aphrodite:</strong></p>\n<blockquote>\n<p>מתני׳ שאל פרוקלוס בן פלוספוס את ר\"ג בעכו שהיה רוחץ במרחץ של אפרודיטי אמר ליה כתוב בתורתכם (דברים יג, יח) לא ידבק בידך מאומה מן החרם מפני מה אתה רוחץ במרחץ של אפרודיטי</p>\n<p>MISHNA: A wise gentile, Proclus ben Plospus, once asked a question of Rabban Gamliel in the city of Akko when he was bathing in the bathhouse of the Greek god Aphrodite. Proclus said to him: It is written in your Torah: “And nothing of the proscribed items shall cleave to your hand” (Deuteronomy 13:18). For what reason do you bathe before an idol in the bathhouse of Aphrodite?</p>\n</blockquote>\n<p><strong>Mercury</strong>:</p>\n<p><a href=\"https://www.sefaria.org.il/Mishnah_Sanhedrin.7.6\" rel=\"nofollow noreferrer\">Mishna Sanhedrin 7:6</a></p>\n<blockquote>\n<p>הַזּוֹרֵק אֶבֶן לְמַרְקוּלִיס, זוֹ הִיא עֲבוֹדָתוֹ...</p>\n<p>Likewise, one who throws a stone at Mercury is liable to receive capital punishment, as that is its form of worship</p>\n</blockquote>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://hebrewbooks.org/shas.aspx?mesechta=1&daf=57b&format=pdf\" rel=\"noreferrer\"><strong>Berachot 57b</strong></a></p>\n<blockquote>\n<p>תנו רבנן הרואה מרקוליס אומר ברוך שנתן ארך אפים לעוברי רצונו</p>\n<p>Our Rabbis taught: If one sees a statue of Hermes,  he says, Blessed be He who shows long suffering to those who transgress His will.</p>\n<p>(<a href=\"https://halakhah.com/berakoth/berakoth_57.html#PARTb\" rel=\"noreferrer\">Soncino translation</a>)</p>\n</blockquote>\n<p>The footnote explains:</p>\n<blockquote>\n<p>Heb. Markolis, the Latin Mercurius. This was the commonest of the heathen images.</p>\n</blockquote>\n<p>If we accept this identification, then this would be the Roman god <a href=\"https://en.wikipedia.org/wiki/Mercury_(mythology)\" rel=\"noreferrer\">Mercury</a>.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    },
+    {
+     "text": "<p>Whilst not an outright mention...</p>\n<p>In <a href=\"https://www.sefaria.org/Avodah_Zarah.8a.5?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Avoda Zara 8a</a> it lists some of the festivals that the non-Jews observed:</p>\n<blockquote>\n<p>ואלו אידיהן של עובדי כוכבים קלנדא <strong>וסטרנורא</strong> וקרטיסים ויום גנוסיא של מלכיהם ויום הלידה ויום המיתה דברי רבי מאיר</p>\n<p><em>And these are the festivals of gentiles: Kalenda, <strong>Saturnalia</strong>, and Kratesis, and the day of the festival of their kings, and the birthday of the king, and the anniversary of the day of the death of the king. These are the words of Rabbi Meir.</em></p>\n</blockquote>\n<p><a href=\"https://en.wikipedia.org/wiki/Saturnalia\" rel=\"nofollow noreferrer\">Saturnalia</a> was a Roman festival made in honour of the Roman god - Saturn.</p>\n<p>Another option is brought in <a href=\"https://www.sefaria.org/Bava_Metzia.25b.1?ven=William_Davidson_Edition_-_English&lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Bava Metzia 25b</a> where it talks about finding coins in a certain configuration. It writes there:</p>\n<blockquote>\n<p>בעי רב אשי כאבני בית קוליס מהו</p>\n<p><em>Rav Ashi asked, if they were configured like the stones of the house of worship dedicated to the Roman deity Mercury, what is the halakha?</em> (Sefaria translation and notation)</p>\n</blockquote>\n<p><a href=\"https://www.sefaria.org/Bava_Metzia.25b.1?ven=William_Davidson_Edition_-_English&lang=bi&p2=Rashi_on_Bava_Metzia.25b.1.1&lang2=bi\" rel=\"nofollow noreferrer\">Rashi</a> writes that this \"בית קוליס\" is a reference to \"מרקוליס\" which <a href=\"https://www.sefaria.org/Jastrow%2C_%D7%9E%D6%B6%D7%A8%D6%B0%D7%A7%D7%95%D6%BC%D7%9C%D6%B4%D7%99%D7%A1.1?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Jastrow</a> explains as being Mercury</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p>This is not a direct answer to what you asked, but there is very good reason for the lack of mention of Roman or other foreign gods in the Talmud. As Maimonides wrote:</p>\n<blockquote>\n<p>The idolaters compiled many books of worship, defining its principle manner of service, its works and its laws; but the Holy One, blessed be He! charged us not to read those books at all, not to think of idolatry generally nor of aught of its details. Moreover, to look at it is forbidden, as it is said: \"Turn ye not unto idols\" (Lev. 19.4.); and of thinking on this subject it is said: \"And that thou inquire not after their gods, saying, How did these nations serve their god\"? (Ibid.), which is a warning that thou shalt not inquire concerning its manner of practice, though thou art not worshiping it, for this very inquiry causes a turning after it and to imitate their practice, as it is further said: \"Even so will I do likewise\" (Ibid.).</p>\n</blockquote>\n<p>In a comment you said that you were not given a choice of topic, but it might be worth explaining to whoever assigned the essay that their assignment is not realistic, as the Talmud is completely uninterested in the falsehoods of the Romans, and considered their study a complete waste of time.</p>\n<blockquote>\n<p>The Sages taught in a baraita: With regard to writing that is under a picture or under graven images [deyokenaot], it is prohibited to read it on Shabbat lest one end up reading business documents. And with regard to an idolatrous image itself, even on a weekday it is prohibited to look at it, because it says: “Do not turn toward idols [al tifnu el ha’elilim] or make yourselves molten gods, I am the Lord your God” (Leviticus 19:4). The Gemara asks for clarification: What is the biblical derivation? How does this verse indicate that one may not look at an idolatrous image? Rabbi Ḥanin said: Do not push God [al tefannu El] out of your mind by looking at these images.</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119340/roman-gods-in-the-talmud",
+   "tags": [
+    "talmud-gemara",
+    "avodah-zarah",
+    "rome"
+   ],
+   "date": "2021-01-03T19:00:35",
+   "year": 2021,
+   "score": 2,
+   "views": 1226
+  },
+  {
+   "id": "ye-119346",
+   "legacy": {
+    "source_id": "miyodeya_119346",
+    "src": "qa_db/2021.json",
+    "number": 119346,
+    "old_file": "qa.html?id=miyodeya_119346&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is there any single verse in Chumash that contains all 22 letters of the aleph-beis?",
+   "question": "<p>Is there any single verse in Chumash that contains all 22 letters of the aleph-beis?</p>",
+   "answers": [
+    {
+     "text": "<p>Shemos 16:16</p>\n<p>זֶ֤ה הַדָּבָר֙ אֲשֶׁ֣ר צִוָּ֣ה יְהֹוָ֔ה לִקְט֣וּ מִמֶּ֔נּוּ אִ֖ישׁ לְפִ֣י אָכְל֑וֹ עֹ֣מֶר לַגֻּלְגֹּ֗לֶת מִסְפַּר֙ נַפְשֹׁ֣תֵיכֶ֔ם אִ֛ישׁ לַֽאֲשֶׁ֥ר בְּאָֽהֳל֖וֹ תִּקָּֽחוּ</p>\n<p>Devarim 4:34</p>\n<p>א֣וֹ | הֲנִסָּ֣ה אֱלֹהִ֗ים לָ֠ב֠וֹא לָקַ֨חַת ל֣וֹ גוֹי֘ מִקֶּ֣רֶב גּוֹי֒ בְּמַסֹּת֩ בְּאֹתֹ֨ת וּבְמֽוֹפְתִ֜ים וּבְמִלְחָמָ֗ה וּבְיָ֤ד חֲזָקָה֙ וּבִזְר֣וֹעַ נְטוּיָ֔ה וּבְמֽוֹרָאִ֖ים גְּדֹלִ֑ים כְּ֠כֹ֠ל אֲשֶׁר־עָשָׂ֨ה לָכֶ֜ם יְהֹוָ֧ה אֱלֹֽהֵיכֶ֛ם בְּמִצְרַ֖יִם לְעֵינֶֽיךָ</p>\n<p>Here is a link for other places in Nach. <a href=\"https://www.biu.ac.il/jh/parasha/veethcha/mer.html\" rel=\"noreferrer\">https://www.biu.ac.il/jh/parasha/veethcha/mer.html</a></p>",
+     "accepted": true,
+     "author": null,
+     "score": 10
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119346/is-there-any-single-verse-in-chumash-that-contains-all-22-letters-of-the-aleph-b",
+   "tags": [
+    "aleph-bet-letters"
+   ],
+   "date": "2021-01-03T23:07:38",
+   "year": 2021,
+   "score": 3,
+   "views": 1014,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119350",
+   "legacy": {
+    "source_id": "miyodeya_119350",
+    "src": "qa_db/2021.json",
+    "number": 119350,
+    "old_file": "qa.html?id=miyodeya_119350&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Where do we find that the Torah is compared to a sea (yam)?",
+   "question": "<p>Just need this for something I’m writing.</p>",
+   "answers": [
+    {
+     "text": "<p>The verse in <a href=\"https://www.sefaria.org/Ecclesiastes.1.7?lang=he&with=all&lang2=he\" rel=\"nofollow noreferrer\">Koheles</a> says:</p>\n<blockquote>\n<p>(קהלת א ז): \"כל הנחלים הולכים אל הים והים איננו מלא\",</p>\n</blockquote>\n<p>And on that the <a href=\"https://www.sefaria.org/Midrash_Mishlei.10.1?lang=he&with=all&lang2=he\" rel=\"nofollow noreferrer\">medrash</a> says:</p>\n<blockquote>\n<p>זה התלמוד, שיש בו חכמות הרבה .</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p><strong><a href=\"https://hebrewbooks.org/shas.aspx?mesechta=21&daf=82&format=pdf\" rel=\"nofollow noreferrer\">Bava Kama 82a</a></strong></p>\n<blockquote>\n<p>דתניא וילכו שלשת ימים במדבר ולא מצאו מים דורשי רשומות אמרו אין מים אלא תורה שנאמר הוי כל צמא לכו למים כיון שהלכו שלשת ימים בלא תורה נלאו עמדו נביאים שביניהם ותיקנו להם שיהו קורין בשבת ומפסיקין באחד בשבת וקורין בשני ומפסיקין שלישי ורביעי וקורין בחמישי ומפסיקין ערב שבת כדי שלא ילינו ג' ימים בלא תורה</p>\n<p>For it was taught: ‘And they went three days in the wilderness and found no water, upon which those who expound verses metaphorically said: water means nothing but Torah, as it says: Ho, everyone that thirsteth come ye for water. It thus means that as they went three days without Torah they immediately became exhausted. The prophets among them thereupon rose and enacted that they should publicly read the law on Sabbath, make a break on Sunday, read again on Monday, make a break again on Tuesday and Wednesday, read again on Thursday and then make a break on Friday so that they should not be kept for three days without Torah.’</p>\n<p>(<a href=\"https://halakhah.com/babakamma/babakamma_82.html\" rel=\"nofollow noreferrer\">Soncino translation</a>)</p>\n</blockquote>\n<p><strong><a href=\"https://hebrewbooks.org/shas.aspx?mesechta=1&daf=61b&format=pdf\" rel=\"nofollow noreferrer\">Berachot 61b</a></strong></p>\n<blockquote>\n<p>תנו רבנן פעם אחת גזרה מלכות הרשעה שלא יעסקו ישראל בתורה בא פפוס בן יהודה ומצאו לרבי עקיבא שהיה מקהיל קהלות ברבים ועוסק בתורה אמר ליה עקיבא אי אתה מתירא מפני מלכות אמר לו אמשול לך משל למה הדבר דומה לשועל שהיה מהלך על גב הנהר וראה דגים שהיו מתקבצים ממקום למקום אמר להם מפני מה אתם בורחים אמרו לו מפני רשתות שמביאין עלינו בני אדם אמר להם רצונכם שתעלו ליבשה ונדור אני ואתם כשם שדרו אבותי עם אבותיכם אמרו לו אתה הוא שאומרים עליך פקח שבחיות לא פקח אתה אלא טפש אתה ומה במקום חיותנו אנו מתיראין במקום מיתתנו על אחת כמה וכמה אף אנחנו עכשיו שאנו יושבים ועוסקים בתורה שכתוב בה כי הוא חייך ואורך ימיך כך אם אנו הולכים ומבטלים ממנה עאכ\"ו</p>\n<p>Our Rabbis taught: Once the wicked Government issued a decree forbidding the Jews to study and practise the Torah. Pappus b. Judah came and found R. Akiba publicly bringing gatherings together and occupying himself with the Torah. He said to him: Akiba, are you not afraid of the Government? He replied: I will explain to you with a parable. A fox was once walking alongside of a river, and he saw fishes going in swarms from one place to another. He said to them: From what are you fleeing? They replied: From the nets cast for us by men. He said to them: Would you like to come up on to the dry land so that you and I can live together in the way that my ancestors lived with your ancestors? They replied: Art thou the one that they call the cleverest of animals? Thou art not clever but foolish. If we are afraid in the element in which we live, how much more in the element in which we would die! So it is with us. If such is our condition when we sit and study the Torah, of which it is written, For that is thy life and the length of thy days, if we go and neglect it how much worse off we shall be!</p>\n<p>(<a href=\"https://halakhah.com/berakoth/berakoth_61.html#PARTb\" rel=\"nofollow noreferrer\">Soncino translation</a>)</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    },
+    {
+     "text": "<p>Torah is always compared to water, here (although not to a sea):</p>\n<p><a href=\"https://he.wikisource.org/wiki/%D7%91%D7%91%D7%90_%D7%A7%D7%9E%D7%90_%D7%99%D7%96_%D7%90\" rel=\"nofollow noreferrer\">https://he.wikisource.org/wiki/%D7%91%D7%91%D7%90_%D7%A7%D7%9E%D7%90_%D7%99%D7%96_%D7%90</a></p>\n<blockquote>\n<p>ואין מים אלא תורה שנאמר (ישעיהו נה, א) הוי כל צמא לכו למים</p>\n<p>Water is always a reference to Torah as it says in Yishaya, \"Ho all\nthose who are thirsty, come to the water.\"</p>\n</blockquote>\n<p>However see</p>\n<p><a href=\"https://he.wikisource.org/wiki/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%94:%D7%99%D7%A9%D7%A2%D7%99%D7%94%D7%95_%D7%99%D7%90_%D7%98\" rel=\"nofollow noreferrer\">https://he.wikisource.org/wiki/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%94:%D7%99%D7%A9%D7%A2%D7%99%D7%94%D7%95_%D7%99%D7%90_%D7%98</a></p>\n<blockquote>\n<p>כִּי מָלְאָה הָאָרֶץ דֵּעָה אֶת יְהוָה כַּמַּיִם לַיָּם מְכַסִּים.</p>\n<p>For the world will be full of knowledge of Hashem as the water covers\nthe sea</p>\n</blockquote>\n<p>And Malbim (<a href=\"https://www.sefaria.org/Malbim_on_Zechariah.13.1?lang=bi\" rel=\"nofollow noreferrer\">https://www.sefaria.org/Malbim_on_Zechariah.13.1?lang=bi</a>)</p>\n<blockquote>\n<p>וכבר בארנו בפירוש יחזקאל שיש בזה משל ומליצה על התשפטות מי הדעת ונחל\nהתורה והאמונה שנמשלו למים</p>\n<p>The water of knowledge and the stream of Torah and belief in Hashem (that are compared to water)\nwill spread [like the sea].</p>\n</blockquote>\n<p>So the Torah is compared to water, not to the sea. The analogy of the sea refers to the spreading of the water of Torah.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119350/where-do-we-find-that-the-torah-is-compared-to-a-sea-yam",
+   "tags": [
+    "hashkafah-philosophy"
+   ],
+   "date": "2021-01-04T00:50:45",
+   "year": 2021,
+   "score": 0,
+   "views": 151
+  },
+  {
+   "id": "ye-119351",
+   "legacy": {
+    "source_id": "miyodeya_119351",
+    "src": "qa_db/2021.json",
+    "number": 119351,
+    "old_file": "qa.html?id=miyodeya_119351&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Tikkun for Timtum HaLev",
+   "question": "<p>Is there teshuva/tikkun for timtum halev (specifically for forbidden foods)? Please cite sources.</p>",
+   "answers": [
+    {
+     "text": "<p>Rav Pesach Feinhandler in Avnei Yasfei 3:76 writes that he does not see why teshuva doesn't help. He brings a proof from chelev (forbidden fats) that if one ate cheilev (shogeg) he can bring a korban chatas and the Torah (Vayikra 4:35) already says that one gets a kapparah (atonement). If one can get a kapparah by chelev which has an issur of kares ,then certainly by other machalos assuros which only carry a lav can certainly be atoned for with teshuva.</p>\n<p>Text of teshuva:</p>\n<p><a href=\"https://i.sstatic.net/PmBB3.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/PmBB3.png\" alt=\"enter image description here\" /></a></p>",
+     "accepted": false,
+     "author": null,
+     "score": 8
+    },
+    {
+     "text": "<p>There is a famous story about Rb Akiva Eiger in which a boy was unable to progress with his learning and it was determined this was because he had eaten non-kosher food at a chasunah (by mistake).</p>\n<p>I believe the <em>tikkun</em> recommended by Rb Akiva Eiger was for the boy to go into <em>galus</em> to learn Torah (i.e. to go to a far away <em>yeshiva</em>).</p>\n<p>The idea behind this seems to be something along the lines of the following thoughts in the <em>hakdamah</em> to Nephesh Ha'Chaim</p>\n<p><a href=\"https://i.sstatic.net/M4QgK.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/M4QgK.png\" alt=\"enter image description here\" /></a></p>\n<p>I.e. since <em>galus</em> is <em>yissurim ha'me'ma'atim hergesh ha'ta'anug</em> it is a <em>tikkun</em> for a <em>kilkul</em> in the <em>chush ha'taanug gufah</em>, and therefore can re-open one's heart to Torah.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    },
+    {
+     "text": "<p>If your question is understood properly, being careful to consume only chalav Yisroel dairy products would be the appropriate response.</p>\n<p>Although I don’t have the sources in front of me at the moment to give specific references, this is discussed both in Igrot Moshe (the responsa of Rabbi Moshe Feinstein) and in the Igrot Kodesh of the Lubavitcher Rebbe.</p>\n<p>Bli neder, when I have the time and if I remember, I will update this with the appropriate citations.</p>\n<p>Anyone having the time and sources, please feel free to drop them into this answer.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119351/tikkun-for-timtum-halev",
+   "tags": [
+    "halacha",
+    "hashkafah-philosophy",
+    "kashrut-kosher",
+    "halacha-theory",
+    "repentance-teshuvah"
+   ],
+   "date": "2021-01-04T01:06:59",
+   "year": 2021,
+   "score": 8,
+   "views": 552
+  },
+  {
+   "id": "ye-119357",
+   "legacy": {
+    "source_id": "miyodeya_119357",
+    "src": "qa_db/2021.json",
+    "number": 119357,
+    "old_file": "qa.html?id=miyodeya_119357&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "How many \"hidden righteous people\" (צַדִיקִים נִסתָּרים) are there?",
+   "title_en": "",
+   "question": "<p>Everywhere I read about it, it says that God keeps the world going for the sake of 36 righteous people that sustain it with their goodness, and if their number ever dips below 36, the world ends.</p>\n<p>But the Talmud only said their number is <em>at least</em> 36:</p>\n<blockquote>\n<p>לא פחות עלמא מתלתין ושיתא צדיקי דמקבלי אפי שכינה בכל דרא\nThe world has no fewer than thirty-six righteous people in each generation who greet the Divine Presence every day. [Sukkah 45b, Sanh. 97b]</p>\n</blockquote>\n<p>Do any commentators entertain the notion that there could be millions of them?  Why be so pessimistic as to assume we are always sitting on the ragged edge?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119357/how-many-hidden-righteous-people-%d7%a6%d6%b7%d7%93%d6%b4%d7%99%d7%a7%d6%b4%d7%99%d7%9d-%d7%a0%d6%b4%d7%a1%d7%aa%d6%b8%d6%bc%d7%a8%d7%99%d7%9d-are-there",
+   "tags": [
+    "tzaddikim"
+   ],
+   "date": "2021-01-04T06:30:44",
+   "year": 2021,
+   "score": 1,
+   "views": 109,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119359",
+   "legacy": {
+    "source_id": "miyodeya_119359",
+    "src": "qa_db/2021.json",
+    "number": 119359,
+    "old_file": "qa.html?id=miyodeya_119359&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Iyun sefarim on Taharos",
+   "question": "<p>Are there any <em>Iyun</em> sefarim on Taharos, either by topics or on the Mishna?</p>\n<p>I am not looking for the commentaries printed with the Mishna.</p>",
+   "answers": [
+    {
+     "text": "<p>You might want to consider the following:</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Yaakov_Ades\" rel=\"nofollow noreferrer\">Rav Yaakov Ades</a> has a sefer called <a href=\"https://hebrewbooks.org/55117\" rel=\"nofollow noreferrer\">Divrei Yaakov</a></p>\n<p><a href=\"https://en.wikipedia.org/wiki/Jacob_Hagiz\" rel=\"nofollow noreferrer\">Rav Yaakov Chagiz</a> has a sefer called <a href=\"https://hebrewbooks.org/30651\" rel=\"nofollow noreferrer\">Eitz Chaim</a></p>",
+     "accepted": true,
+     "author": null,
+     "score": 0
+    },
+    {
+     "text": "<p>Rav Michel Feinstein has a set of sefarim on Taharos. There is also Sidrei Taharos.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119359/iyun-sefarim-on-taharos",
+   "tags": [
+    "product-recommendation"
+   ],
+   "date": "2021-01-04T07:27:13",
+   "year": 2021,
+   "score": 0,
+   "views": 75,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119363",
+   "legacy": {
+    "source_id": "miyodeya_119363",
+    "src": "qa_db/2021.json",
+    "number": 119363,
+    "old_file": "qa.html?id=miyodeya_119363&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Difference between Sefaria and Artscroll in enumerating Pirkei Avos",
+   "question": "<p>There seems to be a difference in the splitting of a Perek in Pirkei Avos. On sefaria the perek I am referring to is <a href=\"https://www.sefaria.org/Pirkei_Avot.3.1?lang=bi&with=all&lang2=en\" rel=\"noreferrer\">Perek 3</a> where the Perek in Sefaria groups certain Mishnayos in that Perek together unlike Artscroll which instead of being 18 Mishnayos, it is 23. One Mishna for example in the Artscroll is 3:19 whilst on Sefaria it is 3:15.</p>\n<p>Is there any reason for the split and difference between these two versions?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119363/difference-between-sefaria-and-artscroll-in-enumerating-pirkei-avos",
+   "tags": [
+    "mishna",
+    "mesorah-tradition",
+    "pirke-avot-ethicsof",
+    "artscroll"
+   ],
+   "date": "2021-01-04T13:54:41",
+   "year": 2021,
+   "score": 5,
+   "views": 215
+  },
+  {
+   "id": "ye-119365",
+   "legacy": {
+    "source_id": "miyodeya_119365",
+    "src": "qa_db/2021.json",
+    "number": 119365,
+    "old_file": "qa.html?id=miyodeya_119365&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "kabbalah",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Are there any writings which speak to the spiritual aspects of different materials (Metals/Wood/etc.)?",
+   "question": "<p><a href=\"https://www.chabad.org/kabbalah/article_cdo/aid/622664/jewish/Snake-Metal.htm\" rel=\"nofollow noreferrer\"><strong>I found an article on Chabad which got into some spiritual ideas around metals.</strong></a> It specifically touches on Gold, Silver, and Copper and relates each to various concepts of holiness and spiritual qualities and the soul and so on.</p>\n<p>It was an interesting read and I haven't heard of metals spoken about and related to spiritual philosophy in such a way. I was curious if there are any books or writings or philosophies which codify and organize these or similar ideas about elements?</p>\n<ul>\n<li>Metals</li>\n<li>Woods</li>\n<li>Elements</li>\n<li>Things of this nature</li>\n</ul>",
+   "answers": [
+    {
+     "text": "<p>You would probably enjoy looking through <a href=\"https://www.hebrewbooks.org/pdfpager.aspx?req=20804&st=&pgnum=22&hilite=\" rel=\"nofollow noreferrer\">Midrash Talpiot on the section dealing with all the various stones</a>, both precious and otherwise. It has extensive discussion of precisely what you are requesting with a listing of where each subject is found in Torah literature.</p>\n<p>Concerning <a href=\"https://www.hebrewbooks.org/pdfpager.aspx?req=44143&st=&pgnum=220\" rel=\"nofollow noreferrer\">wood (עץ)</a> generally, Sefer Kehillat Yaacov should be looked at. Some specific metals are also listed in this excellent reference and don't forget to look at the <em>Omissions</em> (השמטות) pages too when checking there.</p>\n<p>A similar and earlier reference work to check into is <a href=\"https://www.hebrewbooks.org/pdfpager.aspx?req=33030&st=&pgnum=1&hilite=\" rel=\"nofollow noreferrer\">Sefer Ma'orot Natan</a>.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 2
+    },
+    {
+     "text": "<p>Rav S. R. Hirsch writes on this, see his essay on the Mishkan in \"Jewish Symbolism\" (Collected Writings vol. III).</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119365/are-there-any-writings-which-speak-to-the-spiritual-aspects-of-different-materia",
+   "tags": [
+    "hashkafah-philosophy",
+    "jewish-books",
+    "soul",
+    "thought",
+    "gold"
+   ],
+   "date": "2021-01-04T14:50:33",
+   "year": 2021,
+   "score": 4,
+   "views": 120,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119367",
+   "legacy": {
+    "source_id": "miyodeya_119367",
+    "src": "qa_db/2021.json",
+    "number": 119367,
+    "old_file": "qa.html?id=miyodeya_119367&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Seeking details on \"teliyah\", dangling missing words in a Sefer Torah",
+   "question": "<p><a href=\"https://judaism.stackexchange.com/questions/85452/can-one-add-in-missing-words-above-the-line-in-a-torah-scroll\">Can one add in missing words above the line in a Torah scroll?</a> discusses an example of adding in a missing word in a Sefer Torah. The answer gave a reference Shulchan Aruch <a href=\"https://he.wikisource.org/wiki/%D7%A9%D7%95%D7%9C%D7%97%D7%9F_%D7%A2%D7%A8%D7%95%D7%9A_%D7%99%D7%95%D7%A8%D7%94_%D7%93%D7%A2%D7%94_%D7%A8%D7%A2%D7%95\" rel=\"nofollow noreferrer\">YD 276:1</a>, but it is very brief, as is the gemara it comes from, Menachos 30b. I was hoping others can provide more information, and sources:<br />\na) How do we know to be תולה above the words (as in the picture) rather than below? Is below allowed (presumably staying closer to the line above than the line below)?<br />\nb) I think someone suggested that we are תולה just above the next word?<br />\nc) Related to the previous question - if one is being תולה more than one word, or even an entire verse or more, how in the world can you tell where it should fit in the surrounding lines?<br />\nIn my youth when I used to add something in English to a line, you'd write above or below and then mark the spot in the original phrase with a V or Λ above or below where the new words should fit it. I'm certain you can't do that in a Sefer Torah.<br />\nd) I found a couple of images online, but not much discussion. Are there a lot of examples of this to see somewhere?</p>",
+   "answers": [
+    {
+     "text": "<p>a) It was probably considered obvious, but you occasionally (eg. YD 273:6, 276:12) find incidental references to \"למעלה above\" which clarify that the intention is to hang the missing text above the line. I haven't seen anyone discuss what happens if you put it only below the line but I'd guess it's only kosher if it is written in such a way that it is clear where the text is supposed to be inserted (perhaps analogous to Tashbetz 1:176).</p>\n<p>b) See Melekhet Shamayim (<a href=\"https://hebrewbooks.org/pdfpager.aspx?req=36017&st=&pgnum=151\" rel=\"nofollow noreferrer\">25:6</a>):</p>\n<blockquote>\n<p>ושתולה התיבה שחסרה בין השיטין מתחיל כתיבתה מכוון למעלה על התיבה ששייכה אחר התיבה החסרה, ולא יתחיל לכתוב התיבה החסרה מרוחקת לצד ימין יותר מן התיבה שלמטה ממנה  וגם לא ירחיקנה לצד שמאל יותר מהתיבה שלמטה, אלא במקום שהתחיל האות הראשונה של תיבה שלמטה שם יתחיל האות הראשונה של התיבה שלמעלה, ועל כל פנים אם מגיע תחילת התיבה שבין השיטין מכוון עד סוף התיבה שלפניה שתחתיה פסול.‏<br />\nWhen hanging a missing word between the lines, start its writing aligned above the word that belongs after the missing word, and don't start to write the missing word far to the right of the word below it, and also don't distance it far to the left of the word below it, rather in the place that begins the first letter of the word below, there should start the first letter of the word above, and at the very least if the beginning of the word above reaches to the end of the word before it it is invalid.</p>\n</blockquote>\n<p>c) You can't use marks to indicate where the word should go (ibid.). Some allow a very long passage of text to be inserted by continuing onto the next couple interline spaces, arguing it is obvious because of the cramped writing that it all goes together to be inserted at the starting place, while others do not allow that (see Aruch Hashulchan <a href=\"https://he.wikisource.org/wiki/%D7%A2%D7%A8%D7%95%D7%9A_%D7%94%D7%A9%D7%95%D7%9C%D7%97%D7%9F_%D7%99%D7%95%D7%A8%D7%94_%D7%93%D7%A2%D7%94_%D7%A8%D7%A2%D7%95#%D7%A1%D7%99%D7%9E%D7%9F_%D7%A8%D7%A2%D7%95_%D7%A1%D7%A2%D7%99%D7%A3_%D7%99%D7%91\" rel=\"nofollow noreferrer\">YD 276:12</a>-14).</p>\n<p>d) It happened often enough in old Torah scrolls, but nowadays it almost never happens (cf. <a href=\"https://hebrewbooks.org/pdfpager.aspx?req=44655&st=&pgnum=51\" rel=\"nofollow noreferrer\">Benei Yonah 25b</a>). The market is such that for a scribe who erred it's usually worth it to rewrite whole columns or pay for fancy expert erasures to ensure the product isn't \"ugly\". But it's hard to say it's no longer kosher if you did it, and indeed I've seen it happen on rare occasions.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 4
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119367/seeking-details-on-teliyah-dangling-missing-words-in-a-sefer-torah",
+   "tags": [
+    "sefer-torah",
+    "safrus",
+    "text"
+   ],
+   "date": "2021-01-04T17:16:25",
+   "year": 2021,
+   "score": 3,
+   "views": 173
+  },
+  {
+   "id": "ye-119368",
+   "legacy": {
+    "source_id": "miyodeya_119368",
+    "src": "qa_db/2021.json",
+    "number": 119368,
+    "old_file": "qa.html?id=miyodeya_119368&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "English translation of Kuzari Sheini",
+   "question": "<p>Does anyone know of an online English translation of the <a href=\"https://hebrewbooks.org/pdfpager.aspx?req=22434&pgnum=1\" rel=\"nofollow noreferrer\">Kuzari Sheini</a> by R' David Nieto?</p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://www.google.com/books/edition/_/IOlhAAAAcAAJ\" rel=\"nofollow noreferrer\">Here's one</a> by <a href=\"https://en.wikipedia.org/wiki/Louis_Loewe\" rel=\"nofollow noreferrer\">Louis Loewe</a>, from 1842.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119368/english-translation-of-kuzari-sheini",
+   "tags": [
+    "product-recommendation",
+    "jewish-books",
+    "internet",
+    "translation"
+   ],
+   "date": "2021-01-04T17:48:34",
+   "year": 2021,
+   "score": 1,
+   "views": 133,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119371",
+   "legacy": {
+    "source_id": "miyodeya_119371",
+    "src": "qa_db/2021.json",
+    "number": 119371,
+    "old_file": "qa.html?id=miyodeya_119371&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Combining the blessing of Benjamin with the death of Jacob",
+   "question": "<p>When I was reading the <a href=\"https://en.wikipedia.org/wiki/Vaychi#Fourth_reading_%E2%80%94_Genesis_49:1%E2%80%9318\" rel=\"nofollow noreferrer\">blessing of Jacob</a> (<a href=\"http://mechon-mamre.org/p/pt/pt0149.htm\" rel=\"nofollow noreferrer\">Bereishit 49</a>), it caught my attention that the blessing of Benjamin and the summary is combined with the death and the funeral of Jacob. Based on <a href=\"https://www.sefaria.org/Sifra%2C_Vayikra_Dibbura_d%27Nedavah%2C_Chapter_1.9?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Sifra</a>, Rashi (<a href=\"https://www.chabad.org/library/bible_cdo/aid/9902/showrashi/true#v1\" rel=\"nofollow noreferrer\">Vayikra 1:1</a>) and Maharshal (<a href=\"https://hebrewbooks.org/pdfpager.aspx?req=49542&st=&pgnum=50\" rel=\"nofollow noreferrer\">שו\"ת ל\"ז</a> – כי רבותינו  הקדמונים וכו'‏) suggest that the division into <a href=\"https://en.wikipedia.org/wiki/Parashah\" rel=\"nofollow noreferrer\">parashot</a> more or <a href=\"https://www.chabad.org/library/bible_cdo/aid/8242/showrashi/true#v28\" rel=\"nofollow noreferrer\">less</a> follows the topics discussed in the text. Yet, this particular blessing is organised in the following way:</p>\n<ul>\n<li>Reuven (after two introductory verses) – open paragraph</li>\n<li>Shimon and Levi – open paragraph, combined due to their <a href=\"https://www.chabad.org/library/bible_cdo/aid/8244/showrashi/true#v5\" rel=\"nofollow noreferrer\">conspiracy</a></li>\n<li>Yehudah, Zevulun – each separated by an open paragraph</li>\n<li>Yissakhar, Dan, Gad, Asher, Naftali – each separated by a closed paragraph, end of <em>aliyah</em> after Dan</li>\n<li>Joseph – open paragraph, end of <em>aliyah</em></li>\n<li>Benjamin (followed by a summarising verse) – <br><strong>not separated from the rest of the paragraph discussing another topic</strong></li>\n</ul>\n<p>Indeed, it happens that in similar lists the last item goes with the summary (Bemidbar <a href=\"http://mechon-mamre.org/p/pt/pt0426.htm#48\" rel=\"nofollow noreferrer\">26:48</a>–51 or <a href=\"http://mechon-mamre.org/p/pt/pt0429.htm#35\" rel=\"nofollow noreferrer\">29:35</a>–30:1, Devarim <a href=\"http://mechon-mamre.org/p/pt/pt0533.htm#24\" rel=\"nofollow noreferrer\">33:24</a>–29),* but I didn't find any other instances when it is added to another paragraph discussing a totally different topic. Are there any explanations why Benjamin is added to the subsequent paragraph? Was he considered anything different from the rest of his brothers? Can it be a parallel with the death of his mother?</p>\n<p><sup>* In contrast with other cases where the last item and the summary are separated: Bemidbar <a href=\"http://mechon-mamre.org/p/pt/pt0401.htm#42\" rel=\"nofollow noreferrer\">1:42</a>–43 and 44–47, <a href=\"http://mechon-mamre.org/p/pt/pt0407.htm#78\" rel=\"nofollow noreferrer\">7:78</a>–83 and 84–89, </sup></p>",
+   "answers": [
+    {
+     "text": "<p>Though this is a very striking example, there are a number of places in the Torah where the breaks, psucha and stumah, divide the middle parts of a list and not the beginning and/or the end. I don't have a complete list of examples, but might as well start with the punishments of the nachash, Chava, and Adam in <a href=\"https://www.sefaria.org/Genesis.3.14?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Bereishis 3:14-19</a>. There are more, though not every one is at both at the beginning and the end of the list.<br />\nIn other words, the answer to your question is that the blessing of Binyamin is not actually combined with the following section. It is just not separated from it. The rest of the brothers' blessings are not separated from it either - they are separated from one another.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119371/combining-the-blessing-of-benjamin-with-the-death-of-jacob",
+   "tags": [
+    "safrus",
+    "shevatim-12-tribes",
+    "vayechi"
+   ],
+   "date": "2021-01-04T18:11:38",
+   "year": 2021,
+   "score": 4,
+   "views": 117,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119372",
+   "legacy": {
+    "source_id": "miyodeya_119372",
+    "src": "qa_db/2021.json",
+    "number": 119372,
+    "old_file": "qa.html?id=miyodeya_119372&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Do the commentators describe how Amram and Yocheved felt through the events involving Paro's daughter and Moshe?",
+   "question": "<p>The intervention of Paro's daughter in the life of Moshe was clearly miraculous. Basya went against her father's wishes and Moshe's mother was paid to nurse him. One can imagine the feelings of wonder that Amram and Yocheved must have had.</p>\n<p>But then Chap 2 v 10\n“When the child grew up, she brought him to Pharaoh’s daughter, who made him her son.” and as a result, he spent his time in Paro's palace (see <a href=\"https://www.sefaria.org/Exodus.2.10?lang=bi&with=Rabbeinu%20Bahya&lang2=en\" rel=\"nofollow noreferrer\">here</a>).  One can imagine that  Amram and Yocheved must have had worries about that.</p>\n<p>So my question is do the meforshim or midroshim describe the feelings of  Amram and Yocheved through these events?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119372/do-the-commentators-describe-how-amram-and-yocheved-felt-through-the-events-invo",
+   "tags": [
+    "parshanut-torah-comment",
+    "moshe-rabbeinu",
+    "parashas-shemos"
+   ],
+   "date": "2021-01-04T18:12:14",
+   "year": 2021,
+   "score": 2,
+   "views": 60,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119373",
+   "legacy": {
+    "source_id": "miyodeya_119373",
+    "src": "qa_db/2021.json",
+    "number": 119373,
+    "old_file": "qa.html?id=miyodeya_119373&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "People born circumcised?",
+   "question": "<p>In <a href=\"https://judaism.stackexchange.com/questions/37884/did-adam-and-eve-have-bellybuttons-fingerprints-or-ridge-over-lip\">this discussion</a>, it's stated: \"There is a minor tractate in the Talmud called Brit Millah which lists all the people born circumcised.\"</p>\n<p>Can anyone point me towards a copy of this tractate (which doesn't appear in Bar Ilan's list of minor tractates) or towards other sources which contain a list of people born circumcised/ more recent sources which discuss this list?</p>",
+   "answers": [
+    {
+     "text": "<p>It's in <a href=\"https://www.sefaria.org/Avot_D%27Rabbi_Natan.2.5?lang=bi\" rel=\"noreferrer\">Avot De-Rabbi Natan 2:5</a>: Born circumcised were Adam, Seth, Noah, Shem, Jacob, Joseph, Moses, the wicked Balaam, Samuel, David, Jeremiah and Zerubbabel.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 7
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119373/people-born-circumcised",
+   "tags": [
+    "midrash",
+    "brit-milah"
+   ],
+   "date": "2021-01-04T19:38:45",
+   "year": 2021,
+   "score": 2,
+   "views": 693,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119376",
+   "legacy": {
+    "source_id": "miyodeya_119376",
+    "src": "qa_db/2021.json",
+    "number": 119376,
+    "old_file": "qa.html?id=miyodeya_119376&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "What is the translation of הרכבה מזגית / הרכבה שכונית?",
+   "title_en": "",
+   "question": "<p>In the introduction to Shev Shmattsa letter 'מ' he talks about various cases of two things that combine to become one (the guf and the neshama, a mule, someone who is half eved half ben chorin, etc). He says that some things are 'הרכבה מזגית' whereas others are 'הרכבה שכונית'. I'm trying to figure out the translation of these terms.</p>\n<p>It seems that הרכבה מזגית means that the two things combine to become one new בריאה, which is not the case by הרכבה שכונית. But I would still like to know the exact translation of the two terms if anyone knows.</p>\n<p>edit - I would venture to guess that שכונית comes from the word for neighbor, and it means a combination of two things that only co-exist side by side, but don't actually combine to become one.... but I still don't know what מזגית (or הרכבה ממוזגת) means.</p>",
+   "answers": [
+    {
+     "text": "<p>According to Rb Avraham Gurwicz (Gateshead) - <em>harkavah mishchis</em> is a mixture and <em>harkavah mizgis</em> is a compound.</p>\n<p>So for example, if you have a <em>chatzi eved chatzi ben chorin</em>, you can have a <em>chakirah</em> if this is a <em>harkavah mishchis</em>, and there just happen to be elements of <em>ben chorin</em> and <em>eved</em> in the same person, or if this is a <em>harkavah mizgis</em> so that these elements interact to create a new type.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119376/what-is-the-translation-of-%d7%94%d7%a8%d7%9b%d7%91%d7%94-%d7%9e%d7%96%d7%92%d7%99%d7%aa-%d7%94%d7%a8%d7%9b%d7%91%d7%94-%d7%a9%d7%9b%d7%95%d7%a0%d7%99%d7%aa",
+   "tags": [
+    "hebrew",
+    "translation"
+   ],
+   "date": "2021-01-05T01:33:44",
+   "year": 2021,
+   "score": 2,
+   "views": 101,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119379",
+   "legacy": {
+    "source_id": "miyodeya_119379",
+    "src": "qa_db/2021.json",
+    "number": 119379,
+    "old_file": "qa.html?id=miyodeya_119379&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Gemara source regarding Levy in Germania",
+   "question": "<p>My name is Levy.</p>\n<p>Someone I know from France, where we have the same origins, in Alsace / Germany, and profoundly religious and an intellectual, told me that in the Gemara, it is said that after the destruction of the 1st Temple, the Tribe of Levy fled to \"Germania.\"</p>\n<p>This would explain our origins also in Alsace, which is know to have a very old tradition of Jews in the area, since the Middle Ages.</p>\n<p>Where in the Gemara is this statement about Levy fleeing to Germania?</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119379/gemara-source-regarding-levy-in-germania",
+   "tags": [
+    "sources-mekorot",
+    "talmud-gemara",
+    "levites-leviyim",
+    "golus-exile",
+    "yekke"
+   ],
+   "date": "2021-01-05T14:47:05",
+   "year": 2021,
+   "score": 3,
+   "views": 226
+  },
+  {
+   "id": "ye-119382",
+   "legacy": {
+    "source_id": "miyodeya_119382",
+    "src": "qa_db/2021.json",
+    "number": 119382,
+    "old_file": "qa.html?id=miyodeya_119382&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Why does the shva in Bereishit 1:2 express \"vav\" as an adverb (Now) in JPS 1917 translation?",
+   "question": "<p>Why does the <strong>shva</strong> cause the \"vav\" to be expressed in English as an adverb <strong>Now</strong> : \"Ve\" (וְ) instead of the conjunction <strong>And</strong> : \"Va\" (וַ), \"Ve\" (וְ), \"U\" (וּ) used to initiate each verse of Bereishit 1:3-31?</p>\n<p>Genesis / Bereishit 1:2</p>\n<p><strong>Now-The-Earth</strong> was empty and-void, and-darkness was on the face [of] the deep, and-[the] Spirit [of] Elohim was hovering over the face [of] The-Water. ( וְהָאָ֗רֶץ הָֽיְתָ֥ה תֹ֨הוּ֙ וָבֹ֔הוּ וְח֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם )</p>\n<p>Max Lansberg's translation of Bereishit 1:2 [JPS 1917] states <strong>\"Now-The-Earth\"</strong>, but Isaac Leeser's [1853 Pentateuch] English translation of Bereishit 1:2 states <strong>\"and-The-Earth\"</strong>. | Curious to find <strong>why Max Lansberg (senior rabbi of the B'rith Kodesh Congregation, Rochester, New York) & Dr. Marcus Jastrow (JPS Editor-in-Chief) interpreted the \"Ve\" with shva as the adverb 'Now' instead of the Leeser \"and\"</strong>. < mechon-mamre.org/e/et/jps1917.htm</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/119382/why-does-the-shva-in-bereishit-12-express-vav-as-an-adverb-now-in-jps-1917",
+   "tags": [
+    "parashat-bereishit",
+    "translation",
+    "english",
+    "vowels-nekudot"
+   ],
+   "date": "2021-01-05T18:15:55",
+   "year": 2021,
+   "score": 0,
+   "views": 62,
+   "needs_review": true
+  },
+  {
+   "id": "ye-119384",
+   "legacy": {
+    "source_id": "miyodeya_119384",
+    "src": "qa_db/2021.json",
+    "number": 119384,
+    "old_file": "qa.html?id=miyodeya_119384&src=miyodea/qa/2021-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "What is the term in Judaism for the \"fence laws\"? (rabbinical laws to guard against G-d's laws)?",
+   "question": "<p>What is the term in Judaism for the \"fence laws\"? (rabbinical laws to guard against G-d's laws)?</p>\n<p>For example the Muktzeh..</p>\n<p>Distinguishing it from for example the 7 rabbinical mitzvot / mitzvot r'rabbanan..</p>\n<p>Is it that the fence laws are things that are Issur D'Rabbanan, whereas any of the 7 are Mitzvot D'Rabbanan?</p>",
+   "answers": [
+    {
+     "text": "<p>We normally refer to those as *gezeiros\".</p>\n<p>Take a look at this old discussion : <a href=\"https://judaism.stackexchange.com/questions/85987/what-is-the-difference-between-a-takana-and-a-gezera\">What is the difference between a takana and a gezera?</a></p>",
+     "accepted": true,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/119384/what-is-the-term-in-judaism-for-the-fence-laws-rabbinical-laws-to-guard-agai",
+   "tags": [
+    "halacha",
+    "words",
+    "derabanan"
+   ],
+   "date": "2021-01-05T20:20:45",
+   "year": 2021,
+   "score": 0,
+   "views": 106
+  }
+ ]
+}

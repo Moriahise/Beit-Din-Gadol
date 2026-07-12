@@ -1,0 +1,988 @@
+{
+ "schema": 2,
+ "chunk": 74,
+ "count": 26,
+ "questions": [
+  {
+   "id": "ye-66726",
+   "legacy": {
+    "source_id": "miyodeya_66726",
+    "src": "qa_db/2015.json",
+    "number": 66726,
+    "old_file": "qa.html?id=miyodeya_66726&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Where can one learn the grammatical functions of the te'amim",
+   "question": "<p>I can chant the melodies of the te'amim but I'm having a hard time learning their grammatical functions and structure. Many websites that talk about the te'amim are quick to jump into the ideas of \"generals/kings\" and \"conjunctives/disjunctives\" without really explaining what they mean, or move through the information too quickly. Is anyone here familiar with any easy to follow English resources on this topic, or can they answer here in English regarding the grammatical functions?</p>",
+   "answers": [
+    {
+     "text": "<p>I have used and found excellent the book <a href=\"https://books.google.com/books/about/Chanting_the_Hebrew_Bible.html?id=gY8JAQAAMAAJ\">Chanting the Hebrew Bible</a> by Joshua Jacobson.  It comprises a background/history of the subject, a detailed grammatical treatment (one-by-one introducing the disjunctive <em>te'amim</em> and their function; introducing the relevant conjunctive <em>te'amim</em> with each disjunctive; diagrammatical syntax trees; examples; exercises), a treatment of other reading considerations (including pronunciation, vowels, common issues/mistakes, and rhythm), and concluding with several hundred pages of melodies for accents and their combinations for <em>Torah</em>, <em>Haftarah</em>, the high holidays, <em>Esther</em>, <em>Eichah</em>, and the three <em>megilloth</em> (although only \"standard\" Ashkenazi tunes). It comes with a CD of recordings.</p>\n\n<p>There is a cheaper \"Student Edition\", but I cannot vouch for its contents.  However, you can look <a href=\"https://books.google.com/books/about/Chanting_the_Hebrew_Bible.html?id=cAhkCXAEy6kC&hl=en\">here</a> for a preview.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 8
+    },
+    {
+     "text": "<p>The most comprehensive source today on cantillation appears to be the <em><a href=\"https://rads.stackoverflow.com/amzn/click/com/0870680048\" rel=\"nofollow noreferrer\" rel=\"nofollow noreferrer\">Two Treatises on the Accentuation of the Old Testament</a></em> by the 19th Century Hebraist, Dr. William Wickes. (He wrote two treatises because there are two systems of cantillation in the Hebrew Scriptures: one for the 21 books, and one for the other remaining three books of Psalms, Proverbs, and Job, which were sung.) The value of the cantillation was not restricted to melody. Its value also included its logical parsing of phrases into hierarchical chunks. These chunks gave the reader (and listener) the means by which to not only enjoy the Scripture through melody, but also the means to memorize the Scripture (because the melody aligned to the logical hierarchy of chunks of words and phrases, and therefore facilitated memorization).</p>\n<p>In this regard, the following paragraphs and illustrations provide a <strong>brief but simplified overview</strong> of the cantillations and their significance.</p>\n<p>To begin, the following verse provides an excellent illustration.</p>\n<p>First the English -</p>\n<blockquote>\n<p><strong><a href=\"http://www.mechon-mamre.org/p/pt/pt1807.htm#9\" rel=\"nofollow noreferrer\">Micah 7:9</a></strong> (Mechon-Mamre)<br />\n<sup>9</sup> I will bear the indignation of the LORD, because I have sinned against Him; until He plead my cause, and execute judgment for me; He will bring me forth to the light, and I shall behold His righteousness.</p>\n</blockquote>\n<p>This verse seems typical, but when seen through the “logic” of the cantillation, the meaning of this verse becomes more powerful. For example, this is how this verse appears in the Masoretic Text with its cantillation:</p>\n<p><a href=\"https://i.sstatic.net/vYeoi.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/vYeoi.png\" alt=\"enter image description here\" /></a></p>\n<p>Below appears the same verse parsed into chunks, based on the hierarchical levels of the cantillation. Please note that the more powerful disjunctive cantillation marks interrupt (and therefore overrule) the less powerful cantillation marks which precede. In essence, each successive phrase is modifying its previous phrase(s) if and when the more powerful disjunctives appear. Since the Athnach is the second most powerful disjunctive, its common appearance is mid-verse, and therefore splits the verse in half; in this regard, there are two parts, which Wickes describes as the dichotomy of Hebrew verse.</p>\n<p>Please click to enlarge.</p>\n<p><a href=\"https://i.sstatic.net/aFQdt.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/aFQdt.png\" alt=\"enter image description here\" /></a></p>\n<p>Please note that the first phrase of words (or first chunk) ends on the Pashta disjunctive accent. The next phrase of words (or chunk) ends on the Zaqef Qaton disjunctive accent, which we note is <em>more powerful</em> than the Pashta. Therefore the phrase contained in the Zaqef Qaton chunk subsumes, and therefore modifies the phrase contained by the Pashta. If we continue this process of logic, the schematic arrangement of the verse would look like the following in English.</p>\n<ol>\n<li><code>The indignation of the LORD</code> <strong>is modified by</strong> <code>I will bear</code></li>\n<li><code>because I have sinned</code> <strong>is modified by</strong> <code>against him</code></li>\n</ol>\n<blockquote>\n<p>The Athnach now appears here at the end of phrase #2 on the phrase <code>against him</code> (and therefore the first half of the verse has ended). Since the first half of the verse has ended, we can “hear” and therefore understand that phrase #2 modifies phrase #1.</p>\n</blockquote>\n<p>The second half of the verse continues as follows . . .</p>\n<ol start=\"3\">\n<li><code>until He plead my cause</code> <strong>is modified by</strong> <code>and execute judgment for me</code></li>\n<li><code>He will bring me forth to the light</code> <strong>is modified by</strong> <code>and I shall behold His righteousness</code></li>\n<li><code>and I shall behold</code> <strong>is modified by</strong> <code>His righteousness</code></li>\n</ol>\n<blockquote>\n<p>The Silluq / Sof Pasuq now appears at the end of phrase #5 on the phrase <code>his righteousness</code> (and therefore the second half of the verse has ended).</p>\n<p>Based on the “logic” of the hierarchy of Hebrew cantillation . . .</p>\n<ul>\n<li>Phrase #5 modifies phrase #4</li>\n<li>Phrase #5 and phrase #4 modify phrase #3</li>\n<li>Phrase #5 and phrase #4 and phrase #3 modify phrase #2 and phrase #1</li>\n</ul>\n</blockquote>\n<p>In summary, the cantillation provides nuance and therefore context in which we can better understand the Hebrew Scriptures. In the example above, the cantillation helps us to detect the nuance of this verse. That is, without cantillation, the emphasis might appear to be condemnation with the hopeful expectation of redemption; but when we look at this verse through the lens of cantillation “logic,” then the emphasis of the verse leans more toward the confidence of complete justification.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 2
+    },
+    {
+     "text": "<p>There is a good chapter on the te`amim in Israel Yeivin's \"Introduction to the Tiberian Masorah\". This book draws from ancient Masoretic sources. It is an academic book and is well researched and referenced.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66726/where-can-one-learn-the-grammatical-functions-of-the-teamim",
+   "tags": [
+    "grammar-dikduk",
+    "trop-cantillation"
+   ],
+   "date": "2015-12-29T21:17:08",
+   "year": 2015,
+   "score": 11,
+   "views": 990,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66727",
+   "legacy": {
+    "source_id": "miyodeya_66727",
+    "src": "qa_db/2015.json",
+    "number": 66727,
+    "old_file": "qa.html?id=miyodeya_66727&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Effect of mitzvos of ordinary people",
+   "question": "<p>Is there a source in the <em>rishonim</em> or before, where it says that no matter on what spiritual level the person is, his <em>mitzvah</em> will have a major effect in the spiritual worlds?</p>",
+   "answers": [
+    {
+     "text": "<p>The Rambam in Hilchos Teshuva 7:7 brings the novel concept that the context of your life defines the value of a Mitzvah done within it. A person who hasn't done Teshuva can do Mitzvos all he wants and Hashem rips them up in his face. Whereas a day later if the person has change the context of his life and done Teshuva, his Mitzvos are joyously accepted. \nכמה מעולה מעלת התשובה אמש היה זה מובדל מה' אלהי ישראל שנאמר עונותיכם היו מבדילים ביניכם לבין אלהיכם צועק ואינו נענה שנאמר כי תרבו תפלה וגו' ועושה מצות וטורפין אותן בפניו שנאמר מי בקש זאת מידכם רמוס חצרי מי גם בכם ויסגר דלתים וגו' והיום הוא מודבק בשכינה שנאמר ואתם הדבקים בה' אלהיכם צועק ונענה מיד שנאמר והיה טרם יקראו ואני אענה ועושה מצות ומקבלין אותן בנחת ושמחה\nTherefore I would say it is quite the opposite of what you are looking for; the value of a Mitzvah depends very much on the performer's \"spiritual level\".</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66727/effect-of-mitzvos-of-ordinary-people",
+   "tags": [
+    "mitzvah",
+    "mysticism-kabbalah"
+   ],
+   "date": "2015-12-29T21:21:14",
+   "year": 2015,
+   "score": 2,
+   "views": 74,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66732",
+   "legacy": {
+    "source_id": "miyodeya_66732",
+    "src": "qa_db/2015.json",
+    "number": 66732,
+    "old_file": "qa.html?id=miyodeya_66732&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Does the book of Daniel accurately date the war with Babylon?",
+   "question": "<p>According to <a href=\"//en.wikipedia.org/?oldid=695316562#Overview\" rel=\"nofollow noreferrer\">Wikipedia</a>:</p>\n<blockquote>\n<p>The introductory verses tell how, in the third year of the reign of Jehoiakim (606 BCE), Daniel and his friends Hananiah, Mishael, and Azariah were among the young Jewish nobility carried off to Babylon following the city's capture by Nebuchadnezzar, king of Babylon. (This, incidentally, is the first of a string of historical errors in the Book of Daniel which have led scholars to see its hero as a fictional character, since the meticulous Babylonian chronicles make no mention of an attack on Jerusalem before 598 BCE).</p>\n</blockquote>\n<p>Any defense against that charge?</p>",
+   "answers": [
+    {
+     "text": "<p>Your primary complaint is over a discrepancy of only eight years, which is not a huge amount. This discrepancy could be explained by different methods of counting regnal years and does not render <em>Daniel</em> non-historical.</p>\n\n<p>In his <em>Guide to the Bible</em>, Isaac Asimov mentions more discrepancies and points out that these discrepancies tend to be in Daniel's past but the predictions which he makes are accurate. He then brings forth the opinion that Daniel was actually written during the Greek period but was set in the Babylonian & Persian period so one caught with the work could claim that it was not critical of the Greek rulers even though those who were in on it knew what it was. </p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p>Perhaps the statement in the first passuk of Daniel in which says: \"בא נבוכדנאצר מלך בבל ירושלם ויצר עליה the expression  ויצר עליה should be translated as \"and showed hostility towards it\" (because צור is a byform of צרר \"treat with hostility\"). </p>\n\n<p>If we assume that this means the passuk does not necessarily says that a formal military siege against Jerusalem take place in that year.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    },
+    {
+     "text": "<p>Note: The Babylonian Chronicles entries brought in this answer were translated by me from the book \"Historical Texts From Assyria and Babylonia: 9th-6th Centuries BCE\" by Mordechai Cogan, which is a Hebrew translation of various Tanach-related Mesopotamian inscriptions and texts dated to said centuries. A different translation can be found <a href=\"https://www.livius.org/sources/about/mesopotamian-chronicles/\" rel=\"nofollow noreferrer\">here</a> (see entries from \"Early Years of Nabopolassar chronicle\" through \"Early Years of Nebuchadnezzar chronicle\").</p>\n<p>It is evident in the Babylonian Chronicles that the authors of the chronicles referred to the Land of Israel as \"The Land of <a href=\"https://en.wikipedia.org/wiki/Biblical_Hittites\" rel=\"nofollow noreferrer\">Chet</a>\" (translated as \"Hatti-land\" <a href=\"https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/\" rel=\"nofollow noreferrer\">here</a>). For example, in the entry for Nevuchadnetzar's 7th year, it says:</p>\n<blockquote>\n<p>\"In the month of Kislev, the king of Akkad recruited his army and went to the Land of Chet. He laid siege upon the city of Judah. In the month of Adar, the second day, he conquered the city and captured its king. He appointed a king who was to his liking. He accepted their rich tribute and passed it on to Babylon.\"</p>\n</blockquote>\n<p>I recently heard Dr. Yossi Baruchi explain that the priests who authored the Babylonian Chronicle preferred using many ancient terms. We can see from the above entry that they called the king of Babylon \"the king of Akkad\". And likewise we see that Eretz Yisrael was called Chet, because Bnei Chet used to live there, centuries prior<sup>1</sup> (and it is so referred to in <a href=\"https://www.sefaria.org.il/Joshua.1.4?lang=bi\" rel=\"nofollow noreferrer\">Yehoshua 1:4</a>)</p>\n<p>Knowing this, we may now go back to Nevuchadnetzar's first year (605 BCE), where we find the entry:</p>\n<blockquote>\n<p>\"In the year of his crowning, Nevuchadnetzar <strong>returned</strong> to the Land of Chet, and still during the month of Shevat he paraded around as a ruler. etc\"</p>\n</blockquote>\n<p>Notice the emphasized word, \"<strong>returned</strong>\". The previous entry, which describes Nabopolassar (his father)'s last year and Nevuchadnetzar's battles against the Land of <a href=\"https://en.wikipedia.org/wiki/Hama\" rel=\"nofollow noreferrer\">Chamat</a> and <a href=\"https://en.wikipedia.org/wiki/Battle_of_Carchemish\" rel=\"nofollow noreferrer\">against Egypt in Carchemish</a> (prior to being crowned), makes no mention of a visit to the Land of Chet, for the next entry to earn the term \"returned\". In fact, the Land of Chet/Hatti-land is not mentioned at all during the reign of Nabopolassar nor during the wars of his son Nevuchadnetzar, until this entry from his first year. It seems we have here evidence of a prior visit to Judah (\"Chet\") that the chroniclers did not see fit to directly include in the Chronicles for some reason. Moreover, this shows us that the chroniclers were not quite as meticulous as Wikipedia would have us believe.</p>\n<p>It seems that the only question that remains is why Nevuchadnetzar is referred to as king in <a href=\"https://www.sefaria.org.il/Daniel.1.1?lang=bi\" rel=\"nofollow noreferrer\">Daniel 1:1</a>, when it seems he was not yet king. One possibility is that he received control of a central Babylonian city or territory from his father, so he was already king of a small area, much like Da'at Mikra's explanation for <a href=\"https://www.sefaria.org.il/Daniel.5.1?lang=bi&with=all&lang2=en\" rel=\"nofollow noreferrer\">Daniel 5:1</a> (footnote 1, section 3) in which Belshatzar is defined as \"king\", though according to the Babylonian Chronicle, it was his father Nabona'id who was the last king of Babylon before the Persian conquest. Belshatzar was \"king\" in that he received temporary authority over Babylon when his father Nabona'id entered self-imposed exile for a certain period. It is possible that, likewise, Nevuchadnetzar was given an office of regency even before the death of his father.</p>\n<hr />\n<p><sup>1</sup> Of them, the most well-known is probably Efron, who sold the Machpela Cave to Avraham.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66732/does-the-book-of-daniel-accurately-date-the-war-with-babylon",
+   "tags": [
+    "history",
+    "army-military-war",
+    "daniel-book-of",
+    "babylonian-exile"
+   ],
+   "date": "2015-12-29T22:15:59",
+   "year": 2015,
+   "score": 5,
+   "views": 366,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66733",
+   "legacy": {
+    "source_id": "miyodeya_66733",
+    "src": "qa_db/2015.json",
+    "number": 66733,
+    "old_file": "qa.html?id=miyodeya_66733&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "What's the difference between קסת הסופר and מנחת שי?",
+   "title_en": "",
+   "question": "<p>I am a Torah reader. I am always interested in learning about the nuances of how trope is used as well as the rules about how the Torah scroll is written, and the relationship between the writing activity and reading / chanting.</p>\n\n<p>In various questions here, as well as speaking to a few people, two books have been mentioned קסת הסופר and מנחת שי. I forgot what each book delves into and what the differences are with these two works. Please describe / summarize.</p>",
+   "answers": [
+    {
+     "text": "<p>Keset HaSofer, by R <a href=\"https://en.wikipedia.org/wiki/Shlomo_Ganzfried\">Shlomo Ganzfried</a>, discusses the laws of writing as a Sofer STaM. Topics include: how to make Kosher parchment, shapes of the letters, intent when writing, what sorts of corrections are permitted, prohibition of erasing God's name (among other things). Online at Hebrewbooks.org <a href=\"http://hebrewbooks.org/38188\">here</a>.</p>\n\n<p>Minchat Shai, by R <a href=\"https://en.wikipedia.org/wiki/Jedidiah_Norzi\">Yedidya Nortzi</a>, discusses the correct text of Tanakh. Topics include: differences in spelling, vocalization, and cantillation between various manuscripts and/or printings of Tanakh. In particular, he works to decide what the correct version should be for us. Online at Hebrewbooks.org <a href=\"http://www.hebrewbooks.org/14036\">here</a>.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 7
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66733/whats-the-difference-between-%d7%a7%d7%a1%d7%aa-%d7%94%d7%a1%d7%95%d7%a4%d7%a8-and-%d7%9e%d7%a0%d7%97%d7%aa-%d7%a9%d7%99",
+   "tags": [
+    "jewish-books",
+    "torah-reading",
+    "safrus"
+   ],
+   "date": "2015-12-29T22:35:15",
+   "year": 2015,
+   "score": 3,
+   "views": 178
+  },
+  {
+   "id": "ye-66735",
+   "legacy": {
+    "source_id": "miyodeya_66735",
+    "src": "qa_db/2015.json",
+    "number": 66735,
+    "old_file": "qa.html?id=miyodeya_66735&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "A bought or found stolen mitzva item",
+   "question": "<p>It's pretty well known that you can't fulfill a mitzvah with something that has been stolen. However, what if you buy or find something to fulfill a mitzvah that (unbeknownst to you) had been stolen by the person who sold or lost it?</p>\n\n<p>For example:</p>\n\n<ul>\n<li><p>Ari steals a lulav and sells it to Benyamin. On Sukkot, Benyamin takes lulav, but later learns that his lulav was stolen. Has he fulfilled his obligation that day, or must he re-take with another lulav?</p></li>\n<li><p>Ari steals a lulav and loses it. Benyamin finds the lulav, tries to find its rightful owner, but can't. On Sukkot, Benyamin takes lulav with his found lulav, after which Ari confesses to him that he had stolen the lulav in the first place. Has Benyamin fulfilled his obligation to take lulav that day?</p></li>\n</ul>",
+   "answers": [
+    {
+     "text": "<p>There are two possible problems in such a case:</p>\n<ol>\n<li>The Lulav might not belong to him, and</li>\n<li>In a case where it's lost, the thief might not have given up on finding it, and</li>\n<li>This might be a case of מצוה הבאה בעבירה</li>\n</ol>\n<p>1 . A stolen item belongs to the original owner, until there is יאוש בעלים (the owners give up on getting their object back), and שינוי רשות (a changing of ownership from the thief [other changes might also work, but this is the applicable one]), as per Shu\"A Cho\"M 396:3 (the יאוש should be <em>before</em> the שינוי; in a case where the latter is first, the Shu\"A says he thinks that it still belongs to the original owner). Therefore, assuming this is a case where the person who was stolen from gave up on finding his lulav, the lulav now belongs to the buyer, because there was 'giving up' and 'a change in ownership'. If the owner didn't give up, then the lulav doesn't belong to the buyer.</p>\n<ol start=\"2\">\n<li><p>In the second case given, where the lulav was <em>found</em>, this leads us in to the realm of השבת אבידה, which is lengthy. In short, the owner must give up on finding his object. Therefore, if it has signs which the owner can readily identify his object by, we assume he didn't give up and the lulav doesn't belong to the finder. If it has no signs, and the owner will notice its loss, we assume he gave up on finding it. In our case, though, we might not have to worry about this at all, seeing as the thief doesn't actually own the object, and we're under the assumption (from the previous point) that the original owner already has יאוש.</p>\n</li>\n<li><p>מצוה הבאה בעבירה - doing a mitzva while simultaneously committing an Aveira, is complicated. Here, the buyer is not stealing. Beyond that, he's <em>annus</em> and didn't know the lulav was stolen. The Aveira he <em>did</em> commit is מחזיק ידי עוברי עבירה (supporting another's sinning), which is a form of Lifnei Iver (Shu\"A Cho\"M 396:1). However, since it could be committed by others, it's not fully Lifnei Iver and it's only d'Rabanan (אשל אברהם סעיף קטן ב, among others).</p>\n</li>\n</ol>\n<p>The S'dei Chemed (chelek Dalet, klal 77) talks about many aspects of mitzva haba'a b'aveira, and brings a machlokes by a case where the Aveira is d'Rabanan, and a machlokes where the Aveira is done <em>b'oneis</em>. In the second machlokes, he holds that there's still mitzva haba'a b'aveira. In the first, he leans towards the side that it's muttar.</p>\n<p>I didn't see anyone (quoted by the S'dei Chemed) who holds that in both cases (annus and d'Rabanan) there's still mitzva haba'a b'aveira, but there are definitely Achronim who are machmir in either of the two cases, so it seems to me that it'd be preferable to shake lulav again. However, if that's unfeasible, seemingly יש על מי לסמוך, and he's yotzei. And in a case where he found the lulav, there's no problem of מחזיק ידי עוברי עבירה at all,and assuming the previously mentioned problems are dealt with, he would be yotzei with this lulav.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66735/a-bought-or-found-stolen-mitzva-item",
+   "tags": [
+    "halacha",
+    "transactions",
+    "gezel-stealing",
+    "lost-and-found"
+   ],
+   "date": "2015-12-29T23:02:23",
+   "year": 2015,
+   "score": 6,
+   "views": 134
+  },
+  {
+   "id": "ye-66736",
+   "legacy": {
+    "source_id": "miyodeya_66736",
+    "src": "qa_db/2015.json",
+    "number": 66736,
+    "old_file": "qa.html?id=miyodeya_66736&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Halachic Works Western Sephardic and Portuguese Hahamim?",
+   "question": "<p>I was wondering if anyone could recommend halachic works by the Hahamim of the Western Sephardic and Portuguese communities if any exist. </p>\n\n<p>I am aware of such things like Keter Shem Tov which detail their minhagim, but I'm more interested in the halachic traditions reflected in local piskei halacha. </p>",
+   "answers": [
+    {
+     "text": "<p>Rabbi Joseph Dweck is the Senior Rabbi of the Spanish and Portuguese Congregation in the UK, and he has hundreds of shiurim on Halacha and many other topics, all freely available online. He is married to a granddaughter of Rabbi Ovadia Yosef. His website is www.mipazrav.com</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    },
+    {
+     "text": "<p>These links should give you plenty to work with...</p>\n\n<p><a href=\"http://seforimcenter.com/HEBREW-Books/Halacha/Sheelot-UTshuvot-/Sheelot-UTshuvot---Rabbeinu-Nissim-ben-Reuven__p-73-74-185-5099.aspx\" rel=\"nofollow\">http://seforimcenter.com/HEBREW-Books/Halacha/Sheelot-UTshuvot-/Sheelot-UTshuvot---Rabbeinu-Nissim-ben-Reuven__p-73-74-185-5099.aspx</a></p>\n\n<p><a href=\"http://seforimcenter.com/HEBREW-Books/Halacha/Sheelot-UTshuvot-/Sheelot-UTshuvot-HaRashba-5-vol.__p-73-74-185-3383.aspx\" rel=\"nofollow\">http://seforimcenter.com/HEBREW-Books/Halacha/Sheelot-UTshuvot-/Sheelot-UTshuvot-HaRashba-5-vol.__p-73-74-185-3383.aspx</a></p>\n\n<p><a href=\"http://seforimcenter.com/HEBREW-Books/Halacha/Sheelot-UTshuvot-/Sheelot-UTshuvot-HaTashbetz--R-Shimon-bar-Tzemach-5-vol.__p-73-74-185-9338.aspx\" rel=\"nofollow\">http://seforimcenter.com/HEBREW-Books/Halacha/Sheelot-UTshuvot-/Sheelot-UTshuvot-HaTashbetz--R-Shimon-bar-Tzemach-5-vol.__p-73-74-185-9338.aspx</a></p>\n\n<p><a href=\"http://seforimcenter.com/Product.aspx?ProductID=10352&strReferer=search&PPGR=1\" rel=\"nofollow\">http://seforimcenter.com/Product.aspx?ProductID=10352&strReferer=search&PPGR=1</a></p>\n\n<p><a href=\"http://seforimcenter.com/Product.aspx?ProductID=9348&strReferer=search&PPGR=7\" rel=\"nofollow\">http://seforimcenter.com/Product.aspx?ProductID=9348&strReferer=search&PPGR=7</a></p>\n\n<p><a href=\"http://seforimcenter.com/Product.aspx?ProductID=9521&strReferer=search&PPGR=7\" rel=\"nofollow\">http://seforimcenter.com/Product.aspx?ProductID=9521&strReferer=search&PPGR=7</a></p>\n\n<p><a href=\"http://seforimcenter.com/Product.aspx?ProductID=9342&strReferer=search&PPGR=7\" rel=\"nofollow\">http://seforimcenter.com/Product.aspx?ProductID=9342&strReferer=search&PPGR=7</a></p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66736/halachic-works-western-sephardic-and-portuguese-hahamim",
+   "tags": [
+    "halacha",
+    "product-recommendation",
+    "jewish-books",
+    "s-and-p-sephardi"
+   ],
+   "date": "2015-12-29T23:58:02",
+   "year": 2015,
+   "score": 3,
+   "views": 375
+  },
+  {
+   "id": "ye-66739",
+   "legacy": {
+    "source_id": "miyodeya_66739",
+    "src": "qa_db/2015.json",
+    "number": 66739,
+    "old_file": "qa.html?id=miyodeya_66739&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Cold Dairy into lukewarm meat",
+   "question": "<p>If a cold dairy item (such as a liquid or solid) falls into lukewarm chicken soup, and The bowl had recently been hot, is the bowl treif?</p>",
+   "answers": [
+    {
+     "text": "<p>No, the bowl is kosher.</p>\n\n<p>As a general rule, things only become non-kosher through heat. According the the Rema (<a href=\"http://hebrewbooks.org/pdfpager.aspx?req=9145&st=&pgnum=497\" rel=\"nofollow\">YD 105:3</a>) the heat must be (a) from a \"כלי ראשון\"--a utensil that itself has been on the fire; AND (b) if the utensil is no longer on the fire, the non-kosher item must have fallen in immediately after the the utensil was taken off the fire so that the scalding heat is still present. The Aruch Hashulchan (ad loc.) notes that most poskim agree with the Rema. The Maharshal (see Shach ad. loc.) is more stringent. He holds that items can become non-kosher through heat the hand would recoil from, even if the utensil was never on the fire. Within this framework there are various potentially mitigating factors, but it is unnecessary to discuss them, because your case only involves lukewarm soup, and therefore does not meet the most basic criterion for rendering utensils non-kosher.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66739/cold-dairy-into-lukewarm-meat",
+   "tags": [
+    "halacha",
+    "meat-and-milk"
+   ],
+   "date": "2015-12-30T01:05:26",
+   "year": 2015,
+   "score": 0,
+   "views": 132
+  },
+  {
+   "id": "ye-66740",
+   "legacy": {
+    "source_id": "miyodeya_66740",
+    "src": "qa_db/2015.json",
+    "number": 66740,
+    "old_file": "qa.html?id=miyodeya_66740&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Saying Brachos near a bathroom",
+   "question": "<p>We know that saying <em>brachos</em> in a bathroom is <em>Assur</em>. Would the same <em>halacha</em> apply regarding saying them <strong>near</strong> a bathroom with the door open ?</p>\n\n<p><a href=\"https://judaism.stackexchange.com/questions/53389/can-one-recite-prayers-or-learn-torah-while-facing-a-bathroom-whose-door-is-open\">this</a> doesn't seem to answer the question ?! </p>",
+   "answers": [
+    {
+     "text": "<p>There are two issues here. One is whether our bathrooms have the status of the <em>beit hakisei</em> of the traditional halacha, the second whether we can say a bracha close to a <em>beit hakisei</em>.</p>\n<p>Whether our bathroom have the status of a <em>beit hakisei</em> is a <em>machloket poskim</em>. <a href=\"http://www.yeshiva.co/midrash/shiur.asp?id=10573\" rel=\"nofollow noreferrer\">R Yirmiyohu Kaganoff for instance writes</a></p>\n<blockquote>\n<p>The later-day poskim dispute whether our bathrooms have the halachic\nstatus of the beis hakisei of the days of Chazal. Some poskim are\nlenient since our bathrooms are much cleaner than old-time outhouses\n(Shu’t Zakan Aharon 1:1; Shu’t Minchas Yitzchok 1:60).</p>\n<p>Others contend\nthat our bathrooms should still be treated as a beis hakisei (Shu’t\nYechaveh Daas 3:1). Both the Chazon Ish (Orach Chayim 17:4) and Rav\nMoshe Feinstein (Shu’t Igros Moshe, Even HaEzer 1:114) rule that we\nshould treat our bathrooms as a safek (questionable) beis hakisei.</p>\n<p>The universal practice is to not recite brachos in the bathroom, but some\npeople are lenient to wash their hands there. Rav Moshe rules that one\nmay not wash for bread in our bathrooms, but one may wash his hands\nthere before davening, although one should dry one’s hands outside the\nbathroom.</p>\n</blockquote>\n<p>From this R Kaganoff concludes that <strong>one should not recite a bracha</strong> [...] <strong>facing the bathroom when its door is ajar. However, if we assume that it is only questionable, then one may have grounds to be lenient</strong>.</p>\n<p><strong>R Moshe Feinstein does indeed provide such a leniency</strong>. He writes (Even Haezer 1:114) that since the walls of our bathrooms are also an integral part of the house, we can ascribe the same status to the door doorframe as to the walls and consider them to be part of the structure of the house and not part of the bathroom. Therefore <strong>he rules that [...] one may recite a bracha opposite and outside a bathroom even when the door is open</strong> (even if tzo'ah is present in the bathroom as it is considered as in a different domain). <strong>R Tzvi Pesach Frank reaches a similar conclusion</strong> (Har Tzvi OC 1:48). R Moshe Feinstein further discusses how synagogues should be built to avoid the issue.</p>\n<p>(sourced from <a href=\"https://web.stevens.edu/golem/llevine/areivim/halacha_modern_plumbing.pdf\" rel=\"nofollow noreferrer\">R Ari Zivotofsky extensive study on the halachot of modern plumbing</a>)</p>\n<p><strong>In all cases you must be four amot from the source of foul odors and not see <em>tzo'ah</em></strong> (see <a href=\"https://judaism.stackexchange.com/questions/2644/blessing-underneath-bathroom/2647#2647\">here</a> and <a href=\"https://judaism.stackexchange.com/a/53502/11501\">here</a> as indicated in the comments above).</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66740/saying-brachos-near-a-bathroom",
+   "tags": [
+    "halacha",
+    "blessing",
+    "bathroom"
+   ],
+   "date": "2015-12-30T01:06:35",
+   "year": 2015,
+   "score": 1,
+   "views": 298
+  },
+  {
+   "id": "ye-66746",
+   "legacy": {
+    "source_id": "miyodeya_66746",
+    "src": "qa_db/2015.json",
+    "number": 66746,
+    "old_file": "qa.html?id=miyodeya_66746&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Which manuscript of the Mishna did the Bartenura check?",
+   "question": "<p>In Kelim 28:5, the Mishna comments upon the susceptibility to impurity of various objects whose primary usage has been changed. A canteen that is turned into a mat, or a mat that has been turned into a canteen, is no longer susceptible to impurity. A canteen, however, that has been turned into a saddle bag, a pillow that has been turned into a sheet, a cushion that has been turned into a cloth, and vice versa with each of those, is susceptible (according to most editions of the Mishna) to impurity.</p>\n\n<p>The Bartenura, however, comments that the Mishna should say that it is <em>unsusceptible</em> (\"טהור: ולא גרסינן טמא\"). He goes on to note that this is the version of his teachers (\"וכך היא גירסת רבותי\"), that such a reading is buttressed by the Tosefta (\"והכי מוכח מן התוסתא\"), and that he even found this in a particular manuscript of the Mishna (\"וכך מצאתי במשנה דווקנית\"). Which manuscript is he referring to?</p>\n\n<hr>\n\n<p>To be more precise, does דווקנית mean \"of Vaknit\" (and if it does, what is \"Vaknit\"?), or does it mean \"precise/methodical\"? If it's the latter, is the Bartenura referring to a specific manuscript that might be checked today, or is this a way of referring to a careful comparison of different manuscripts? (It almost looks like he's referring to an early critical edition, but such a thing did not exist.)</p>",
+   "answers": [
+    {
+     "text": "<p>It means precise, as noted above by Josh Waxman in the comments (<a href=\"https://judaism.stackexchange.com/questions/66746/which-manuscript-of-the-mishna-did-the-bartenura-check#comment187170_66746\">here</a> and <a href=\"https://judaism.stackexchange.com/questions/66746/which-manuscript-of-the-mishna-did-the-bartenura-check#comment187171_66746\">here</a>), and is not a specific manuscript.</p>\n<p>The evidence for this is that such a phrase is used many times by other Mishnah commentators who surely did not have access to the same specific manuscripts that the Bartenura had (see Hon Ashir Yoma 6:1, and various places in Melechet Shlomo, sometimes citing other earlier commentaries), and even by other authors, such as Machzor Vitry in his commentary to Avot (printed as section 425,426 and 428 of old printings of Machzor Vitry).</p>\n<p>(In regards to \"critical editions of Mishnah\", see Machzor Vitry there (428), who speaks of a Mishnah that was edited based on the \"Mishnah of Rabbeinu Efraim\"; for more on this, see Chapter 6 of \"Rabbeinu Efraim\", by ישראל שציפנסקי (I'm not attempting to transliterate that name). )</p>",
+     "accepted": true,
+     "author": null,
+     "score": 4
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66746/which-manuscript-of-the-mishna-did-the-bartenura-check",
+   "tags": [
+    "mishna",
+    "bartenura",
+    "manuscripts",
+    "maseches-keilim"
+   ],
+   "date": "2015-12-30T02:37:20",
+   "year": 2015,
+   "score": 5,
+   "views": 163
+  },
+  {
+   "id": "ye-66747",
+   "legacy": {
+    "source_id": "miyodeya_66747",
+    "src": "qa_db/2015.json",
+    "number": 66747,
+    "old_file": "qa.html?id=miyodeya_66747&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Rabbi David M. Feldman,Orthodox?",
+   "question": "<p>I own a book on birth control written by Rabbi David M Feldman. I was very impressed on how much bikius he has and erudition on the subject. I really cannot find any info on him,and wanted to know of he was an Orthodox or Conservitive Rabbi. From his writing I got the impression that he was orthodox,but I am not sure.</p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"http://www.northjersey.com/community-news/community-events-and-announcements/center-to-soon-be-an-orthodox-synagogue-1.210065\" rel=\"nofollow\">This</a> article says Rabbi Dr. David M. Feldman was <strong>a leader of the Conservative movement's traditional faction</strong>.</p>\n\n<blockquote>\n  <p>The JCT maintained itself as an ultra-traditional synagogue under both Rabbi Washer's leadership and that of his successor, Rabbi Dr. David M. Feldman. <strong>Though ordained by the Jewish Theological Seminary and a leader of the Conservative movement's traditional faction, Rabbi Feldman also holds an Orthodox ordination.</strong> As Teaneck developed into a growing Orthodox community and children moving elsewhere the JCT's once robust membership of nearly 1,500 families began to dwindle. Its model of conservative Judaism no longer had an audience.</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p><a href=\"http://www.jpost.com/Opinion/Remembering-Rabbi-Dr-David-M-Feldman-bioethicist-and-mensch-383930\" rel=\"nofollow\">This article</a> states that he received his rabbinical ordination (semicha) from Yeshiva University. Most who do this are Orthodox, but it is not a 100% guarantee. The article does not offer any details either way.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66747/rabbi-david-m-feldman-orthodox",
+   "tags": [
+    "rabbis"
+   ],
+   "date": "2015-12-30T03:00:52",
+   "year": 2015,
+   "score": 3,
+   "views": 1083,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66749",
+   "legacy": {
+    "source_id": "miyodeya_66749",
+    "src": "qa_db/2015.json",
+    "number": 66749,
+    "old_file": "qa.html?id=miyodeya_66749&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Driving in a Blizzard after Shabbat Begins",
+   "question": "<p>Someone is driving and stuck in a blizzard on the highway when Shabbat begins. It would most likely be life threatening to leave the car on the side of the highway and walk in a blinding blizzard. It's also life threatening to remain in the car in the cold with the engine off and leaving it on all Shabbat may cause CO build-up.</p>\n\n<p>Given all these factors, can a person continue driving until he reaches the closest safe area? What if he is unfamiliar with the area he's in, but can manage to get to his home, which, in the snow, may take a few hours, but, at least, there, he knows he will be safe. Can he continue driving on Shabbat?</p>",
+   "answers": [
+    {
+     "text": "<p>It is a <em>mitzvah</em> to violate <em>Shabbat</em> to save a person's life (see e.g. <a href=\"http://beta.hebrewbooks.org/tursa.aspx?a=oc_x1596\" rel=\"nofollow\">SA OC 328:2</a>). When doing so, the minimum possible <em>Shabbat</em> violation should be done (<a href=\"http://beta.hebrewbooks.org/tursa.aspx?a=oc_x1597\" rel=\"nofollow\">SA OC 328:16</a> and the <em>Mishna Berura</em> there).  So if continuing to drive on <em>Shabbat</em> is the only way to save the person's life, then it should be done. </p>\n\n<p>It should be noted that driving (a gasoline-powered car) is assur <em>mi'deoraita</em> according to pretty much all opinions on <em>Shabbat</em>.  Therefore, pretty much any alternative would be preferable. If there is another less-problematic option, continuing to drive would still be forbidden.</p>\n\n<p>I am also talking here about the case where the person is seriously in a life-threatening situation (like he needs to get home in the next 30 minutes to take his insulin or the temperature is life-threateningly cold even for a short exposure). The person should honestly consider whether this is indeed the case. If being in the shelter of a turned-off car for 30 minutes doesn't pose a serious risk of death, it may be preferable to try to wait it out and see if the blizzard passes and getting home without driving becomes possible (CYLOR).</p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    },
+    {
+     "text": "<p>He should not risk his life. Instead, he should violate Shabbat in order to stay safe.</p>\n\n<p>The first thing a person should do when they see that Shabbat is approaching and they are likely to get stuck, is get on the phone with a Rabbi, ideally one several time zones over. (Always good to have a Californian Rabbi in your phone).</p>\n\n<p>He should seek to minimize Shabbat desecration as much as possible.\nIf is at all possible to find a Gentile to drive, he should do so.\nHe should try to find a safe place as close as possible, since each continuing driving is a separate issur. Any standard motel would constitute a safe location. So would a Jewish community nearby. Even if the nearest place is his hometown, he should not continue driving home, but rather stop at the first safe house.</p>\n\n<p>He may not be allowed to turn the car off or even close the car door. </p>\n\n<p>While generally one should minimize issurim while driving on Shabbat, in a blizzard, that is not so applicable. (He should obviously signal, etc. as it would constitute a danger.)</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66749/driving-in-a-blizzard-after-shabbat-begins",
+   "tags": [
+    "shabbat",
+    "melacha-creative-work",
+    "pikuachnefesh-danger-life"
+   ],
+   "date": "2015-12-30T04:23:48",
+   "year": 2015,
+   "score": 0,
+   "views": 379
+  },
+  {
+   "id": "ye-66757",
+   "legacy": {
+    "source_id": "miyodeya_66757",
+    "src": "qa_db/2015.json",
+    "number": 66757,
+    "old_file": "qa.html?id=miyodeya_66757&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "Why isn't כל הכשר להצניע…‏ in שלחן ערוך?",
+   "title_en": "",
+   "question": "<p>The seventh chapter of <em>mishnayos Shabas</em> has this general rule (\"כלל\"):</p>\n\n<blockquote>\n  <p>Whatever is fit for storing and people store that [amount of it], and he carried it out on <em>Shabas</em>, he's liable therefor to bring a <em>korban chatas</em>. Whatever is not fit for storing, or people don't store that [amount of it], and he carried it out on <em>Shabas</em>, he's not liable, except one who stores it.</p>\n</blockquote>\n\n<p>The subsequent <em>mishnayos</em> — off and on for the next three chapters (!) — give specific examples of this: how much food is fit for storing, how much wine, how much rope, how much hide, how much ink, how much wood, and so on and so forth.</p>\n\n<p>And this is all codified in the <em>Rambam</em> (<em>Shabas</em> chapter 18), as well as in the halachic restatements of the <em>Rif</em> and <em>Rosh</em> (ad loc.).</p>\n\n<p>But it's not in the <em>Shulchan Aruch</em>. Or at least: There's no reference to <em>Shulchan Aruch</em> in the <em>En Mishpat – Ner Mitzva</em> for any of these <em>mishnayos</em>, and I can't find them in the <em>Shulchan Aruch</em> anywhere.</p>\n\n<p>Why not?</p>\n\n<hr>\n\n<p>I was thinking to answer as follows (but this answer doesn't work, as I'll show). It may be because <em>Shulchan Aruch</em> is not concerned with nowadays-impractical topics like <em>korbanos</em>. Whether a prohibition is <em>mid'oraysa</em> (divinely imposed) or <em>mid'rabanan</em> (rabbinically imposed) <a href=\"/q/34431\">is important even nowadays</a>, but — I thought — carrying out even less than a worthwhile amount of a substance is forbidden <em>mid'oraysa</em> (because of the principle of \"<em>chatzi shiur asur min hatora</em>\", \"a part-measure is forbidden <em>mid'oraysa</em>\"), which renders these <em>mishnayos</em> relevant only to the issue of <em>korban</em> and thus moot nowadays. However, that's not the case: <em>Aruch Hashulchan</em> (301:34) clarifies that \"a part-measure for all <a href=\"/tags/melacha-creative-work/info\">labors</a> <strong>except carrying out</strong> is forbidden <em>mid'oraysa</em>\". So that proposed answer doesn't work.</p>",
+   "answers": [],
+   "url": "https://judaism.stackexchange.com/questions/66757/why-isnt-%d7%9b%d7%9c-%d7%94%d7%9b%d7%a9%d7%a8-%d7%9c%d7%94%d7%a6%d7%a0%d7%99%d7%a2-in-%d7%a9%d7%9c%d7%97%d7%9f-%d7%a2%d7%a8%d7%95%d7%9a",
+   "tags": [
+    "shabbat",
+    "maseches-shabbos",
+    "shulchan-aruch",
+    "hotzaa-carrying-reshuyot"
+   ],
+   "date": "2015-12-30T08:39:01",
+   "year": 2015,
+   "score": 3,
+   "views": 67
+  },
+  {
+   "id": "ye-66759",
+   "legacy": {
+    "source_id": "miyodeya_66759",
+    "src": "qa_db/2015.json",
+    "number": 66759,
+    "old_file": "qa.html?id=miyodeya_66759&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Did Rabbeinu Yonah write Shaarei Teshuva in response to the burning of the Gemara?",
+   "question": "<p>It is widely believed that Rabbeinu Yonah played a part in having the Rambam's works burned around 1232, and that after the 1242 burning of twenty-four wagonloads of Gemaras he felt that it was a Divine punishment for the first burning. He wrote Shaarei Teshuva to express his remorse. </p>\n\n<p>However, according to <a href=\"https://en.wikipedia.org/wiki/Yonah_Gerondi\">Wikipedia</a>, \"Some believe this was only a myth created by the followers of the Rambam.\" What are the sources for and against this and the original claim? </p>",
+   "answers": [
+    {
+     "text": "<p>It is true that Rabbeinu Yonah saw the mass burning of the Talmud in 1242 as evidence that his support for the burning of the Rambam's works in 1233 was a mistake. He made a public confession in the synagogue in Montpellier (in Languedoc, but still in what Jews tend to call Provence) to that effect. There he announced intent to travel to the Rambam's grave to ask for his forgiveness, prostrating on the grave in front of a minyan for 7 days. His journey made it at least to Barcelona, where he was detained, and ended far short of the original goal in Toledo, where Rabbeinu Yonah wrote his commentary on the gemara.</p>\n\n<p>But \"Shaarei Teshuvah\" is just the sole surviving section of a book called \"Shaarei Tzedeq\". It wasn't written as a project specifically about teshuvah, therefore the idea that it was written as a penance is far less compelling. \nThe tradition that Shaarei Teshuvah was written as atonement for his role in instigating the Rambam's works also places the burning of the Talmud's a mere 40 days later, making the connection much more obvious and harder to reject. But that date is provable from church records to be more myth than history.</p>\n\n<p>There is no indication when Shaarei Teshuvah was written, as the earliest extant edition of is from 1505, 242 years after Rabbeinu Yonah's passing (1263). With only 21 of his 63 or 83 years being after the burning of the Rambam, and we know that he spent much of that time writing and teaching halachah, we don't even know if the book was written after the journey.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    },
+    {
+     "text": "<p>This is a citiaion from \"The Chosen Path\" - a history of Medieval Jewry by Binyamin Sendler:\nR’ Yonah b. Avraham certainly saw it in this light. Following is an extract from the letter that his student R’ Hillel HaChasid (of Verona) wrote to R’ Yitzchok HaRofeh: Letter by R’ Hillel HaChasid    </p>\n\n<p>R’ Yonah of Barcelona (originally of Gerona) was the primary instigator of this controversy that brought about all the calamities that befell the Jews in France. At that time R’ Yonah’s heart melted within him, and he vowed to make a pilgrimage to the Rambam’s grave and remain there for seven days, begging forgiveness from the Rambam for slandering his works. He publicly confessed in these words: “I am embarrassed and I regret that I opened my mouth against our holy master R’ Moshe b. Maimon and his works. I say now for all to hear: Moshe is true and his Torah is true and we are all frauds . . .” All the places where the Rambam’s works were derided were then filled with awe and fear, and all who had contested him accepted the verdict of heaven. R’ Yonah set up his yeshiva in Barcelona and every time he taught he would cite the Rambam’s opinion and say, “Thus says R’ Moshe, and so it appears to me.” He never again argued with the Rambam’s conclusions. Nevertheless, he was punished for delaying the fulfillment of his vow for many years until he had almost forgotten it. He left Barcelona with the intention to take a boat to the Rambam’s grave in Eretz Yisroel, but he was detained in Toledo where the Jews begged him to stay for a year or two, so he opened his yeshiva there (and there he died). \nThere is no authentic source that suggests that R’ Yonah wrote his Sha’arei Teshuva as a penance for the part he played in this controversy. </p>\n\n<p>He adds in  FOOTNOTE:</p>\n\n<p>1 This is as reported by R’ Hillel HaChasid. He relates that “not only were the Rambam’s works burned, but the fire to burn them was taken from the flame burning before their altar in the great cathedral in Paris. . . Should you ask how it is known that the burning of the Talmud was divine retribution for the destruction of the Rambam’s works, I would answer you that there was less than forty days between the two burnings, and the Talmud was burnt in the same place as the Moreh was. The ashes of the Moreh were mixed with the ashes of the Talmud.” These details, however, are suspect; the two events did not occur in the same year, and it seems unlikely that the works confiscated in Provence were carted hundreds of miles to Paris to be burned. It is possible that R’ Hillel’s information was defective.  </p>",
+     "accepted": false,
+     "author": null,
+     "score": 3
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66759/did-rabbeinu-yonah-write-shaarei-teshuva-in-response-to-the-burning-of-the-gemar",
+   "tags": [
+    "history",
+    "rambam",
+    "repentance-teshuvah",
+    "agada-stories-legends",
+    "rabbeinu-yonah"
+   ],
+   "date": "2015-12-30T08:57:22",
+   "year": 2015,
+   "score": 13,
+   "views": 1459
+  },
+  {
+   "id": "ye-66760",
+   "legacy": {
+    "source_id": "miyodeya_66760",
+    "src": "qa_db/2015.json",
+    "number": 66760,
+    "old_file": "qa.html?id=miyodeya_66760&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "Understanding העמק דבר on בראשית טו ה",
+   "title_en": "",
+   "question": "<p>In <em>Lech L'cha</em>, 15:5 (JPS), <em>Hashem</em> tells <em>Avram</em>:</p>\n\n<blockquote>\n  <p>הַבֶּט נָא הַשָּׁמַיְמָה וּסְפֹר הַכּוֹכָבִים אִם תּוּכַל לִסְפֹּר אֹתָם<br>\n  Look now toward heaven, and count the stars, if thou be able to count them</p>\n</blockquote>\n\n<p>and then:</p>\n\n<blockquote>\n  <p>כֹּה יִהְיֶה זַרְעֶךָ<br>\n  So shall thy seed be.</p>\n</blockquote>\n\n<p><a href=\"http://www.sefaria.org/Haamek_Davar_on_Genesis.15.5\" rel=\"nofollow\"><em>Haamek Davar</em></a>, if I understand it correctly, explains the verse as follows:</p>\n\n<ul>\n<li>He explains \"and count the stars\" as meaning that this is not a promise merely of numerous offspring: that had been promised Abram already [in <a href=\"http://www.sefaria.org/Haamek_Davar_on_Genesis.13.16\" rel=\"nofollow\">13:16</a>]. Rather, it's a promise \"שיהיו הרבה אנשי מעלה שיאירו ככוכבים\", that they will be numerous great people, luminous as stars.</li>\n</ul>\n\n<p>Great, so <em>Avram</em>'s promised numerous great offspring. Then</p>\n\n<ul>\n<li><em>Haamek Davar</em> explains that even though other nations also have great people, the additional \"if thou be able to count them\" means that there will be proportionally more great people among <em>Avram</em>'s offspring than among other nations.</li>\n</ul>\n\n<p>How does the additional \"if thou be able to count them\" imply that more than the initial promise of numerous great people already does?</p>",
+   "answers": [
+    {
+     "text": "<p>The <em>Ha'amek Davar</em> is explaining two points:</p>\n\n<ol>\n<li>The relevance of \"stars\"; and</li>\n<li>The seeming redundancy of this promise in light of the earlier promise in 13:16.</li>\n</ol>\n\n<p>He explains that the stars represent luminous individuals, and that in light of this there is no redundancy, because the earlier promise of great numbers referred to the people generally, while this promise refers to proportionally great numbers of luminous individuals.</p>\n\n<p>Accordingly, my impression is that the <em>Ha'amek Davar</em> is not dividing up the verse into units and deriving separate ideas from each clause; his intention is to provide a comprehensive, interwoven explanation that resolves all difficulties. Thus, when he says \"שיהיו הרבה אנשי מעלה שיאירו ככוכבים\" he is spelling out his general interpretation of the verse, and on \"אם תוכל לספר אתם\" he simply shows us where \"הרבה\" came from.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    },
+    {
+     "text": "<p>There seem to be two expressions of multitude.</p>\n\n<p>One is the comparison to stars. There are very many stars so this is the first expression  of multitude.</p>\n\n<p>The second is “if thou be able to count them” which is an additional expression of multitude. </p>\n\n<p>The second expression cannot have the same meaning as the first expression and thus the Haemek Dovor (as is his way) explains the second expression. </p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    },
+    {
+     "text": "<p>I would like to answer with a visual aide.  <a href=\"https://i.sstatic.net/Q2ZoQ.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/Q2ZoQ.jpg\" alt=\"Max Moorman's photo of the Milky Way and the Great Sand Dunes in Colorado\"></a> This is my friend Max Moorman's photo of the Milky Way and other stars taken from the Great Sand Dunes National Monument in Colorado.  (c) 2015 Max Moorman Photography.  I imagine that there was even less ambient light in Avram's day than there was when Max took this photo. If we read the entire verse of Gen. 15:5, it says \"And He took him outside, and He said, \"Please look heavenward and count the stars, if you are able to count them.\" And He said to him, \"So will be your seed.\"  Rashi explains that the plain meaning of \"He took him outside\" would be outside the tent.  But Rashi brings down a midrash, Gen. Rabbah 44:12 and says \"outside\" means that God took Avram into outer space and gave him an even more awe-inspiring view like this one taken by the astronauts on the International Space Station: <a href=\"https://i.sstatic.net/g3qy6.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/g3qy6.jpg\" alt=\"View from International Space Station\"></a>.  So by taking Avram \"outside\" God was taking him outside his normal frame of reference to show him that there are even more stars than he can imagine.  So when God says \"if you can count them,\" on one level he is saying that many more stars than one can count, but on earth one can never count them all, and even in the heavens, it is not easy.  Some are hidden by clouds, some by the ambient light on the moon or other stars, or the glare of sunlight reflecting in the atmosphere. We must also remember that some of the most significant stars, black holes, give off no light, yet their power is so strong they suck all matter, including light rays into it.</p>\n\n<p>But as the Haamek Davar concludes, God gave Avram the comparison to stars, and the tour above, to understand that his descendants will be a light to the nations disproportionate to their total mass.</p>\n\n<p>When God tells Avram to look at the stars, He then says \"so (כה) shall be your descendants.\" The word כה is unusual.  It is also used to refer to the Jews greatness at Mt. Sinai, \"So [כה] shall you say to the House of Jacob” (<a href=\"http://www.chabad.org/library/bible_cdo/aid/9880#v=3\" rel=\"nofollow noreferrer\">Ex. 19:3</a>).  The allusion to stars also is generally an allusion to greatness.  Stars are unique (God gave each a name, see <a href=\"http://www.chabad.org/library/bible_cdo/aid/16368#v=4\" rel=\"nofollow noreferrer\">Ps. 147:4</a>, indicating that every star has its own mission and function.  Similarly, each Jewish soul is precious, unique, and has a definite purpose in this world.  But, as the Haamek Davar notes, there will be some individuals who will bring light to their nations, but they will be no more than a solar system compared to the galaxies represented by Avram's descendants.  This is not only our potential, it is our goal and destiny and our reason for being here. </p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66760/understanding-%d7%94%d7%a2%d7%9e%d7%a7-%d7%93%d7%91%d7%a8-on-%d7%91%d7%a8%d7%90%d7%a9%d7%99%d7%aa-%d7%98%d7%95-%d7%94",
+   "tags": [
+    "parashat-lech-lecha",
+    "abraham",
+    "haamek-davar"
+   ],
+   "date": "2015-12-30T09:05:47",
+   "year": 2015,
+   "score": 3,
+   "views": 92
+  },
+  {
+   "id": "ye-66775",
+   "legacy": {
+    "source_id": "miyodeya_66775",
+    "src": "qa_db/2015.json",
+    "number": 66775,
+    "old_file": "qa.html?id=miyodeya_66775&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "What should I do if I don't know whether I'm in a pikuach nefesh situation?",
+   "question": "<p>Suppose I find myself in a situation where I am not sure whether my life is sufficiently in danger to warrant <em>halachot</em> of <em>pikuach nefesh</em> to come into play. What should I do in this case? Am I supposed to (e.g.) violate <em>Shabbat</em> in this case?</p>\n\n<p>To be clear, I am not talking about a situation where I do not know how much danger I am in (I am having sudden chest pains and I'm not sure whether it's a heart attack or something more benign. My understanding is that this is the category of <em>safek pikuach nefesh</em> and it is treated the same as <em>pikuach nefesh</em> situations). I am talking about the situation where I am aware of the level of danger and I have a <em>safek</em> about whether the risk is sufficient to constitute <em>pikuach nefesh</em> (e.g. <a href=\"https://judaism.stackexchange.com/q/66749/1713\">I am caught driving in a severe blizzard and <em>Shabbat</em> is about to begin</a>).</p>",
+   "answers": [
+    {
+     "text": "<p>This question is discussed by <a href=\"http://rabbikaganoff.com/tag/pikuach-nefesh/\" rel=\"nofollow noreferrer\">Rabbi Kaganoff</a> </p>\n\n<p>“One must desecrate Shabbos even if there is only a slight possibility that the situation is dangerous. One does not need a professional opinion or an expert physician. Whenever one is uncertain whether the situation is dangerous, he is required to desecrate Shabbos (Shu’t Tashbeitz 1:54).”</p>\n\n<p>Once you suspect that this could be a situation of <em>Pikuach Nefesh</em> then you need to be \"machmir on the halacha of Pikuach Nefesh\".  <a href=\"https://judaism.stackexchange.com/questions/53739/who-first-said-youre-being-machmir-on-pikuach-nefesh\">Who first said \"You're being machmir on pikuach nefesh\"?</a></p>",
+     "accepted": true,
+     "author": null,
+     "score": 12
+    },
+    {
+     "text": "<p>By all means !!!\nDon't even consider a \"Pikuch nefesh\" situation as \"Hilul Shabbat\" - but act without delay in ANY way you can to save a life. Even if it is only a slight suspicion. And NEFESH is not only physical, it also means Mental or a worrisome situation.  </p>",
+     "accepted": false,
+     "author": null,
+     "score": -1
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66775/what-should-i-do-if-i-dont-know-whether-im-in-a-pikuach-nefesh-situation",
+   "tags": [
+    "pikuachnefesh-danger-life",
+    "safek"
+   ],
+   "date": "2015-12-30T20:27:17",
+   "year": 2015,
+   "score": 5,
+   "views": 372,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66779",
+   "legacy": {
+    "source_id": "miyodeya_66779",
+    "src": "qa_db/2015.json",
+    "number": 66779,
+    "old_file": "qa.html?id=miyodeya_66779&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Not knowing a Halacha",
+   "question": "<p>If a person has a <em>halachic שאלה</em> and is in a situation where he cannot ask or find out the halacha (for example, he must decide what to do immediately, traveling with a dead phone), what should he do ?                                                                                                     </p>",
+   "answers": [
+    {
+     "text": "<p>Some General Guidelines:</p>\n\n<p>Safek pekuach nefesh  - if the situation is possibly life-threatening, one should act to save a life.</p>\n\n<p>Safek d'orayta l'chumrah - if it's a doubt about a d'oraysa, he should be stringent.</p>\n\n<p>Safek Brachot l'hakel - if it's a doubt about saying a blessing (of Rabbinic origin), don't say it.</p>\n\n<p>Shev v'al ta'aseh adif - if you're in a situation where you may transgress a prohibition (of equal severity) regardless of which course of action you choose, choose the passive action rather than risk actively violating a prohibition.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 7
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66779/not-knowing-a-halacha",
+   "tags": [
+    "halacha",
+    "safek"
+   ],
+   "date": "2015-12-30T21:28:21",
+   "year": 2015,
+   "score": 3,
+   "views": 150
+  },
+  {
+   "id": "ye-66781",
+   "legacy": {
+    "source_id": "miyodeya_66781",
+    "src": "qa_db/2015.json",
+    "number": 66781,
+    "old_file": "qa.html?id=miyodeya_66781&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Sefer on Contemporary Shailos",
+   "question": "<p>Would anyone know a <em>sefer</em> on <em>Contemporary Halachic Shailos</em> (=questions) in English (on all of <em>Shulchan Aruch</em>?) </p>",
+   "answers": [
+    {
+     "text": "<p>There are many series of such books, a few I like are</p>\n\n<ul>\n<li>R Daniel Mann from Eretz Hemda has a very nice series called <a href=\"http://www.eretzhemdah.org/publications.asp?lang=en&pageid=30&cat=5\" rel=\"nofollow\">Living the halachic process</a> (also available <a href=\"http://rads.stackoverflow.com/amzn/click/B003Y5HDJY\" rel=\"nofollow\">one of them also available on Kindle</a>) - you can sample some online <a href=\"https://www.ouisrael.org/torah-tidbits/vebbe-rebbe-1001/\" rel=\"nofollow\">as part of the OU Vebbe Rebbe series</a> <em>(I cannot find the table of contents, try varying the number in the URL)</em></li>\n<li>R Ari Enkin has another <a href=\"http://rabbienkin.com/bookstore/\" rel=\"nofollow\">very nice series of halakhic insights and responsa</a> - you can sample some online <a href=\"http://www.torahmusings.com/author/arienkin/\" rel=\"nofollow\">here</a></li>\n<li>R Abraham's <a href=\"https://www.google.co.il/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwic2srHg6_KAhUG7g4KHXWEDnwQFggbMAA&url=http%3A%2F%2Fwww.artscroll.com%2FBooks%2F9781578195756.html&usg=AFQjCNGddowgmxsijt63tGukCjFjBw8Qbg&sig2=s5udv2fQlF_83z6krqnVkw\" rel=\"nofollow\">Nishmat Avraham</a> is a compendium of medical halachot following the 4 orders of the Shulchan Aruch, it is extremely pedagogical (h/t mevaqesh for the reference) (3 volumes)</li>\n<li>R Chaim Jachter: <a href=\"http://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&text=Rabbi%20Chaim%20Jachter&search-alias=books&field-author=Rabbi%20Chaim%20Jachter&sort=relevancerank\" rel=\"nofollow\">Gray matter</a> (4 volumes)</li>\n<li>R J David Bleich's older series of <a href=\"http://www.amazon.com/J.-David-Bleich/e/B001KMJWF6/ref=dp_byline_cont_book_1\" rel=\"nofollow\">Contemporary Halachic problems</a> (at least 6 volumes)</li>\n<li>R J. Simcha Cohen: <a href=\"http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=How%20does%20Jewish%20law%20work\" rel=\"nofollow\">How does Jewish law work</a> (2 volumes, older)</li>\n</ul>\n\n<p>The first three are my preferred by far, they are highly readable, very diverse (matching your question of \"all of SA\") and the issues adressed are very relevant.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 6
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66781/sefer-on-contemporary-shailos",
+   "tags": [
+    "halacha",
+    "product-recommendation",
+    "jewish-books",
+    "shulchan-aruch",
+    "english"
+   ],
+   "date": "2015-12-30T22:11:14",
+   "year": 2015,
+   "score": 3,
+   "views": 232
+  },
+  {
+   "id": "ye-66786",
+   "legacy": {
+    "source_id": "miyodeya_66786",
+    "src": "qa_db/2015.json",
+    "number": 66786,
+    "old_file": "qa.html?id=miyodeya_66786&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Comprehensive map/list of active Orthodox synagogues in the U.S",
+   "question": "<p>Does anyone know of a map or list of all the active Orthodox shuls in the U.S.? When I was looking for which residencies to apply to it was my limiting factor and sometimes it was hard to find out where the shuls were. It would also be interesting to see which areas across the map have Orthodox communities. </p>\n\n<p>If they doesn't exist, how difficult do you think it would be to make one? </p>",
+   "answers": [
+    {
+     "text": "<p><a href=\"https://www.godaven.com/\" rel=\"nofollow noreferrer\">Check out this site</a>.</p>\n\n<p>Click on each state to get cities and then click on each city to get a list of just about (if not all) the minyanim in that city.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 7
+    },
+    {
+     "text": "<p>I like the Kosher GPS App which gives me minyanim and links to their davening times, kosher restaurants, with links to their websites, and mikvaot.  Map directions are available for each.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    },
+    {
+     "text": "<p>You can also use the OU's synagogue finderlocator: <a href=\"https://www.ou.org/synagogue-finder/\" rel=\"nofollow\">https://www.ou.org/synagogue-finder/</a>. (It lists both synagogues that are OU members and those that are not.)</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66786/comprehensive-map-list-of-active-orthodox-synagogues-in-the-u-s",
+   "tags": [
+    "technology",
+    "synagogue",
+    "minyan",
+    "united-states",
+    "geography"
+   ],
+   "date": "2015-12-31T01:18:00",
+   "year": 2015,
+   "score": 8,
+   "views": 1084,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66787",
+   "legacy": {
+    "source_id": "miyodeya_66787",
+    "src": "qa_db/2015.json",
+    "number": 66787,
+    "old_file": "qa.html?id=miyodeya_66787&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Receiving interest from a convert",
+   "question": "<p>Is it permissible to receive interest on a loan made to a convert if the loan agreement was made before the conversion and repaid after?</p>",
+   "answers": [
+    {
+     "text": "<p>Rabbi Yisroel Reisman writes in <em>The Laws of Ribbis</em>:</p>\n\n<blockquote>\n  <p>If a Jews lends money to a non-Jew, and the non-Jewish borrower then converts to Judaism, the lender may not collect interest which accrues after the Geirus [=conversion to Judaism]. However, interest which accrued before the Geirus must be paid. In this case, there is no difference if the bill (or promissory note) was written before or after the borrower had become a Ger [=convert to Judaism].</p>\n</blockquote>\n\n<p>He cites this from <a href=\"http://www.sefaria.org/Shulchan_Arukh,_Yoreh_De'ah.171\" rel=\"nofollow\"><em>Yore Dea</em> 171:1</a>. He adds in a footnote:</p>\n\n<blockquote>\n  <p><em>Shaar Deah</em> (171:2) rules that the lender may demand that the loan be repaid immediately. Since he made the loan on the assumption that he would be paid interest, and he is no longer able to do so, he may retract his commitment.</p>\n</blockquote>\n\n<p>And:</p>\n\n<blockquote>\n  <p>See <em>Bris Yehudah</em> 30:7 regarding a situation where no bill or promissory note was written at all.</p>\n</blockquote>",
+     "accepted": false,
+     "author": null,
+     "score": 5
+    },
+    {
+     "text": "<p>It seems me'ikar ha'din this would be permissible because the issur of ribbis relates to the mitzah to re-pay the loan (not the chiyuv of mamoni gabach because then there would be an issur to take ribbis from an akum) and there can be no mitzvah to re-pay this loan because a Yisrael never undertook payment thereof.</p>\n\n<p>However mitzad the taam ha'mitzvah it would seem it is assur to accept the ribis because it is still included in the issur of es kaspo nasan be'neshech chayo lo yicheye.</p>\n\n<p>I.e. it would be permissible for the convert to pay the interest but it would be forbidden for the Jew to accept it.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66787/receiving-interest-from-a-convert",
+   "tags": [
+    "halacha",
+    "conversion-to-judaism",
+    "lending-interest-ribbis"
+   ],
+   "date": "2015-12-31T01:22:33",
+   "year": 2015,
+   "score": 10,
+   "views": 200
+  },
+  {
+   "id": "ye-66796",
+   "legacy": {
+    "source_id": "miyodeya_66796",
+    "src": "qa_db/2015.json",
+    "number": 66796,
+    "old_file": "qa.html?id=miyodeya_66796&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Could a Jew join Medishare?",
+   "question": "<p><a href=\"https://mychristiancare.org/About_CCM/About_CCM.aspx\" rel=\"nofollow\">Medishare</a> is a healthcare sharing program designed for Christians.</p>\n\n<p>Is there any reason a Jew wouldn't be able to join such a program?</p>\n\n<p>As far as I understand it, the program works in such a way that people in the program help pay for each other's medical bills. Therefore, you would be sometimes paying for medical bills of Christians and they would be sometimes paying for you. Somehow it works out to be cheaper than many insurance plans. If you need more info on how it works, it is explained <a href=\"https://mychristiancare.org/how_does_it_work.aspx\" rel=\"nofollow\">here</a>.</p>",
+   "answers": [
+    {
+     "text": "<p>The first precept of Medishare's <a href=\"https://mychristiancare.org/guidelines.aspx\" rel=\"nofollow noreferrer\">Membership Qualifications</a> is \"Christian Testimony,\" stating generally that</p>\n\n<blockquote>\n  <p>All adult Members age 18 and older must attest to a personal relationship with the Lord Jesus Christ.\"</p>\n</blockquote>\n\n<p>and then specifying a \"Statement of Faith\" that includes quite a few assertions about the divinity of a particular man. Such affirmations are <a href=\"https://judaism.stackexchange.com/a/134/2\">prohibited</a> for Jews to make.</p>\n\n<p>It would thus be forbidden to qualify to be a member of Medishare.</p>",
+     "accepted": true,
+     "author": null,
+     "score": 14
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66796/could-a-jew-join-medishare",
+   "tags": [
+    "halacha",
+    "gentiles",
+    "money",
+    "christianity"
+   ],
+   "date": "2015-12-31T04:53:05",
+   "year": 2015,
+   "score": 8,
+   "views": 1647
+  },
+  {
+   "id": "ye-66797",
+   "legacy": {
+    "source_id": "miyodeya_66797",
+    "src": "qa_db/2015.json",
+    "number": 66797,
+    "old_file": "qa.html?id=miyodeya_66797&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is there a relationship between the Sma\"g and the Sma\"k?",
+   "question": "<p>The works Sefer Mitzvos Gadol and Sefer Mitzvos Katan have very similar names, but I never assumed the connection went far beyond that.</p>\n\n<p>Then, I saw a Beis Yosef (Yoreh Deah 194) which, in explanation of an omission of the Sefer Mitzvos Katan, says that he depended on the fact that the Sefer Mitzvos Gadol mentioned it.</p>\n\n<p>What is the relationship between the two works such that one would rely on being understood in the context of what is said by the other?</p>",
+   "answers": [
+    {
+     "text": "<p>The Sma\"k (written by <a href=\"https://en.wikipedia.org/wiki/Isaac_ben_Joseph_of_Corbeil#Works\" rel=\"nofollow noreferrer\">Isaac ben Joseph of Corbeil</a>) is an <strong>abridged version</strong> of the Sma\"g (written by <a href=\"https://en.wikipedia.org/wiki/Moses_ben_Jacob_of_Coucy\" rel=\"nofollow noreferrer\">Moses ben Jacob of Coucy</a>) including additional agaddic and ethical material.</p>\n<p>See also <a href=\"http://www.lookstein.org/resources/jewish_law_codes.pdf\" rel=\"nofollow noreferrer\">here</a> p. 9</p>\n<blockquote>\n<p>The Sma\"k is based on the Sma\"g but targets a wider audience, to this\neffect it includes few sources and focuses on the final decisions.\nFurthermore it includes discussions of ethics and homiletics.</p>\n</blockquote>\n<p>Last from artscroll <a href=\"http://www.artscroll.com/Books/9781422611890.html\" rel=\"nofollow noreferrer\">introduction to Sefer Hachinuch (in vol 1)</a></p>\n<p><a href=\"https://i.sstatic.net/KtbqZ.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/KtbqZ.jpg\" alt=\"from intro to artscroll Sefer Hachinuch\" /></a></p>",
+     "accepted": true,
+     "author": null,
+     "score": 12
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66797/is-there-a-relationship-between-the-smag-and-the-smak",
+   "tags": [
+    "jewish-books",
+    "rishonim"
+   ],
+   "date": "2015-12-31T04:56:32",
+   "year": 2015,
+   "score": 11,
+   "views": 456,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66807",
+   "legacy": {
+    "source_id": "miyodeya_66807",
+    "src": "qa_db/2015.json",
+    "number": 66807,
+    "old_file": "qa.html?id=miyodeya_66807&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Seeking a particular book on Science vs. Halacha",
+   "question": "<p>About 15 years ago, I recall that there was a book put out by the Association of Orthodox Jewish Scientists. It was titled something like \"Challenge - Science against Halacha\" or something similar. I remember that it had a yellow sleeve cover.</p>\n\n<p>Does anyone know the name of that book and where I may be able to purchase this?</p>",
+   "answers": [
+    {
+     "text": "<p>You are probably looking for <a href=\"http://rads.stackoverflow.com/amzn/click/0873061748\" rel=\"nofollow\"><em>Challenge: Torah Views on Science and Its Problems</em></a>, edited by <a href=\"https://en.wikipedia.org/wiki/Aryeh_Carmell\" rel=\"nofollow\">R' Aryeh Carmell</a> and <a href=\"https://en.wikipedia.org/wiki/Cyril_Domb\" rel=\"nofollow\">Dr. Cyril Domb</a> in association with the <a href=\"http://www.aojs.org/\" rel=\"nofollow\">Association of Orthodox Jewish Scientists</a>, published by <a href=\"http://www.feldheim.com/\" rel=\"nofollow\">Feldheim</a> in 1976 (1st edition) and 1988 (2nd edition).</p>",
+     "accepted": true,
+     "author": null,
+     "score": 6
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66807/seeking-a-particular-book-on-science-vs-halacha",
+   "tags": [
+    "product-recommendation",
+    "science",
+    "books-generally"
+   ],
+   "date": "2015-12-31T16:58:46",
+   "year": 2015,
+   "score": 1,
+   "views": 88
+  },
+  {
+   "id": "ye-66810",
+   "legacy": {
+    "source_id": "miyodeya_66810",
+    "src": "qa_db/2015.json",
+    "number": 66810,
+    "old_file": "qa.html?id=miyodeya_66810&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "halacha",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Guarding payos overnight",
+   "question": "<p><a href=\"http://www.mechon-mamre.org/i/1204n.htm\" rel=\"nofollow noreferrer\">Men must sleep on their side,</a> but, besides for <a href=\"https://judaism.stackexchange.com/questions/8370/falling-asleep-on-the-left-side-to-aid-digestion\">aiding digestion</a>, this tends to mess up <a href=\"https://judaism.stackexchange.com/questions/35677/source-for-long-payos?rq=1\">long</a> nicely <a href=\"https://judaism.stackexchange.com/questions/66351/how-does-one-grow-long-peyos?rq=1\">curled <em>payos</em></a>. </p>\n\n<p>How does one protect <a href=\"https://judaism.stackexchange.com/users/3073/nbz?tab=profile\">them</a> overnight from becoming disheveled by lying on them?</p>\n\n<p>Note that this is more of a problem on <em>shabbos</em> and <em>yom tov</em>, when the possibilities of fixing the <em>peyos</em> are limited. Advice that does not involve <em>melacha</em> (actions that are prohibited on <em>shabbos</em> and <em>yom tov</em>) is therefore preferred.</p>",
+   "answers": [
+    {
+     "text": "<p>As far as I know there is no requirement that says you have to keep your payoth 'looking good.' But if that is priority to you then there are two different options.</p>\n\n<p>If one has naturally curly hair that allows peyoth to develop naturally when drying, then on yom tov one may simply wet his hair in the morning when he gets up.</p>\n\n<p>For everything else, one should wrap his peyoth around his finger, then put all the windings to the side of his head, and pin the windings to the side of his head with a bobby pin or hair pin before going to bed. And then in the next morning simply unpin your peyoth and they should fall back down into their original curly shape.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66810/guarding-payos-overnight",
+   "tags": [
+    "shabbat",
+    "yom-tov",
+    "sleep",
+    "hair",
+    "payot-sideburns"
+   ],
+   "date": "2015-12-31T17:16:58",
+   "year": 2015,
+   "score": 4,
+   "views": 361
+  },
+  {
+   "id": "ye-66814",
+   "legacy": {
+    "source_id": "miyodeya_66814",
+    "src": "qa_db/2015.json",
+    "number": 66814,
+    "old_file": "qa.html?id=miyodeya_66814&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "general",
+   "category_confidence": "low",
+   "category_source": "no_match",
+   "title_he": "",
+   "title_en": "Is it improper to invite a few single girls and a few single boys for a Shabbos meal to help fight the \"shidduch crisis\"",
+   "question": "<p>The shidduch system, according to many sources, isn't working and we're in a \"shidduch crisis.\"  See, e.g. this <a href=\"http://5tjt.com/the-shidduch-crisis-explained/\">article</a>.  People complain, but nothing gets done.  </p>\n\n<p>I don't see that the shadchan system is working for everyone with resumes and references is really working.  Among non-Hasidic Jews, there is a surplus of women over 24 who are still single, and in the Hasidic community there is a surplus of men over 24 who have not married.  (Source, Mishpacha magazine, Succos edition 2015).  </p>\n\n<p>I have observed that the restrictions on getting single boys and girls in the same room could go to the heart of the problem. Such restrictions weren't always an issue, however. I heard that Rabbi Moshe David Tendler, shlita, a senior rosh yeshiva at Yeshiva University's rabbinic college and son-in-law of Rav Moshe Feinstein, zt'l, was married at a wedding where the tables had mixed-sex seating and singles were put at smaller tables so they could meet and talk.  Rav Tendler said about that mixing the singles was approved by his father-in-law but he facetiously added \"some would say my father-in-law didn't know the halacha.\")  Also, I understand from Rabbi Berel Wein, shlita, that mixed seating at weddings was common at the weddings of many European gedolim and their sons and daughters, with the lone exception of Hungary.  He said since the Germans took over Hungary last, more Jews survived and so did their customs.  </p>\n\n<p>Why shouldn't I invite boys from the yeshiva gedolah to meet single girls of the same age at my Shabbos table?  Would it be better if I invited their parents as well?  What sources say that inviting singles to my home to meet at a Shabbos meal, for purposes of helping them to find a shidduch, is improper?</p>",
+   "answers": [
+    {
+     "text": "<p>As long as the atmosphere is appropriate (and customs of some communities notwithstanding), there is nothing formally wrong with a mixed table. Rav Moshe in OC 1.39 states clearly that outside of public gatherings, there is no requirement to separate the sexes (his proof: Chana entered the Ezrat Yisrael of the Mishkan for Eli to notice her davening!) in cases which will not lead to lightheaded behaviour (kalut rosh), even though he disapproves of meetings without a mechitza (YD 2.109). However, it is a fine line and relies on the maturity of all participants not to transgress serious prohibitions.</p>\n\n<p>The relevant halacha here is Even HaEzer at the beginning of siman 21: <a href=\"https://he.wikisource.org/wiki/%D7%A9%D7%95%D7%9C%D7%97%D7%9F_%D7%A2%D7%A8%D7%95%D7%9A_%D7%90%D7%91%D7%9F_%D7%94%D7%A2%D7%96%D7%A8_%D7%9B%D7%90_%D7%90\" rel=\"nofollow noreferrer\">\"A person must distance himself from women to a very great extent; it is forbidden to signal with his hands or feet, or to wink at any forbidden relation. It is forbidden to joke with her, to be lightheaded opposite her, or to gaze at her beauty. Even to smell her perfume is forbidden.\"</a></p>\n\n<p>Even HaEzer 21:3 makes it very clear that  that halacha is not advocating boys and girls not go on dates! What is forbidden is friendship or casual social interaction between the sexes. A one-on-one date would seem to be the best combination of serious/appropriate in atmosphere plus effective in meeting the other person.</p>\n\n<p>The question is, will mixed Shabbos tables solve more problems than they lead to, or vice versa? Is every person there a serious prospective (or \"on paper\") match for every member of the opposite sex? Is the Shabbos table environment really the most conducive to two people seriously considering each other as a partner? Or are we just creating a friendly, lighthearted and jocular social scene?</p>\n\n<p>Wouldn't it be more effective to sit down with each of the guests, make a list of their shidduch priorities, and set them up on dates where appropriate?</p>",
+     "accepted": false,
+     "author": null,
+     "score": 4
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66814/is-it-improper-to-invite-a-few-single-girls-and-a-few-single-boys-for-a-shabbos",
+   "tags": [
+    "shidduchim-dating"
+   ],
+   "date": "2015-12-31T18:26:24",
+   "year": 2015,
+   "score": 14,
+   "views": 840,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66815",
+   "legacy": {
+    "source_id": "miyodeya_66815",
+    "src": "qa_db/2015.json",
+    "number": 66815,
+    "old_file": "qa.html?id=miyodeya_66815&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "tanach",
+   "category_confidence": "low",
+   "category_source": "keywords",
+   "title_he": "",
+   "title_en": "Does the use Rabbi Yishmael's principles retain the de'oraiso character of the original statement?",
+   "question": "<p>If we use one of Rabbi Yishmael's 13 principles of interpreting the Torah to learn from a Torah law (de'oraiso), does the inferred law also have the status of a de'oraiso?</p>\n\n<p>(Related: <a href=\"https://judaism.stackexchange.com/questions/10873/where-can-i-find-examples-of-r-yishmaels-13-talmudic-rules/10874#10874\">Where can I find examples of R. Yishmael's 13 talmudic rules?</a>). </p>\n\n<p>Are any of the 13 principles more effective in transferring  de'oraiso character? (Since Gzeira Shava is a tradition from Sinai (see related question) I might have thought it would be more effective.) </p>",
+   "answers": [
+    {
+     "text": "<p>The rules of <em>derashah</em> are used in two ways:</p>\n\n<p>The \"real\" way, <em>derashah</em>, does produce <em>deOraisos</em> -- actual Torah law.</p>\n\n<p>Even if one follows the <a href=\"http://www.hebrewbooks.org/rambam.aspx?sefer=14&hilchos=81&perek=2\" rel=\"nofollow\">Rambam, Mamrim 2:1</a>, that <em>derashos</em> could be invented/discovered -- let's just say \"utilized\" -- for the first time centuries after Sinai. And that another court may choose not to use it. One example, not given by the Rambam, is that according to Ruth Rabba, the derashah that only a male Moabite convert is restricted from marrying into the Jewish people, but a woman may, was first used by Boaz. Which then makes the closer relative's reluctance to marry her very understandable. Maybe Boaz erred?</p>\n\n<p>This is <strong>not</strong> the usual understanding. Typically we follow the majority of <em>rishonim</em>, that while all of the <em>deOraisos</em> were given in Sinai, some were recorded in the text, some were hinted in the text via <em>derashah</em>, and some are <em>halakhos leMoshe miSinai</em> [laws given to Moses from Sinai]. (Understood to mean that either are not in the text at all or we forgot how they connect to their source verse, but every <em>deOraisa</em> does connect somehow. The latter opinion being that of the Malbim, intro. to Vayiqra.)</p>\n\n<p>Thus either every <em>derashah</em> was given at Sinai alongside the laws, or they are rhetorical devices utilized later to support laws that were given at Sinai and thus already known. For example, to help decide in a dispute among valid interpretations of what was given in Sinai, which one should become law.</p>\n\n<p>Then there are also <em>asmachtos</em>, connections, where the rabbis find a connection between a rabbinic law and the text of the chumash. According to the typical explanation (eg <a href=\"http://www.daat.ac.il/daat/mahshevt/hakdama/3-2.htm\" rel=\"nofollow\">the Rambam's introduction to Mishnah</a>, <a href=\"https://en.wikisource.org/wiki/Kitab_al_Khazari/Part_Three\" rel=\"nofollow\">the Kuzari 3:73</a>), this is done for mnemonic reasons, or to impress on the masses the import of the law.</p>\n\n<p>According to the other opinion (Raavad <a href=\"http://www.hebrewbooks.org/rambam.aspx?sefer=14&hilchos=81&perek=2&halocha=9\" rel=\"nofollow\">Mamrim 2:9</a>, Ritva <a href=\"http://www.hebrewbooks.org/pdfpager.aspx?req=9610&st=%D7%A9%D7%9B%D7%9C%20%D7%9E%D7%94%20%D7%A9%D7%99%D7%A9%20%D7%9C%D7%95%20%D7%90%D7%A1%D7%9E%D7%9B%D7%AA%D7%90&pgnum=352\" rel=\"nofollow\">Rosh haShanah 16a</a>), these are laws Hashem only suggested to the court, something they may wish to enact some day, as needed. But since they are suggestions, and not actually legislated until the court decided to, the resulting laws are rabbinic.</p>\n\n<p>Tangentially, there are other lists of rules. Hillel made a science of derashah, which until then were used without an overall theory and system, and noted the body of existing <em>derashah</em> fits 7 rules. R’ Yishma’el and R’ Aqiva each broke down those rules into subcategories. Because of differences in approach, R’ Yishma’el’s exposition yielded 13 laws, R’ Aqiva’s, 19. Rabbi Eliezer ben R Yosi haGelili later suggest 32. But these are taxonomies, not differences in actual content. You will find Rabbi Aqiva using one of Rabbi Yishmael's rules (eg <em>kelal uperat</em>) or Rabbi Yishmael using one of Rabbi Aqiva's (such as <em>ribui umi'ut</em>). The latter is far less common, <a href=\"http://www.aishdas.org/asp/midrashei-halakhah\" rel=\"nofollow\">but that's a topic in itself</a>.</p>\n\n<p>In any case, I mention this debate as an opportunity to point out that it is <strong>not</strong> evidence that <em>derashos</em> necessarily post-date Sinai, as the rules discussed describe sets of existing \"data\" after the fact.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 1
+    },
+    {
+     "text": "<p><a href=\"http://www.chabad.org/library/article_cdo/aid/904154/jewish/The-Principles.htm\" rel=\"nofollow\">Rambam Sefer Hamitzvos, Principle 2</a> is that in order to count the  613 biblical obligations and prohibitions we:</p>\n\n<blockquote>\n  <p>Do not include laws which are derived from one of the Thirteen\n  Principles of Torah.</p>\n</blockquote>\n\n<p>Exegesis (at the linked site):</p>\n\n<blockquote>\n  <p>Every word and letter in the Torah is exact, and the Sages\n  extrapolated many laws from an extra (or missing) word or letter, or a\n  particular sequence which the Torah chooses to use. Nevertheless, unless the Sages explicitly say\n  that a particular law that they derived is categorized as biblical, it\n  is not counted as part of the 613.</p>\n</blockquote>\n\n<p>So the answer to the question seems to be that the inferred law has the status of a de'oraiso only if the Sages explicitly say so. </p>\n\n<p>(It sounds like a paradox.)</p>\n\n<p>Thanks to @mevaqesh.</p>",
+     "accepted": false,
+     "author": null,
+     "score": 0
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66815/does-the-use-rabbi-yishmaels-principles-retain-the-deoraiso-character-of-the-o",
+   "tags": [
+    "halacha-theory",
+    "midrash",
+    "deorayta"
+   ],
+   "date": "2015-12-31T18:55:30",
+   "year": 2015,
+   "score": 6,
+   "views": 175,
+   "needs_review": true
+  },
+  {
+   "id": "ye-66818",
+   "legacy": {
+    "source_id": "miyodeya_66818",
+    "src": "qa_db/2015.json",
+    "number": 66818,
+    "old_file": "qa.html?id=miyodeya_66818&src=miyodea/qa/2016-01-mi_yodeya_knowledge.json"
+   },
+   "source": "yeshiva",
+   "category": "talmud",
+   "category_confidence": "high",
+   "category_source": "tag_map",
+   "title_he": "",
+   "title_en": "Getting married at 18",
+   "question": "<p>The <em>Mishna</em> in <em>Avos</em> says that one should get married at 18 , is there a reason for this particular age ?</p>",
+   "answers": [
+    {
+     "text": "<p>Sorry for all the lack of memory here, but this is from a long time ago:</p>\n\n<p>I once heard a shiur (I think it was from R' Hershel Schachter, but I really am not sure) in which he suggested that one would begin learning Talmud at age 15 (previous clause of <a href=\"https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%A0%D7%94_%D7%90%D7%91%D7%95%D7%AA_%D7%94_%D7%9B%D7%90\" rel=\"nofollow\">source in the question</a>), and would get married when one had reached a degree of completion of his learning. This is in line with the sentiment in Kiddushin 29b that a person should first learn Torah and then get married. The time it takes to learn takes either 3 or 5 years (Chullin 24a), and there are two opinions on when one should get married - either 18 or 20 (Kiddushin 29b). Both agree that one should start learning at age 15, and both agree that one should accomplish their learning before getting married, and the disagreement is how long that takes, either 3 or 5 years, which yields the two ages of 18 and 20.</p>\n\n<p>(This was partially reconstructed based on what I remember and a source provided by @Fred)</p>",
+     "accepted": false,
+     "author": null,
+     "score": 2
+    }
+   ],
+   "url": "https://judaism.stackexchange.com/questions/66818/getting-married-at-18",
+   "tags": [
+    "marriage",
+    "mishna",
+    "age",
+    "pirke-avot-ethicsof"
+   ],
+   "date": "2015-12-31T22:14:19",
+   "year": 2015,
+   "score": 7,
+   "views": 395
+  }
+ ]
+}
