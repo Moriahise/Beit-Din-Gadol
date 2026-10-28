@@ -12,7 +12,7 @@ from email.utils import parsedate_to_datetime
 from urllib.parse import urlsplit, urlunsplit
 from .model import DataError
 
-USER_AGENT = "SanhedrinCollector/1.0 (+https://github.com/Moriahise/Sanhedrin)"
+USER_AGENT = "SanhedrinCollector/1.0 (+https://github.com/Moriahise/Beit-Din-Gadol)"
 MAX_BYTES = 12_000_000
 
 

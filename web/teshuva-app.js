@@ -79,12 +79,12 @@ $("save").addEventListener("click",()=>{
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("submission-body").value);$("submission-status").textContent=t("copied");}catch{$("submission-body").focus();$("submission-body").select();$("submission-status").textContent=t("copyFailed");}});
 $("track-form").addEventListener("submit",async e=>{
  e.preventDefault();const number=Number($("issue-number").value);if(!Number.isSafeInteger(number)||number<1||number>10000000)return;persist();$("track-status").textContent=t("pending");
- try {const response=await fetch(`https://api.github.com/repos/Moriahise/Sanhedrin/contents/Sanhedrin?ref=main`,{cache:"no-store"});if(response.status===404)return;if(!response.ok)throw new Error();const files=await response.json();const matches=files.filter(f=>new RegExp(`^teshuva-${number}-[a-f0-9]{12}\\.json$`).test(f.name));
+ try {const response=await fetch(`https://api.github.com/repos/Moriahise/Beit-Din-Gadol/contents/Sanhedrin?ref=main`,{cache:"no-store"});if(response.status===404)return;if(!response.ok)throw new Error();const files=await response.json();const matches=files.filter(f=>new RegExp(`^teshuva-${number}-[a-f0-9]{12}\\.json$`).test(f.name));
    if(matches.length){
      const results=await Promise.all(matches.map(async f=>{const r=await fetch(f.download_url,{cache:"no-store"});if(!r.ok)throw new Error();return {file:f.name,result:await r.json()};}));
      const published=results.filter(({result:r})=>!["needs_research","needs_clarification"].includes(r.publication_status)&&((r.answer_version>=3&&["ready","partial","sources"].includes(r.publication_status)&&r.sources?.length&&(r.mode==="library"||r.citation_audit_version===1))||(r.openai_status==="draft"&&r.mode==="openai"&&r.paragraphs?.length)));
      if(published.length)$("track-status").replaceChildren(element("span",t("saved")),document.createTextNode(" "),...published.map(f=>link(t("full"),`Sanhedrin/${encodeURIComponent(f.file.replace(/\.json$/,".html"))}`)));
-     else $("track-status").replaceChildren(element("span",t("needsResearch")),document.createTextNode(" "),link("GitHub",`https://github.com/Moriahise/Sanhedrin/issues/${number}`));
+     else $("track-status").replaceChildren(element("span",t("needsResearch")),document.createTextNode(" "),link("GitHub",`https://github.com/Moriahise/Beit-Din-Gadol/issues/${number}`));
    }
  }catch{$("track-status").textContent=t("error");}
 });

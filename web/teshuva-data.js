@@ -155,7 +155,7 @@ export function buildRequest({questionHtml, keywords, language, profileId = "aut
   return {schema: 1, question_html: safe, keywords: keywords.trim(), language, profile_id: profileId, use_openai: useOpenai, search_version:2, external_research:externalResearch, source_urls:sourceUrls, source_ids: sources.map(s => s.id)};
 }
 
-export function submission(request, repository = "Moriahise/Sanhedrin") {
+export function submission(request, repository = "Moriahise/Beit-Din-Gadol") {
   const body = "<!-- sanhedrin-teshuva:v1 -->\n```json\n" + JSON.stringify(request, null, 2) + "\n```";
   const title = "[Teshuva] " + plain(request.question_html).slice(0, 90);
   const url = `https://github.com/${repository}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;

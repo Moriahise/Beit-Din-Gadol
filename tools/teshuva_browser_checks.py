@@ -82,8 +82,8 @@ def run(directory, reports):
             with page.expect_popup() as popup:
                 page.locator("#save").click()
             tab = popup.value
-            tab.wait_for_url("https://github.com/Moriahise/Sanhedrin/issues/new?**")
-            assert tab.url.startswith("https://github.com/Moriahise/Sanhedrin/issues/new")
+            tab.wait_for_url("https://github.com/Moriahise/Beit-Din-Gadol/issues/new?**")
+            assert tab.url.startswith("https://github.com/Moriahise/Beit-Din-Gadol/issues/new")
             tab.close()
             request_body = page.locator("#submission-body").input_value()
             assert "sanhedrin-teshuva:v1" in request_body

@@ -193,7 +193,7 @@ def main():
     marker = "<!-- sanhedrin-teshuva-result -->"
     if result["publication_status"] in {"ready", "partial", "sources"}:
         label = {"ready": "The checked answer is saved.", "partial": "The supported answer is saved. Open points are listed separately on the answer page.", "sources": "Relevant original answer texts are saved with links to their full sources."}[result['publication_status']]
-        body = marker + "\n" + label + "\n\n[Answer](https://shekhina.org/Sanhedrin/" + result["id"] + ".html) · [HTML](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".html) · [JSON](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".json).\n\nThe site may take a few minutes to publish."
+        body = marker + "\n" + label + "\n\n[Answer](https://moriahise.github.io/Beit-Din-Gadol/Sanhedrin/" + result["id"] + ".html) · [HTML](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".html) · [JSON](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".json).\n\nThe site may take a few minutes to publish."
     else:
         body = marker + "\nNo sufficiently relevant answer text has been found yet. The question and research record are saved.\n\n[Research record](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".json)."
         if result["clarification_questions"]:
